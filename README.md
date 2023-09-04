@@ -1,4 +1,4 @@
-# Título do Projeto XXXXX
+# Consumo Consciente
 
 `CURSO: Sistemas de Informação`
 
@@ -10,11 +10,12 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Carmen Maria Costa Araujo
+* Eduardo Silva Gomes de Almeida
+* Jêniffer Camila Gonçalves Rocha
+* Lucas Soares dos Reis
+* Sofia Pitta Sesso
+* Vitor Gabriel Linas
 
 ## Orientador
 
