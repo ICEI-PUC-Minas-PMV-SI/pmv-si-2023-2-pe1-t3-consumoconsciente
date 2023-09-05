@@ -31,6 +31,16 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
+---
+
+O objetivo geral deste trabalho é ajudar pessoas consumistas no controle de seus gastos. 
+
+Os objetivos específicos deste trabalho são:
+- Manter um registro de itens que o usuário apenas considerou comprar para montar um acompanhamento de quanto ele economizou durante um determinado período de tempo;
+- Manter um registro de compras consideradas supérfluas pelo usuário para montar um acompanhamento de quanto ele gastou (de forma não desejada) durante um determinado período de tempo;
+
+---
+
 ## Justificativa
 
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
