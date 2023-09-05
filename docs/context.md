@@ -50,6 +50,12 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
+---
+
+A importância de trabalharmos com está aplicação é diminuir a porcentagem de inadimplentes na população brasileira devido ao consumismo exagerado. Este número vem crescendo desde o ano de 2022 onde essa porcentagem variou de 65,17% (fevereiro) a 69,43% (dezembro) até o mês de maio ano de 2023 onde ela atingiu 71,9% [1]. Umas das principais causas de inadimplência, citada por 12% dos entrevistados [2], é a falta de controle sobre gastos.
+
+---
+
 ## Público-Alvo
 
 Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
