@@ -17,3 +17,8 @@ Exemplos de referências bibliográficas:
 
 **[5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
 
+---
+
+**[1]** - SERASA, **Mapa da inadimplência e renegociação de dívidas**. Disponível em: https://cdn.builder.io/o/assets%2Fb212bb18f00a40869a6cd42f77cbeefc%2Fc6acc7b004cd4828b714fcb36c92b181?alt=media&token=92c2f8b9-423a-4535-8004-f30fbdc40ff7&apiKey=b212bb18f00a40869a6cd42f77cbeefc. Acesso em: 04 set. 2023
+
+**[2]** - BARBOSA, Marina, **Inadimplência: redução da renda, imprevistos e perda de emprego são principais causas**. Disponível em: https://cndl.org.br/varejosa/inadimplencia-reducao-da-renda-imprevistos-e-perda-de-emprego-sao-principais-causas/. Acesso em: 05 set. 2023
