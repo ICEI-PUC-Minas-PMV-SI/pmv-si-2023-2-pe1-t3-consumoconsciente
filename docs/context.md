@@ -14,7 +14,8 @@ Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
  > **Fontes de pesquisas**:
  > - [Consumismo e suas causas](https://www.politize.com.br/consumismo-o-que-e/#:~:text=O%20consumismo%20n%C3%A3o%20tem%20uma,propaganda%20utilizadas%20por%20organiza%C3%A7%C3%B5es%20empresariais.)
->  - [Consumo VS Consumismo] (https://www.idinheiro.com.br/financaspessoais/consumismo-como-evitar/)
+> - [Consumismo VS Consumo](https://www.idinheiro.com.br/financaspessoais/consumismo-como-evitar/)
+> - [Endividamento Brasileiro](https://www.serasa.com.br/limpa-nome-online/blog/endividamento-no-brasil/)
 
 
 
