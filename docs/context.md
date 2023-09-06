@@ -49,6 +49,8 @@ Os objetivos específicos deste trabalho são:
 - Manter um registro de itens que o usuário apenas considerou comprar para montar um acompanhamento de quanto ele economizou durante um determinado período de tempo;
 - Manter um registro de compras consideradas supérfluas pelo usuário para montar um acompanhamento de quanto ele gastou (de forma não desejada) durante um determinado período de tempo;
 
+- Introduzir na sociedade o consumo consciente, tendo como objetivo ajudar a identificar o gasto supérfluo, evitar o imediatismo, mostrando ao consumidor que ele poderia, economizando as parcelas do produto a ser adquirido, em breve, adquirir o mesmo bem com desconto devido ao pagamento a vista, ou até mesmo continuar investindo, e o que seria uma dívida, passaria a ser um retorno do valor com juros 
+
 ---
 
 ## Justificativa
