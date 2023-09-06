@@ -9,16 +9,18 @@ A Contextualização deve situar sem projeto em um determinado contexto de merca
 
 Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
- Consumismo, o ato de adquirir bens ou produtos sem a real necessidade. Se diferencia do consumo onde a aquisição de um bem ou serviço se faz necessário.
- Uma recente pesquisa feita pelo SERASA, foi constatado que de 10 famílias, 8 se encontram endividadas, e a principal causa é o uso do cartão de crédito. O uso do cartão de crédito, ao não ser utilizado de forma consciente, pode ser tornar o principal vilão do consumismo. 
-  É necessário a conscientização das pessoas quanto ao uso do dinheiro, ajudando a discernir o consumismo do consumo. 
-
  > **Fontes de pesquisas**:
 > - [Consumismo e suas causas](https://www.politize.com.br/consumismo-o-que-e/#:~:text=O%20consumismo%20n%C3%A3o%20tem%20uma,propaganda%20utilizadas%20por%20organiza%C3%A7%C3%B5es%20empresariais.)
 > - [Consumismo VS Consumo](https://www.idinheiro.com.br/financaspessoais/consumismo-como-evitar/)
 > - [Endividamento Brasileiro](https://www.serasa.com.br/limpa-nome-online/blog/endividamento-no-brasil/)
 
+---
 
+ Consumismo, o ato de adquirir bens ou produtos sem a real necessidade. Se diferencia do consumo onde a aquisição de um bem ou serviço se faz necessário.
+ Uma recente pesquisa feita pelo SERASA, foi constatado que de 10 famílias, 8 se encontram endividadas, e a principal causa é o uso do cartão de crédito. O uso do cartão de crédito, ao não ser utilizado de forma consciente, pode ser tornar o principal vilão do consumismo. 
+  É necessário a conscientização das pessoas quanto ao uso do dinheiro, ajudando a discernir o consumismo do consumo. 
+
+---
 
 ## Problema
 
