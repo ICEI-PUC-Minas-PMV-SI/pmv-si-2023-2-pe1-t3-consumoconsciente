@@ -9,11 +9,12 @@ A Contextualização deve situar sem projeto em um determinado contexto de merca
 
 Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
- Consumismo, o ato de adquirir bens ou produtos sem a real necessidade. Se diferencia do consumo onde há aquisição de um bem ou serviço se faz necessário.
- Uma recente pesquisa feita pelo SERASA, foi constatado que de 10 famílias, 8 se encontram endividadas, e a principal causa é o uso do cartão de crédito. O uso do cartão de crédito, ao não ser utilizado de forma consciente, pode ser tornar o principal vilão do consumismo, 
+ Consumismo, o ato de adquirir bens ou produtos sem a real necessidade. Se diferencia do consumo onde a aquisição de um bem ou serviço se faz necessário.
+ Uma recente pesquisa feita pelo SERASA, foi constatado que de 10 famílias, 8 se encontram endividadas, e a principal causa é o uso do cartão de crédito. O uso do cartão de crédito, ao não ser utilizado de forma consciente, pode ser tornar o principal vilão do consumismo. 
+  É necessário a conscientização das pessoas quanto ao uso do dinheiro, ajudando a discernir o consumismo do consumo. 
 
  > **Fontes de pesquisas**:
- > - [Consumismo e suas causas](https://www.politize.com.br/consumismo-o-que-e/#:~:text=O%20consumismo%20n%C3%A3o%20tem%20uma,propaganda%20utilizadas%20por%20organiza%C3%A7%C3%B5es%20empresariais.)
+> - [Consumismo e suas causas](https://www.politize.com.br/consumismo-o-que-e/#:~:text=O%20consumismo%20n%C3%A3o%20tem%20uma,propaganda%20utilizadas%20por%20organiza%C3%A7%C3%B5es%20empresariais.)
 > - [Consumismo VS Consumo](https://www.idinheiro.com.br/financaspessoais/consumismo-como-evitar/)
 > - [Endividamento Brasileiro](https://www.serasa.com.br/limpa-nome-online/blog/endividamento-no-brasil/)
 
@@ -48,7 +49,6 @@ O objetivo geral deste trabalho é ajudar pessoas consumistas no controle de seu
 Os objetivos específicos deste trabalho são:
 - Manter um registro de itens que o usuário apenas considerou comprar para montar um acompanhamento de quanto ele economizou durante um determinado período de tempo;
 - Manter um registro de compras consideradas supérfluas pelo usuário para montar um acompanhamento de quanto ele gastou (de forma não desejada) durante um determinado período de tempo;
-
 - Introduzir na sociedade o consumo consciente, tendo como objetivo ajudar a identificar o gasto supérfluo, evitar o imediatismo, mostrando ao consumidor que ele poderia, economizando as parcelas do produto a ser adquirido, em breve, adquirir o mesmo bem com desconto devido ao pagamento a vista, ou até mesmo continuar investindo, e o que seria uma dívida, passaria a ser um retorno do valor com juros 
 
 ---
