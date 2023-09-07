@@ -24,3 +24,9 @@ Exemplos de referências bibliográficas:
 **[2]** - BARBOSA, Marina, **Inadimplência: redução da renda, imprevistos e perda de emprego são principais causas**. Disponível em: https://cndl.org.br/varejosa/inadimplencia-reducao-da-renda-imprevistos-e-perda-de-emprego-sao-principais-causas/. Acesso em: 05 set. 2023
 
 **[3]** - RODRIGUES, Adrielle, **Quando o consumismo vira uma doença? Conheça a oneomania**. Disponível em: https://minhasaude.proteste.org.br/quando-consumismo-vira-doenca-conheca-oneomania/#Quais_as_causas_da_oneomania. Acesso em: 06 set. 2023
+
+**[4]** Consumismo e suas causas https://www.politize.com.br/consumismo-o-que-e/#:~:text=O%20consumismo%20n%C3%A3o%20tem%20uma,propaganda%20utilizadas%20por%20organiza%C3%A7%C3%B5es%20empresariais.
+
+**[5]** Consumismo vs Consumo https://www.idinheiro.com.br/financaspessoais/consumismo-como-evitar/
+
+**[6]** Endividamento Brasileiro https://www.serasa.com.br/limpa-nome-online/blog/endividamento-no-brasil/
