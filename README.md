@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Estimular o usuário ao consumo consciente, enumerando gastos desnecessários que possam afetar o orçamento pessoal
 
 ## Integrantes
 
