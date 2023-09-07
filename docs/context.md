@@ -16,7 +16,7 @@ Consumismo [4], o ato de adquirir bens ou produtos sem a real necessidade. Se di
 
 Uma recente pesquisa feita pelo SERASA [6], foi constatado que de 10 famílias, 8 se encontram endividadas, e a principal causa é o uso do cartão de crédito. O uso do cartão de crédito, se usado de forma consciente, se torna um aliado no orçamento familiar. O problema é o seu uso de forma descontrolada, assim, comprometendo a renda, talvez, por um longo período e aumentando o risco de inadimplência.
 
-A solução proposta, é a conscientização dos gastos que estão sendo feitos de forma que o utilizador consiga entender o que é necessário e supérfluo.
+A solução proposta, é a conscientização dos gastos que estão sendo feitos de forma que o utilizador entenda o que é essencial e supérfluo.
 
 
 ---
