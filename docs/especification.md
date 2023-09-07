@@ -20,6 +20,15 @@ Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos 
 >
 Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
+> 1 - Carlos Nascimento, casado e uma filha, formado em administração e funcionário de uma grande empresa no país.                                                 
+> Tem o desejo de realizar um dos sonhos da esposa e da filha, com uma grande viagem em família. Entretanto, a viagem, ano após ano, sempre é postergada, por falta  de planejamento financeiro por parte de Carlos. E, apesar não ser estar inadimplente, não há sobra do seu salário ao quitar as dívidas mensais da família.
+
+> <img src="https://this-person-does-not-exist.com/img/avatar-gen11b601b95430d11d5c274344ea6ea681.jpg" alt="Carlos" style="height: 100px; width:100px;"/>
+
+
+
+
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -28,6 +37,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Carlos Nacimento    | Registrar meus gastos mensais      | Contabilizar o quanto economizo em um determinado período, com o valor que deixei de consumir |                                                          
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
