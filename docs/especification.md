@@ -23,7 +23,7 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 > 1 - Carlos Nascimento, casado e uma filha, formado em administração e funcionário de uma grande empresa no país.                                                 
 > Tem o desejo de realizar um dos sonhos da esposa e da filha, com uma grande viagem em família. Entretanto, a viagem, ano após ano, sempre é postergada, por falta  de planejamento financeiro por parte de Carlos. E, apesar não ser estar inadimplente, não há sobra do seu salário ao quitar as dívidas mensais da família.
 
-> <img src="https://this-person-does-not-exist.com/img/avatar-gen11b601b95430d11d5c274344ea6ea681.jpg" alt="Carlos" style="height: 100px; width:100px;"/>
+> <img src="/docs/img/carlos_nascimento.png" alt="Carlos" style="height: 100px; width:100px;"/>
 
 
 
