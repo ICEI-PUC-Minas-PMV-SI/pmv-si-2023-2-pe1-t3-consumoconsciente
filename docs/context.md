@@ -12,17 +12,12 @@ Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ---
 
-Consumismo [(1)](https://www.politize.com.br/consumismo-o-que-e/#:~:text=O%20consumismo%20n%C3%A3o%20tem%20uma,propaganda%20utilizadas%20por%20organiza%C3%A7%C3%B5es%20empresariais.), o ato de adquirir bens ou produtos sem a real necessidade. Se diferencia do consumo onde a aquisição de um bem ou serviço se faz necessário [(2)](https://www.idinheiro.com.br/financaspessoais/consumismo-como-evitar/).
+Consumismo [4], o ato de adquirir bens ou produtos sem a real necessidade. Se diferencia do consumo onde a aquisição de um bem ou serviço se faz necessário [5]
 
-Uma recente pesquisa feita pelo SERASA [(3)](https://www.serasa.com.br/limpa-nome-online/blog/endividamento-no-brasil/), foi constatado que de 10 famílias, 8 se encontram endividadas, e a principal causa é o uso do cartão de crédito. O uso do cartão de crédito, se usado de forma consciente, se torna um aliado no orçamento familiar. O problema é o seu uso de forma descontrolada, assim, comprometendo a renda, talvez, por um longo período e aumentando o risco de inadimplência.
+Uma recente pesquisa feita pelo SERASA [6], foi constatado que de 10 famílias, 8 se encontram endividadas, e a principal causa é o uso do cartão de crédito. O uso do cartão de crédito, se usado de forma consciente, se torna um aliado no orçamento familiar. O problema é o seu uso de forma descontrolada, assim, comprometendo a renda, talvez, por um longo período e aumentando o risco de inadimplência.
 
 A solução proposta, é a conscientização dos gastos que estão sendo feitos de forma que o utilizador consiga entender o que é necessário e supérfluo.
 
-  
-   > **Fontes de pesquisas**:
-> - [(1) Consumismo e suas causas](https://www.politize.com.br/consumismo-o-que-e/#:~:text=O%20consumismo%20n%C3%A3o%20tem%20uma,propaganda%20utilizadas%20por%20organiza%C3%A7%C3%B5es%20empresariais.)
-> - [(2) Consumismo vs Consumo](https://www.idinheiro.com.br/financaspessoais/consumismo-como-evitar/)
-> - [(3) Endividamento Brasileiro](https://www.serasa.com.br/limpa-nome-online/blog/endividamento-no-brasil/)
 
 ---
 
