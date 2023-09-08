@@ -37,7 +37,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Carlos Nacimento    | Registrar meus gastos mensais      | Contabilizar o quanto economizo em um determinado período, com o valor que deixei de consumir |                                                          
+|Carlos Nacimento    | Registrar meus gastos mensais e poder economizar    | Conseguir viajar|                                                          
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
