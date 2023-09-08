@@ -14,7 +14,7 @@ Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 Consumismo [4], o ato de adquirir bens ou produtos sem a real necessidade. Se diferencia do consumo onde a aquisição de um bem ou serviço se faz necessário [5]
 
-Uma recente pesquisa feita pelo SERASA [6], foi constatado que de 10 famílias, 8 se encontram endividadas, e a principal causa é o uso do cartão de crédito. O uso do cartão de crédito, se utilozado de forma consciente, se torna um aliado no orçamento familiar. O problema é o seu uso de forma descontrolada, assim, comprometendo a renda, talvez, por um longo período e aumentando o risco de inadimplência.
+Uma recente pesquisa feita pelo SERASA [6], foi constatado que de 10 famílias, 8 se encontram endividadas, e a principal causa é o uso do cartão de crédito. O uso do cartão de crédito, se utilazado de forma consciente, se torna um aliado no orçamento familiar. O problema é o seu uso de forma descontrolada, assim, comprometendo a renda, talvez, por um longo período e aumentando o risco de inadimplência.
 
 A solução proposta, é a conscientização dos gastos feitos de forma que o utilizador entenda o que é essencial e supérfluo.
 
