@@ -32,7 +32,7 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 >
 > <img src="/docs/img/giovana_souza.jpg" alt="Giovana" style="height: 100px; width:100px;"/>
 
-3 - Mateus Goncalves Pereira tem 20 anos, é estudante de medicina e mora de aluguel. Atualmente começou estágio na área e está em busca de aprender a gerenciar melhor o seu dinheiro, pois acha que está consumindo demais desnecessáriamente. Em seu tempo livre ele gosta de jogar online e ler. Seu objetivo principal ao buscar gerenciar melhor seu dinheiro seria seu sonho de conseguir um lugar próprio.
+> 3 - Mateus Goncalves Pereira tem 20 anos, é estudante de medicina e mora de aluguel. Atualmente começou estágio na área e está em busca de aprender a gerenciar melhor o seu dinheiro, pois acha que está consumindo demais desnecessáriamente. Em seu tempo livre ele gosta de jogar online e ler. Seu objetivo principal ao buscar gerenciar melhor seu dinheiro seria seu sonho de conseguir um lugar próprio.
 
 
 ## Histórias de Usuários
