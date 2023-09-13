@@ -39,7 +39,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Carlos Nacimento    | Registrar meus gastos mensais e poder economizar    | Conseguir viajar|                                                          
+|Carlos Nacimento    | Registrar meus gastos mensais e poder economizar    | Conseguir viajar|      
+|Usuário do sistema | Postar sobre meu progresso e minhas metas atingidas | Que outros usuários possam visualizar meus posts |
+|Usuário do sistema | Visualizar os posts de outros usuários | Que eu possa conseguir motivação para continuar progredindo no meu objetivo de economizar mais |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -60,6 +62,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----| ----|
 |RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
+|RF-003| Permitir que o usuário escreva e envie um post | MÉDIA | |
+|RF-004| Permitir que o usuário visualize todos os posts em forma de feed, inclusive os seus próprios posts | MÉDIA | |
 
 
 ### Requisitos não Funcionais
@@ -67,7 +71,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
+|RNF-003| A arquitetura do sistema deverá ser de microsserviços | BAIXA |
+|RFN-004| O número de desenvolvedores no projeto deverá ser 6 | ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
