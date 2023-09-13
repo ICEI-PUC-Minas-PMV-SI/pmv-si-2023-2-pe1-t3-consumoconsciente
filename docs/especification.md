@@ -8,35 +8,17 @@ Para desenvolver as especificações mínimas do projeto utilizamos:
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
 > 1 - Carlos Nascimento, casado e uma filha, formado em administração e funcionário de uma grande empresa no país.                                                
 > Tem o desejo de realizar um dos sonhos da esposa e da filha, uma grande viagem em família. Entretanto, a viagem, ano após ano, é postergada, por falta  de planejamento financeiro por parte de Carlos. E, apesar de não estar inadimplente, não consegue economizar parte do seu salário, para a tão sonhada viagem, devido aos gastos descontrolados mensais.
 > 
 > <img src="/docs/img/carlos_nascimento.png" alt="Carlos" style="height: 100px; width:100px;"/>
 
-
 > 2 - Giovana Martins Sousa de 58 anos, é divorciada e aposentada com duas filhas na faculdade. Ela tem bastante tempo livre e então tenta ocupar esse tempo nas redes sociais e por meio de novos hobbies. Gosta de comprar roupas e maquiagens para suas filhas, que são recomendadas por influencers online, e materiais ou equipamentos toda vez que inicia um hobby novo. Ela usa seu celular para fazer compras online e não possui um computador pessoal então tem preferência por aplicações mobile first.
 >
 > <img src="/docs/img/giovana_souza.jpg" alt="Giovana" style="height: 100px; width:100px;"/>
 
-
 > 3 - Mateus Goncalves Pereira tem 20 anos, é estudante de medicina e mora de aluguel. Atualmente começou estágio na área e está em busca de aprender a gerenciar melhor o seu dinheiro, pois acha que está consumindo demais desnecessáriamente. Em seu tempo livre ele gosta de jogar online e ler. Seu objetivo principal ao buscar gerenciar melhor seu dinheiro seria seu sonho de conseguir um lugar próprio.
-
 > 
-
 > <img src="/docs/img/mateus_pereira.jpg" alt="Mateus" style="height: 100px; width:100px;"/>
 
 
@@ -44,22 +26,14 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Carlos Nacimento    | Registrar meus gastos mensais e poder economizar    | Conseguir viajar|      
-|Usuário do sistema | Postar sobre meu progresso e minhas metas atingidas | Que outros usuários possam visualizar meus posts |
-|Usuário do sistema | Visualizar os posts de outros usuários | Que eu possa conseguir motivação para continuar progredindo no meu objetivo de economizar mais |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`  |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|-------------------------------------|----------------------------------------|
+|Usuário do sistema  | Fazer uma lista de compras          | Não esquecer de fazê-las               |
+|Usuário do sistema  | Controlar meus gastos               | Não gastar mais que o necessario  |
+|Usuário do sistema  | Registrar meus gastos mensais e poder economizar    | Conseguir viajar|      
+|Usuário do sistema  | Postar sobre meu progresso e minhas metas atingidas | Que outros usuários possam visualizar meus posts |
+|Usuário do sistema  | Visualizar os posts de outros usuários | Que eu possa conseguir motivação para continuar progredindo no meu objetivo de economizar mais |
+|Usuário do sistema  | Buscar dicas mais sustentaveis   |  Melhorar minha qualidade de vida |
 
 ## Requisitos
 
