@@ -1,4 +1,4 @@
-# Especificações do Projeto
+# Especificações do Projet
 
 Para desenvolver as especificações mínimas do projeto utilizamos:
 - Trello
