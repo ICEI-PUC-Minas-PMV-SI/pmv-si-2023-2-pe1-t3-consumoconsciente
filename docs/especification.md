@@ -50,13 +50,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| Permitir cadastro de conta | ALTA | |
 |RF-006| Emitir alerta em certas ocasiões | MÉDIA | |
 |RF-007| Pontuar usuário conforme progresso | BAIXA | |
-|RF-008| Utilizar pontuação com personalização da sua conta | BAIXO | |
+|RF-008| Utilizar pontuação com personalização da sua conta | BAIXA | |
 |RF-009| Permitir usuário de logar | ALTA | |
 |RF-010| Classificação de pontos | MÉDIA | |
-|RF-011| Barra de pesquisa site | FÁCIL | |
-|RF-012| Pop up de dica sobre economia | BAIXO | |
-|RF-013| Permitir alteração de cadastro | MÉDIO | |
-|RF-014| Permitir visualização de gastos \ Saldo | ALTO | |
+|RF-011| Barra de pesquisa site | BAIXA | |
+|RF-012| Pop up de dica sobre economia | BAIXA | |
+|RF-013| Permitir alteração de cadastro | MÉDIA | |
+|RF-014| Permitir visualização de gastos \ Saldo | ALTA | |
 
 
 ### Requisitos não Funcionais
@@ -67,7 +67,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
 |RNF-003| A arquitetura do sistema deverá ser de microsserviços | BAIXA |
 |RNF-004| Site de fácil navegação | BAIXA | |
-|RNF-005| O sistema deve ser compatível para rodar em qualquer navegador | ALTO | 
+|RNF-005| O sistema deve ser compatível para rodar em qualquer navegador | ALTA | 
 
 ## Restrições
 
