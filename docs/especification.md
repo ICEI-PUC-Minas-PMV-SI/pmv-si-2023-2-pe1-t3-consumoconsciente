@@ -28,7 +28,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`  |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|-------------------------------------|----------------------------------------|
-|Usuário do sistema  | Fazer uma lista de compras          | Não esquecer de fazê-las               |
+|Usuário do sistema  | Cadastrar uma lista de itens que deixei de comprar       | Saber o quanto economizei           |
 |Usuário do sistema  | Controlar meus gastos               | Não gastar mais que o necessario  |
 |Usuário do sistema  | Registrar meus gastos mensais e poder economizar    | Conseguir viajar|      
 |Usuário do sistema  | Postar sobre meu progresso e minhas metas atingidas | Que outros usuários possam visualizar meus posts |
