@@ -1,7 +1,7 @@
 # Introdução
 
 O consumo consciente é um tema de crescente importância em nossa sociedade atual. Com o aumento da população global e o esgotamento dos recursos naturais, tornou-se fundamental repensar nossos padrões de consumo. O consumo irresponsável e desenfreado tem contribuído para uma série de problemas ambientais, sociais e econômicos, como o esgotamento de recursos naturais, a poluição, o aumento das desigualdades e o desperdício. Vale lembrar que Consumismo [4] - o ato de adquirir bens ou produtos sem a real necessidade se diferencia do consumo onde a aquisição de um bem ou serviço se faz necessário [5].
-Um dos milhares de exemplos que existem tem uma recente pesquisa feita pelo SERASA [6], que atraves dela foi constatado que de 10 famílias, 8 se encontram endividadas, e a principal causa é o uso inconsciente do cartão de crédito. O uso do cartão de crédito, se utilizado da maneira correta se torna um grande aliado no orçamento familiar. O problema é o seu uso de forma descontrolada, assim, comprometendo a renda, talvez, por um longo período e aumentando o risco de inadimplência.
+Uma recente pesquisa feita pelo SERASA [6],indica que de 10 famílias, 8 se encontram endividadas, e a principal causa é o uso não consciente do cartão de crédito. O uso do cartão de crédito,se feito da maneira correta se torna um grande aliado no orçamento familiar. O problema é o seu uso de forma descontrolada, assim, comprometendo a renda, possivelmente por um longo período e aumentando o risco de inadimplência.
 
 ## Problema
 
@@ -17,7 +17,8 @@ O objetivo geral deste trabalho é ajudar pessoas consumistas no controle de seu
 Os objetivos específicos deste trabalho são:
 - Manter um registro de itens que o usuário apenas considerou comprar para montar um acompanhamento de quanto ele economizou durante um determinado período de tempo;
 - Manter um registro de compras consideradas supérfluas pelo usuário para montar um acompanhamento de quanto ele gastou (de forma não desejada) durante um determinado período de tempo;
-- Introduzir na sociedade o consumo consciente, tendo como objetivo ajudar a identificar o gasto supérfluo, evitar o imediatismo, mostrando ao consumidor que ele poderia, economizando as parcelas do produto a ser adquirido, em breve, adquirir o mesmo bem com desconto devido ao pagamento a vista, ou até mesmo continuar investindo, e o que seria uma dívida, passaria a ser um retorno do valor com juros;
+- Introduzir na sociedade o consumo consciente, tendo como objetivo ajudar a identificar o gasto supérfluoe evitar o imediatismo.
+- Mostrar ao consumidor que ele poderia, economizando as parcelas do produto a ser adquirido, adquirir o mesmo com desconto devido ao pagamento a vista, ou até mesmo continuar investindo, e o que seria uma dívida, passaria a ser um retorno do valor com juros;
 - Compartilhar histórias inspiradoras de pessoas, empresas e comunidades que adotaram práticas de consumo consciente com sucesso. (Criando fóruns, grupos de discussão ou seções de comentários para que os visitantes possam interagir, compartilhar suas experiências e buscar apoio na adoção de práticas sustentáveis);
 - Oferecer orientações e dicas práticas sobre como reduzir o consumo excessivo, reutilizar itens, reciclar corretamente e minimizar o desperdício.
 
@@ -30,9 +31,9 @@ A importância de trabalharmos com está aplicação é diminuir a porcentagem d
 ## Público-Alvo
 
 > - Pessoas que se encontram com dívidas e que não entendem onde suas finanças estão sendo utilizadas
-> - Pessoas que desejam melhorar o seu planejamento financeiro.
+> - Pessoas que desejam melhorar o seu planejamento financeiro
 > - Consumidores em Geral
 > - Famílias
-> - Empresários e Empresas:
+> - Empresários e Empresas
 > - Educadores e Instituições de Ensino
 > - Comunidades Locais
