@@ -13,7 +13,7 @@ Para desenvolver as especificações mínimas do projeto utilizamos:
 > 
 > <img src="/docs/img/carlos_nascimento.png" alt="Carlos" style="height: 100px; width:100px;"/>
 
-> 2 - Giovana Martins Sousa de 58 anos, é divorciada e aposentada com duas filhas na faculdade. Ela tem bastante tempo livre e então tenta ocupar esse tempo nas redes sociais e por meio de novos hobbies. Gosta de comprar roupas e maquiagens para suas filhas, que são recomendadas por influencers online, e materiais ou equipamentos toda vez que inicia um hobby novo. Ela usa seu celular para fazer compras online e não possui um computador pessoal então tem preferência por aplicações mobile first.
+> 2 - Giovana Martins Sousa de 58 anos, é divorciada e aposentada com duas filhas na faculdade. Ela tem bastante tempo livre e então tenta ocupar esse tempo nas redes sociais e por meio de novos hobbies. Gosta de comprar roupas e maquiagens para suas filhas, que são recomendadas por influencers online, e materiais ou equipamentos toda vez que inicia um hobby novo. Ultimamente ela tem notado que sua casa está ficando sem espaço para guardar tantos presentes novos e que talvez ela precise começar a considerar quais dessas compras realmente são necessárias e quais ela poderia ter adicionado em uma poupança para suas filhas.
 >
 > <img src="/docs/img/giovana_souza.jpg" alt="Giovana" style="height: 100px; width:100px;"/>
 
@@ -65,7 +65,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
-|RNF-003| A arquitetura do sistema deverá ser de microsserviços | BAIXA |
+|RNF-003| As linguagens utilizadas no projeto deverão ser css, html e javascript | ALTA |
 |RNF-004| Site de fácil navegação | BAIXA | |
 |RNF-005| O sistema deve ser compatível para rodar em qualquer navegador | ALTA | 
 
@@ -78,10 +78,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
 |03| O número de desenvolvedores no projeto deverá ser 6 |
-|04| As linguagens utilizadas no projeto deverão ser css, html e javascript |
-|05| O projeto deve ser dividido em componentes estáticos e dinâmicos        |
-|06| O projeto deve atender aos critérios de desempenho        |
-|07| O projeto deve funcionar adequadamente em diversos ambientes de usuário        |
+|04| O projeto deve ser dividido em componentes estáticos e dinâmicos        |
+|05| O projeto deve atender aos critérios de desempenho        |
+|06| O projeto deve funcionar adequadamente em diversos ambientes de usuário        |
 
 
 
