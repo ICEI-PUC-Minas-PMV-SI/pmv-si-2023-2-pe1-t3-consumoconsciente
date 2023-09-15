@@ -9,7 +9,7 @@ Para desenvolver as especificações mínimas do projeto utilizamos:
 ## Personas
 
 > 1 - Carlos Nascimento, casado e uma filha, formado em administração e funcionário de uma grande empresa no país.                                                
-> Tem o desejo de realizar um dos sonhos da esposa e da filha, uma grande viagem em família. Entretanto, a viagem, ano após ano, é postergada, por falta  de planejamento financeiro por parte de Carlos. E, apesar de não estar inadimplente, não consegue economizar parte do seu salário, para a tão sonhada viagem, devido aos gastos descontrolados mensais.
+> Tem o desejo de realizar um dos sonhos da esposa e da filha, uma grande viagem em família. Entretanto, a viagem, ano após ano, é postergada, por falta  de planejamento financeiro por parte de Carlos. E, apesar de não estar inadimplente, não consegue economizar parte do seu salário, para a tão sonhada viagem, devido aos gastos fúteis mensais.
 > 
 > <img src="/docs/img/carlos_nascimento.png" alt="Carlos" style="height: 100px; width:100px;"/>
 
