@@ -23,7 +23,7 @@ Para desenvolver as especificações mínimas do projeto utilizamos:
 
 > 4 -Ricardo Santos, um profissional de 30 anos em uma empresa de tecnologia, apesar de ter uma carreira estável, enfrenta desafios financeiros devido ao acúmulo de dívidas de cartão de crédito e empréstimos pessoais. Diante dessa situação, ele está determinado a tomar medidas para controlar seu consumo e, assim, melhorar significativamente sua gestão financeira.
 > 
-> <img src="/docs/img/Ricardo.jpg" alt="Ricardo" style="height: 100px; width:100px;"/>
+> <img src="/docs/img/Ricardo.jpeg" alt="Ricardo" style="height: 100px; width:100px;"/>
 
 
 ## Histórias de Usuários
