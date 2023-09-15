@@ -44,28 +44,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
 |RF-001| O sistema deve permitir que o usuário cadastre sua conta| ALTA |  |
-|RF-002| O sistema deve permitir que o usuário efetue login| ALTA |  |
-|RF-003| O sistema deve permitir que o usuário gerencia os dados de sua conta| ALTA |  |
-|RF-004| O sistema deve permitir que o usuário recupere sua senha| ALTA |  |
-|RF-005| O sistema deve permitir que um usuário sem conta/ou não logado visualize a página inicial e a página de dicas| ALTA |  |
-|RF-006| O sistema deve permitir que o usuário logado, cadastre uma lista de itens que deixou de adquirir e que possa ser classificada como essencial ou não| ALTA |  |
-|RF-007| O sistema deve permitir que um usuário simule aplicação poupança \ renda fixa em X meses o valor que deixou de gastar| ALTA |  |
-
-|RF-001| Permitir que o usuário cadastre itens | ALTA |  |
-|RF-002| Permitir que usuário visualize seus dados pessoais    | ALTA | |
-|RF-003| Permitir que o usuário escreva e envie um post | MÉDIA | |
-|RF-004| Permitir que o usuário visualize todos os posts em forma de feed, inclusive os seus próprios posts | MÉDIA | |
-|RF-005| Permitir cadastro de conta | ALTA | |
-|RF-006| Emitir alerta em certas ocasiões | MÉDIA | |
-|RF-007| Pontuar usuário conforme progresso | BAIXA | |
-|RF-008| Utilizar pontuação com personalização da sua conta | BAIXA | |
-|RF-009| Permitir usuário de logar | ALTA | |
-|RF-010| Classificação de pontos | MÉDIA | |
-|RF-011| Barra de pesquisa site | BAIXA | |
-|RF-012| Pop up de dica sobre economia | BAIXA | |
-|RF-013| Permitir alteração de cadastro | MÉDIA | |
-|RF-014| Permitir visualização de gastos \ Saldo | ALTA | |
-
+|RF-002| O sistema deve permitir que o usuário cadastrado efetue login| ALTA |  |
+|RF-003| O sistema deve permitir que o usuário logado gerencie os dados de sua conta| ALTA |  |
+|RF-004| O sistema deve permitir que o usuário cadastrado recupere sua senha| ALTA |  |
+|RF-005| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize a página inicial| ALTA |  |
+|RF-006| O sistema deve permitir que o usuário logado registre uma lista de itens que deixou de adquirir e que possa ser classificada como essencial ou não| ALTA |  |
+|RF-007| O sistema deve permitir que o usuário logado visualize e edite os itens registrados| ALTA |  |
+|RF-008| O sistema deve permitir que o usuário logado filtre os itens registrados em sua lista por classificação do item (essencial ou não essencial)| ALTA |  |
+|RF-009| O sistema deve permitir que o usuário logado simule aplicação poupança/renda fixa em X meses o valor que deixou de gastar| ALTA |  |
+|RF-010| O sistema deve permitir que o usuário logado emita um relatório dos itens registrados| ALTA |  |
+|RF-011| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize a página de informação sobre a aplicação| ALTA |  |
+|RF-012| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize a página de dicas de sustentabilidade| ALTA |  |
 
 ### Requisitos não Funcionais
 
