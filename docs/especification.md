@@ -46,8 +46,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001|O sistema deve permitir que o usuário cadastre sua conta| ALTA |  |
 |RF-002|O sistema deve permitir que o usuário efetue login| ALTA |  |
 |RF-003|O sistema deve permitir que o usuário gerencia os dados de sua conta| ALTA |  |
-|RF-004|O sistema deve permitir que um usuário sem conta/ou não logado visualize a página inicial e a página de dicas| ALTA |  |
-|RF-005|O sistema deve permitir que um usuário simule aplicação poupança \ renda fixa em X meses o valor que deixou de gastar| ALTA |  |
+|RF-004|O sistema deve permitir que o usuário recupere sua senha| ALTA |  |
+|RF-005|O sistema deve permitir que um usuário sem conta/ou não logado visualize a página inicial e a página de dicas| ALTA |  |
+|RF-006|O sistema deve permitir que o usuário logado, cadastre uma lista de itens que deixou de adquirir e que possa ser classificada como essencial ou não| ALTA |  |
+|RF-007|O sistema deve permitir que um usuário simule aplicação poupança \ renda fixa em X meses o valor que deixou de gastar| ALTA |  |
 
 |RF-001| Permitir que o usuário cadastre itens | ALTA |  |
 |RF-002| Permitir que usuário visualize seus dados pessoais    | ALTA | |
