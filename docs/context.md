@@ -28,10 +28,5 @@ A importância de trabalharmos com está aplicação é diminuir a porcentagem d
 
 ## Público-Alvo
 
-> - Pessoas que se encontram com dívidas e que não entendem onde suas finanças estão sendo utilizadas
-> - Pessoas que desejam melhorar o seu planejamento financeiro
-> - Consumidores em Geral
-> - Famílias
-> - Empresários e Empresas
-> - Educadores e Instituições de Ensino
-> - Comunidades Locais
+> - Pessoas de todas as idades com intuito de aprender sobre o consumo consciente e que, através da aplicação, identifiquem possíveis gastos como supérfluo.
+
