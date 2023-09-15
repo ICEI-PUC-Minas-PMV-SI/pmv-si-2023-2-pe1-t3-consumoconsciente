@@ -29,7 +29,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`  |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|-------------------------------------|----------------------------------------|
 |Carlos Nascimento  | Cadastrar uma lista de bens que deixei de comprar       | Saber o quanto economizei           |
-|Carlos Nascimento  | Registrar meus gastos mensais e poder economizar    | Conseguir viajar|  
+|Carlos Nascimento  | Classificar gastos por essencial \ Não essencial    | Economizar|  
 |Giovana Martins Sousa  | Emitir um relatório de gastos supérfluos | Saber quanto dinheiro eu poderia estar guardando numa poupança |
 |Giovana Martins Sousa  | Ser informada de quanto meu dinheiro gasto renderia se eu o tivesse aplicado em algum investimento | Que eu possa começar a economizar e aplicar futuramente |
 |Mateus Goncalves Pereira  | Buscar dicas mais sustentáveis   |  Melhorar minha qualidade de vida |
@@ -47,6 +47,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002|O sistema deve permitir que o usuário efetue login| ALTA |  |
 |RF-003|O sistema deve permitir que o usuário gerencia os dados de sua conta| ALTA |  |
 |RF-004|O sistema deve permitir que um usuário sem conta/ou não logado visualize a página inicial e a página de dicas| ALTA |  |
+|RF-005|O sistema deve permitir que um usuário simule aplicação poupança \ renda fixa em X meses o valor que deixou de gastar| ALTA |  |
 
 |RF-001| Permitir que o usuário cadastre itens | ALTA |  |
 |RF-002| Permitir que usuário visualize seus dados pessoais    | ALTA | |
