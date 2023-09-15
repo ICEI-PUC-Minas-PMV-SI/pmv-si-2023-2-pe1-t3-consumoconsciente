@@ -28,12 +28,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`  |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|-------------------------------------|----------------------------------------|
-|Usuário do sistema  | Cadastrar uma lista de itens que deixei de comprar       | Saber o quanto economizei           |
-|Usuário do sistema  | Controlar meus gastos               | Não gastar mais que o necessario  |
-|Usuário do sistema  | Registrar meus gastos mensais e poder economizar    | Conseguir viajar|      
-|Usuário do sistema  | Postar sobre meu progresso e minhas metas atingidas | Que outros usuários possam visualizar meus posts |
-|Usuário do sistema  | Visualizar os posts de outros usuários | Que eu possa conseguir motivação para continuar progredindo no meu objetivo de economizar mais |
-|Usuário do sistema  | Buscar dicas mais sustentaveis   |  Melhorar minha qualidade de vida |
+|Carlos Nascimento  | Cadastrar uma lista de bens que deixei de comprar       | Saber o quanto economizei           |
+|Carlos Nascimento  | Registrar meus gastos mensais e poder economizar    | Conseguir viajar|  
+|Giovana Martins Sousa  | Emitir um relatório de gastos supérfluos | Saber quanto dinheiro eu poderia estar guardando numa poupança |
+|Giovana Martins Sousa  | Ser informada de quanto meu dinheiro gasto renderia se eu o tivesse aplicado em algum investimento | Que eu possa começar a economizar e aplicar futuramente |
+|Mateus Goncalves Pereira  | Buscar dicas mais sustentáveis   |  Melhorar minha qualidade de vida |
+|Mateus Goncalves Pereira  | Visualizar uma lista de gastos              | Não gastar mais que o necessário  |
 
 ## Requisitos
 
@@ -43,6 +43,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
+|RF-001|O sistema deve permitir que o usuário cadastre sua conta| ALTA |  |
+|RF-002|O sistema deve permitir que o usuário efetue login| ALTA |  |
+|RF-003|O sistema deve permitir que o usuário gerencia os dados de sua conta| ALTA |  |
+|RF-004|O sistema deve permitir que um usuário sem conta/ou não logado visualize a página inicial e a página de dicas| ALTA |  |
+
 |RF-001| Permitir que o usuário cadastre itens | ALTA |  |
 |RF-002| Permitir que usuário visualize seus dados pessoais    | ALTA | |
 |RF-003| Permitir que o usuário escreva e envie um post | MÉDIA | |
