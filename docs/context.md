@@ -5,8 +5,6 @@ Uma recente pesquisa feita pelo SERASA [6],indica que de 10 famílias, 8 se enco
 
 ## Problema
 
-A aplicação deverá ser usada em momentos em que o usuário sente a necessidade de comprar itens supérfluos para compensar por outros problemas em sua vida como ansiedade ou depressão, ou por causa das influências de campanhas publicitárias, redes sociais e influencers [3]. Ela também deverá ser usada para encorajar usuários a continuar mantendo controle sobre seus gastos.
-
 O problema central é o consumo insustentável e não consciente que prevalece em muitas sociedades ao redor do mundo. Isso inclui a compra excessiva de produtos descartáveis, o desperdício de alimentos, o uso excessivo de recursos não renováveis e a produção de resíduos prejudiciais ao meio ambiente. Esse padrão de consumo irresponsável está levando a consequências negativas tanto para o meio ambiente quanto para a qualidade de vida das pessoas.
 
 O problema a ser resolvido resumidamente por está aplicação é a falta de controle financeiro e consumismo por impulso de seus usuários. 
