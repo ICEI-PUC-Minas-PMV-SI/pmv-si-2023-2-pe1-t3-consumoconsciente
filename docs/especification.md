@@ -38,6 +38,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Giovana Martins Sousa  | Ser informada de quanto meu dinheiro gasto renderia se eu o tivesse aplicado em algum investimento | Que eu possa começar a economizar e aplicar futuramente |
 |Mateus Goncalves Pereira  | Buscar dicas mais sustentáveis   |  Melhorar minha qualidade de vida |
 |Mateus Goncalves Pereira  | Visualizar uma lista de gastos              | Não gastar mais que o necessário  |
+|Ricardo Santos  | Buscar dicas mais sustentáveis   |  Ter controle sobre minhas dívidas  |
+|Ricardo Santos  | Classificar gastos por essencial \ Não essencial   |  Controlar meus gastos |
 
 ## Requisitos
 
