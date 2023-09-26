@@ -12,7 +12,6 @@ Estimular o usuário ao consumo consciente, enumerando gastos desnecessários qu
 
 * Carmen Maria Costa Araujo
 * Eduardo Silva Gomes de Almeida
-* Jêniffer Camila Gonçalves Rocha
 * Lucas Soares dos Reis
 * Sofia Pitta Sesso
 * Vitor Gabriel Linas
