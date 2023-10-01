@@ -19,6 +19,7 @@ Escolhemos a variação da cor verde porque ela é frequentemente associada ao c
 ## Tipografia
 
 Optamos somente por uma fonte : Sans Aberto 
+
 Exemplo:
 
 ![FONTE](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-consumoconsciente/assets/112207603/1bc8e3ae-ac41-448a-9e35-f069ac664aec)
