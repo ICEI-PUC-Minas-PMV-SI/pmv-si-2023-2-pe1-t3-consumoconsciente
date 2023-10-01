@@ -11,18 +11,17 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-![aaaaa](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-consumoconsciente/assets/112207603/34ac5d93-4617-46e5-aca9-02efc17e4b1e)
-![bbbbbb](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-consumoconsciente/assets/112207603/c09fab63-9f29-4571-8baf-da656d733fb5)
-![cccccc](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-consumoconsciente/assets/112207603/fa6837ed-85b3-4f1b-9ada-bcccbbce0385)
-![dddddddd](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-consumoconsciente/assets/112207603/84fea8a9-ef89-450d-a435-2a669f793fa2)
+![EEEEEEEEE](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-consumoconsciente/assets/112207603/69219877-4f18-47a1-a745-ac8796f96b91)
 
 Escolhemos a variação da cor verde porque ela é frequentemente associada ao consumo consciente por diversas razões que vão além de sua aparência visual agradável. Essa conexão entre a cor verde e o consumo responsável pode ser explicada por vários motivos:o mais objetivo e que O verde é a cor da natureza, das árvores, das plantas e dos espaços naturais. Essa associação nos lembra da importância de proteger o meio ambiente e adotar práticas sustentáveis. O consumo consciente implica em escolher produtos e estilos de vida que tenham um menor impacto ambiental, e o verde nos registre constantemente dessa responsabilidade. Alem do branco e preto para balanceamento e variaçao dos tons.
 
 
 ## Tipografia
 
-Optamos somente por uma fonte : Sans Aberto
+Optamos somente por uma fonte : Sans Aberto 
+Exemplo:
 
+![FONTE](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-consumoconsciente/assets/112207603/1bc8e3ae-ac41-448a-9e35-f069ac664aec)
 
 ## Iconografia
 
