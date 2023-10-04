@@ -82,8 +82,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| Não pode ser desenvolvido um módulo de backend        |
 |03| O número de desenvolvedores no projeto deverá ser 6 |
 |04| O projeto deve ser dividido em componentes estáticos e dinâmicos        |
-|05| O projeto deve atender aos critérios de desempenho        |
-|06| O projeto deve funcionar adequadamente em diversos ambientes de usuário        |
 
 
 
