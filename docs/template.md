@@ -18,7 +18,7 @@ Escolhemos a variação da cor verde porque ela é frequentemente associada ao c
 
 ## Tipografia
 
-Optamos somente por uma fonte : Sans Aberto 
+Optamos somente por uma fonte: Sans Aberto 
 
 Exemplo:
 
@@ -26,16 +26,10 @@ Exemplo:
 
 ## Iconografia
 
-Defina os ícones que serão utilizados e suas respectivas funções.
-
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
-
-
-> **Links Úteis**:
->
-> -  [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+| Ícone | Função |
+|-------|--------|
+|<img src="/docs/img/logout.svg" alt="logout" style="height: 30px; width:30px;"/>| Este ícone ficará no cabeçalho para usuários logados e terá a funcionalidade do log out |
+|<img src="/docs/img/user.svg" alt="user" style="height: 30px; width:30px;"/>| Este ícone ficará no cabeçalho para usuários logados e redicionará o usuário à página de perfil |
+|<img src="/docs/img/plus.svg" alt="plus" style="height: 30px; width:30px;"/>| Este ícone será usado na página de adicionar novas despesas para salvar um novo item que será adicionado à lista de despesas |
+|<img src="/docs/img/pencil.svg" alt="pencil" style="height: 30px; width:30px;"/>| Este ícone será usado na página de visualizar as despesas registradas para editar os itens na lista de despesas |
+|<img src="/docs/img/eraser.svg" alt="eraser" style="height: 30px; width:30px;"/>| Este ícone será usado na página de visualizar as despesas registradas para limpar os filtros adicionados pelo usuário |
