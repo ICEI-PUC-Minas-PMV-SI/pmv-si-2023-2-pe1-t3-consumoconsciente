@@ -54,11 +54,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| O sistema deve permitir que o usuário logado gerencie os dados de sua conta| ALTA |
 |RF-004| O sistema deve permitir que o usuário cadastrado recupere sua senha| ALTA |
 |RF-005| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize a página inicial| ALTA |
-|RF-006| O sistema deve permitir que o usuário logado registre uma lista de suas compras e que possa ser classificada como essencial ou não| ALTA |
-|RF-007| O sistema deve permitir que o usuário logado visualize e edite os itens registrados| ALTA |
-|RF-008| O sistema deve permitir que o usuário logado filtre os itens registrados em sua lista por classificação do item (essencial ou não essencial) e data| ALTA |
-|RF-009| O sistema deve permitir que o usuário logado simule aplicação poupança/renda fixa em X meses o valor que gastou de forma supérflua| ALTA |
-|RF-010| O sistema deve permitir que o usuário logado visualize seus itens registrados| ALTA |
+|RF-006| O sistema deve permitir que o usuário logado registre uma lista dos seus gastos e que possam ser classificados como essencial ou não| ALTA |
+|RF-007| O sistema deve permitir que o usuário logado visualize seus itens registrados| ALTA |
+|RF-008| O sistema deve permitir que o usuário logado edite/delete os itens registrados| ALTA |
+|RF-009| O sistema deve permitir que o usuário logado filtre os itens registrados em sua lista por classificação do item (essencial ou não essencial) e data| ALTA |
+|RF-010| O sistema deve permitir que o usuário logado simule aplicação poupança/renda fixa em X meses o valor que gastou de forma supérflua| ALTA |
 |RF-011| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize informações sobre a aplicação| ALTA |
 |RF-012| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize dicas de sustentabilidade financeira| ALTA |
 
