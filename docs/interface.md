@@ -5,6 +5,11 @@
 
 ## Wireframes
 
+### Página principal
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-consumoconsciente/assets/103148031/4a7c8a69-6613-4d0c-9ddf-f36a4afb1058)
+
+
 ### Página de adicionar compras
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-consumoconsciente/assets/94647334/ee29fddb-854f-4ced-870d-08d51aba24b1)
