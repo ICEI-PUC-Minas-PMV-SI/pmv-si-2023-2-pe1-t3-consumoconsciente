@@ -8,20 +8,19 @@ Para desenvolver as especificações mínimas do projeto utilizamos:
 
 ## Personas
 
-> 1 - Carlos Nascimento, casado e uma filha, formado em administração e funcionário de uma grande empresa no país.                                                
-> Tem o desejo de realizar um dos sonhos da esposa e da filha, uma grande viagem em família. Entretanto, a viagem, ano após ano, é postergada, por falta  de planejamento financeiro por parte de Carlos. E, apesar de não estar inadimplente, não consegue economizar parte do seu salário, para a tão sonhada viagem, devido aos gastos fúteis mensais.
+> 1 - Meu nome é Carlos Nascimento, tenho uma esposa e uma filha. Sou formado em administração e trabalho em uma grande empresa no país. Uma das coisas que mais quero na vida é realizar o sonho da minha esposa e da minha filha: fazer uma grande viagem em família. O problema é que, simplesmente, não consigo economizar parte do meu salário para essa tão sonhada viagem. Preciso realmente aprender a controlar meus gastos e fazer um planejamento financeiro para tornar esse sonho uma realidade.
 > 
 > <img src="/docs/img/carlos_nascimento.png" alt="Carlos" style="height: 100px; width:100px;"/>
 
-> 2 - Giovana Martins Sousa de 58 anos, é divorciada e aposentada com duas filhas na faculdade. Ela tem bastante tempo livre e então tenta ocupar esse tempo nas redes sociais e por meio de novos hobbies. Gosta de comprar roupas e maquiagens para suas filhas, que são recomendadas por influencers online, e materiais ou equipamentos toda vez que inicia um hobby novo. Ultimamente ela tem notado que sua casa está ficando sem espaço para guardar tantos presentes novos e que talvez ela precise começar a considerar quais dessas compras realmente são necessárias e quais ela poderia ter adicionado em uma poupança para suas filhas.
+> 2 - Meu nome é Giovana Martins Sousa e tenho 58 anos. Sou divorciada e aposentada, com duas filhas na faculdade. Tenho muito tempo livre e tenho tentado preenchê-lo nas redes sociais e com novos hobbies. Adoro comprar roupas e maquiagens para minhas filhas, especialmente as que são recomendadas por influenciadores online. Devido a isso, percebi que minha casa está ficando sem espaço para guardar todas essas compras novas. Comecei a pensar que talvez devesse começar a considerar quais dessas compras são realmente necessárias e quais eu poderia ter economizado para o futuro das minhas filhas.
 >
 > <img src="/docs/img/giovana_souza.jpg" alt="Giovana" style="height: 100px; width:100px;"/>
 
-> 3 - Mateus Goncalves Pereira tem 20 anos, é estudante de medicina e mora de aluguel. Atualmente começou estágio na área e está em busca de aprender a gerenciar melhor o seu dinheiro, pois acha que está consumindo demais desnecessáriamente. Em seu tempo livre ele gosta de jogar online e ler. Seu objetivo principal ao buscar gerenciar melhor seu dinheiro seria seu sonho de conseguir um lugar próprio.
+> 3 - Meu nome é Mateus Gonçalves Pereira, tenho 20 anos e sou estudante de medicina. Atualmente, estou morando de aluguel e comecei a estagiar na minha área. Estou em busca de aprender a gerenciar melhor o meu dinheiro, pois sinto que estou gastando demais desnecessariamente. Meu principal objetivo ao buscar um melhor gerenciamento financeiro é realizar o sonho de conseguir um lugar próprio para morar.
 > 
 > <img src="/docs/img/mateus_pereira.jpg" alt="Mateus" style="height: 100px; width:100px;"/>
 
-> 4 -Ricardo Santos, um profissional de 30 anos em uma empresa de tecnologia, apesar de ter uma carreira estável, enfrenta desafios financeiros devido ao acúmulo de dívidas de cartão de crédito e empréstimos pessoais. Diante dessa situação, ele está determinado a tomar medidas para controlar seu consumo e, assim, melhorar significativamente sua gestão financeira.
+> 4 - Sou o Ricardo Santos, tenho 30 anos e trabalho em uma empresa de tecnologia. Embora tenha uma carreira estável, estou enfrentando desafios financeiros devido ao acúmulo de dívidas de cartão de crédito e empréstimos pessoais. Diante dessa situação, estou determinado a tomar medidas para controlar meu consumo e, assim, melhorar significativamente minha gestão financeira.
 > 
 > <img src="/docs/img/Ricardo.jpeg" alt="Ricardo" style="height: 100px; width:100px;"/>
 
