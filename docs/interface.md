@@ -43,5 +43,5 @@
 > RF-002 <br>
 > RF-004
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-consumoconsciente/assets/112207603/2b06d997-beec-4f35-a367-53af3fd31ca9)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-consumoconsciente/assets/112207603/e9d0f0b4-4ae9-4d9e-96c7-e801f3d6468d)
 
