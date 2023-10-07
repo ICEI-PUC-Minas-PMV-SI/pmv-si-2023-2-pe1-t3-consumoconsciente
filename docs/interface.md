@@ -1,7 +1,7 @@
 
 # Projeto de Interface
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-consumoconsciente/assets/94647334/18dcae3f-ab43-49ba-8ba2-66081fd599e5)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-consumoconsciente/assets/94647334/339f564f-5ba6-4bf6-85de-b18b61f1ba92)
 
 ## Wireframes
 
