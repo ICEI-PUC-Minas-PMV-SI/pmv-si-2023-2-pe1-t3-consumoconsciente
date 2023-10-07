@@ -27,7 +27,7 @@
 ### Página de Simulação
 > RF-010
 
-![image](/docs/img/Pagina_Simulacao.jpg)
+![image](/docs/img/PaginaSimulacao.jpg)
 
 ### Página de Perfil
 > RF-003
