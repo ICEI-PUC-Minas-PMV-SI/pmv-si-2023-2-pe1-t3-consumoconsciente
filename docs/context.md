@@ -13,11 +13,9 @@ O problema a ser resolvido resumidamente por está aplicação é a falta de con
 
 O objetivo geral deste trabalho é ajudar pessoas consumistas no controle de seus gastos. 
 Os objetivos específicos deste trabalho são:
-- Manter um registro de itens que o usuário apenas considerou comprar para montar um acompanhamento de quanto ele economizou durante um determinado período de tempo;
-- Manter um registro de compras consideradas supérfluas pelo usuário para montar um acompanhamento de quanto ele gastou (de forma não desejada) durante um determinado período de tempo;
+- Manter um registro das despesas (essencias ou supérfluas) para montar um acompanhamento de quanto ele economizou durante um determinado período de tempo;
 - Introduzir na sociedade o consumo consciente, tendo como objetivo ajudar a identificar o gasto supérfluo e evitar o imediatismo.
 - Mostrar ao consumidor que ele poderia, economizando as parcelas do produto a ser adquirido, adquirir o mesmo com desconto devido ao pagamento a vista, ou até mesmo continuar investindo, e o que seria uma dívida, passaria a ser um retorno do valor com juros;
-- Compartilhar histórias inspiradoras de pessoas, empresas e comunidades que adotaram práticas de consumo consciente com sucesso. (Criando fóruns, grupos de discussão ou seções de comentários para que os visitantes possam interagir, compartilhar suas experiências e buscar apoio na adoção de práticas sustentáveis);
 - Oferecer orientações e dicas práticas sobre como reduzir o consumo excessivo, reutilizar itens, reciclar corretamente e minimizar o desperdício.
 
 ## Justificativa
