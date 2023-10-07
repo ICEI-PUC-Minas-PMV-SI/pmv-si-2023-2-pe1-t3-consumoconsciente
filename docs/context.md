@@ -32,7 +32,7 @@ A importância de trabalharmos com está aplicação é diminuir a porcentagem d
 
 ---
 
-## Apps com Similares
+## Pesquisa da arte
 
 ![image](/docs/img/Apps.jpg)
 
