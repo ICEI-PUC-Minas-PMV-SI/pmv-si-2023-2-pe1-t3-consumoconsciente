@@ -30,3 +30,9 @@ A importância de trabalharmos com está aplicação é diminuir a porcentagem d
 
 > - Pessoas de todas as idades com intuito de aprender sobre o consumo consciente e que, através da aplicação, identifiquem possíveis gastos como supérfluo.
 
+---
+
+## Apps com Similares
+
+![image](/docs/img/Apps.jpg)
+
