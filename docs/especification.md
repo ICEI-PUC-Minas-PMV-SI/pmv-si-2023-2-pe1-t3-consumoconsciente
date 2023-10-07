@@ -31,14 +31,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`  |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|-------------------------------------|----------------------------------------|
-|Carlos Nascimento  | Cadastrar uma lista de bens que deixei de comprar       | Saber o quanto economizei           |
-|Carlos Nascimento  | Classificar gastos por essencial \ Não essencial    | Economizar|  
-|Giovana Martins Sousa  | Emitir um relatório de gastos supérfluos | Saber quanto dinheiro eu poderia estar guardando numa poupança |
-|Giovana Martins Sousa  | Ser informada de quanto meu dinheiro gasto renderia se eu o tivesse aplicado em algum investimento | Que eu possa começar a economizar e aplicar futuramente |
-|Mateus Goncalves Pereira  | Buscar dicas mais sustentáveis   |  Melhorar minha qualidade de vida |
-|Mateus Goncalves Pereira  | Visualizar uma lista de gastos              | Não gastar mais que o necessário  |
-|Ricardo Santos  | Buscar dicas mais sustentáveis   |  Ter controle sobre minhas dívidas  |
-|Ricardo Santos  | Classificar gastos por essencial \ Não essencial   |  Controlar meus gastos |
+|Carlos Nascimento  | Controlar meus gastos e identificá-los      | Saber o quanto economizei e guardar dinheiro para investir no futuro    |
+|Carlos Nascimento  | classificar meus gastos não essencias   | Para ter controle sobre o que realmente preciso|  
+|Giovana Martins Sousa  | Identificar onde tenho gastado meu dinheiro | Poder economizar, guardar dinheiro e assim, investir no futuro das minhas filhas |
+|Giovana Martins Sousa  | Saber mais sobre quanto teria de retorno se tivesse investido meu dinheiro | Para iniciar meu caminho de economia e investimentos para um futuro financeiro mais seguro |
+|Mateus Goncalves Pereira  | Desejo entender como levar uma vida sustentável   |  Melhorar minha qualidade de vida e no meio ambiente|
+|Mateus Goncalves Pereira  | Coneguir identificar meu gastos de forma simples e clara             |  Para evitar gastar mais do que o necessário e manter um controle financeiro eficaz  |
+|Ricardo Santos  | Ter orientações finaceiras  |  Para viver de forma mais consciente e ter controle sobre minhas dívidas  |
+|Ricardo Santos  | Preciso ter maior controle sobre meu gastos não essenciais   |  Para controlar melhor meus gastos e tomar decisões financeiras mais sólidas |
 
 ## Requisitos
 
