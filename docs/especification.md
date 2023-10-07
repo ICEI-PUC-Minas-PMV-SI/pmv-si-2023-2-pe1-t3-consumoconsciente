@@ -1,7 +1,7 @@
 # Especificações do Projeto
 
 Para desenvolver as especificações mínimas do projeto utilizamos:
-- Trello
+- Miro
 - Canva
 - Pesquisas
 - Kanban
