@@ -36,7 +36,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Giovana Martins Sousa  | Identificar onde tenho gastado meu dinheiro | Poder economizar, guardar dinheiro e assim, investir no futuro das minhas filhas |
 |Giovana Martins Sousa  | Saber mais sobre quanto teria de retorno se tivesse investido meu dinheiro | Para iniciar meu caminho de economia e investimentos para um futuro financeiro mais seguro |
 |Mateus Goncalves Pereira  | Desejo entender como levar uma vida sustentável   |  Melhorar minha qualidade de vida e no meio ambiente|
-|Mateus Goncalves Pereira  | Coneguir identificar meu gastos de forma simples e clara             |  Para evitar gastar mais do que o necessário e manter um controle financeiro eficaz  |
+|Mateus Goncalves Pereira  | Conseguir identificar meu gastos de forma simples e clara             |  Para evitar gastar mais do que o necessário e manter um controle financeiro eficaz  |
 |Ricardo Santos  | Ter orientações finaceiras  |  Para viver de forma mais consciente e ter controle sobre minhas dívidas  |
 |Ricardo Santos  | Preciso ter maior controle sobre meu gastos não essenciais   |  Para controlar melhor meus gastos e tomar decisões financeiras mais sólidas |
 
