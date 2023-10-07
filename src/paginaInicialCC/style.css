@@ -98,7 +98,44 @@ h1 {
 }
 
 
+/*FOOTER*/
+.footer{
+    border-top: 40px;
+    background: #e9ede8;;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    footer .row ul :hover{
+      background-color: #2db237;
+    }
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:1.3em;
+    align-items: center;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    
+    }
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+  
+    .footer .row ul li a{
+    
+      color:black;
+      }
 
+      .footer .row ul li a2{
+        font-family: "Open Sans", sans-serif;
+      }
+  /*FOOTER FIM*/
 
 
 
