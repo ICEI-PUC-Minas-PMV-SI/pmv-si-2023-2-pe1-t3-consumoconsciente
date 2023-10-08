@@ -4,7 +4,10 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 
 ## Design
 
+Design Desktop
 ![image](/docs/img/Responsividade_Desktop.png)
+
+Design Mobile
 ![image](/docs/img/Responsividade_Mobile.png)
 
 
