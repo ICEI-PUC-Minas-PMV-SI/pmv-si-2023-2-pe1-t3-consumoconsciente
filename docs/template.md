@@ -4,7 +4,8 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+![image](/docs/img/Responsividade_Desktop.png)
+![image](/docs/img/Responsividade_Mobile.png)
 
 
 ## Cores
