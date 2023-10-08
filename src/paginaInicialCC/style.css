@@ -118,6 +118,10 @@ h1 {
 
 /*QUEM SOMOS*/
 
+section {
+    padding-top: 30px;
+}
+
 #quem-somos {
     display: flex;
     flex-direction: column;
