@@ -51,3 +51,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Telefone  | Texto  | Telefone do usuário | (11) 99123-4567                                     |
 | Data de nascimento  | Texto  | Data de nascimento do usuário | 01/02/93                                         |
 | Senha  | Texto  | Senha de login do usuário | !@$jhjf&$                                      |
+
+
+## Despesa
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Nome do Item   | Texto             | Nome da despesa                           | cafezinho                                      |
+| Data de Compra | Texto             | Data que o produto foi adquirodo          | 01/10/2023                                     |
+| Classificação  | Texto             | Se o Item é Essencial ou não              | Essencial \ Não Eseencial                      |
+| Custo          | Texto             | valor do item adquirido                   | R$ 100,00                                      |
