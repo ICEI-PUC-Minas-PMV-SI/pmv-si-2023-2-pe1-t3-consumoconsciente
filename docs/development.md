@@ -25,18 +25,29 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Prioridade | Artefato Criado |
-|------|------------------------|------------|-----------------|
-|RF-001| O sistema deve exibir as notícias mais populares. | ALTA | index.html |
-|RF-002| Usuários autenticados podem registrar novas notícias. | ALTA | cadastro-noticia.html |
+|ID    | Descrição do Requisito  | Prioridade | Responsável |
+|------|-----------------------------------------|----|----|
+|RF-001| O sistema deve permitir que o usuário cadastre sua conta| ALTA |
+|RF-002| O sistema deve permitir que o usuário cadastrado efetue login| ALTA |
+|RF-003| O sistema deve permitir que o usuário logado gerencie os dados de sua conta| ALTA |
+|RF-004| O sistema deve permitir que o usuário cadastrado recupere sua senha| ALTA |
+|RF-005| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize a página inicial| ALTA |
+|RF-006| O sistema deve permitir que o usuário logado registre uma lista dos seus gastos e que possam ser classificados como essencial ou não| ALTA |
+|RF-007| O sistema deve permitir que o usuário logado visualize seus itens registrados| ALTA |
+|RF-008| O sistema deve permitir que o usuário logado edite/delete os itens registrados| ALTA |
+|RF-009| O sistema deve permitir que o usuário logado filtre os itens registrados em sua lista por classificação do item (essencial ou não essencial) e data| ALTA |
+|RF-010| O sistema deve permitir que o usuário logado simule aplicação poupança/renda fixa em X meses o valor que gastou de forma supérflua| ALTA |
+|RF-011| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize informações sobre a aplicação| ALTA |
+|RF-012| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize dicas de sustentabilidade financeira| ALTA |
 
 ## Descrição das estruturas:
 
-## Notícia
+## Usuário
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
-
+| Id             | Numero (Inteiro)  | Identificador único do usuário            | 1545646                                              |
+| Nome        | Texto             | Nome do usuário                         | João da Silva                                 |
+| Email      | Texto             | Email do usuário                      | joaodasilva@hotmail.com                           |
+| Telefone  | Texto  | Telefone do usuário | (11) 99123-4567                                     |
+| Data de nascimento  | Texto  | Data de nascimento do usuário | 01/02/93                                         |
+| Senha  | Texto  | Senha de login do usuário | !@$jhjf&$                                      |
