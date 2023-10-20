@@ -172,7 +172,6 @@ th {
         border-radius: 10px;
         min-width: 200px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        padding: 12px 16px;
         z-index: 1;
     }
 
@@ -186,13 +185,16 @@ th {
     }
 
     #nav-links>li.link {
-        padding: 0;
-        margin-bottom: 0.5em;
-        list-style-type: circle;
+        width: calc(100% - 24px);
+        display: block;
+        margin: 0;
+        padding: 12px;
+        border-bottom: #b2bab1 solid 0.5px;
+        border-radius: 0;
     }
 
     #dropdown-buttons {
-        margin-top: 5px;
+        padding: 12px;
     }
 
     .link {
