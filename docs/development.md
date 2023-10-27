@@ -25,20 +25,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | Responsável |
+|ID    | Descrição do Requisito  | Responsável | Artefatos |
 |------|-----------------------------------------|----|----|
-|RF-001| O sistema deve permitir que o usuário cadastre sua conta| ALTA |
-|RF-002| O sistema deve permitir que o usuário cadastrado efetue login| ALTA |
-|RF-003| O sistema deve permitir que o usuário logado gerencie os dados de sua conta| ALTA |
-|RF-004| O sistema deve permitir que o usuário cadastrado recupere sua senha| ALTA |
-|RF-005| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize a página inicial| ALTA |
-|RF-006| O sistema deve permitir que o usuário logado registre uma lista dos seus gastos e que possam ser classificados como essencial ou não| ALTA |
-|RF-007| O sistema deve permitir que o usuário logado visualize seus itens registrados| ALTA |
-|RF-008| O sistema deve permitir que o usuário logado edite/delete os itens registrados| ALTA |
-|RF-009| O sistema deve permitir que o usuário logado filtre os itens registrados em sua lista por classificação do item (essencial ou não essencial) e data| ALTA |
-|RF-010| O sistema deve permitir que o usuário logado simule aplicação poupança/renda fixa em X meses o valor que gastou de forma supérflua| ALTA |
-|RF-011| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize informações sobre a aplicação| ALTA |
-|RF-012| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize dicas de sustentabilidade financeira| ALTA |
+|RF-001| O sistema deve permitir que o usuário cadastre sua conta| Lucas | |
+|RF-002| O sistema deve permitir que o usuário cadastrado efetue login| Lucas | |
+|RF-003| O sistema deve permitir que o usuário logado gerencie os dados de sua conta| Sofia | perfil.css, perfil.html |
+|RF-004| O sistema deve permitir que o usuário cadastrado recupere sua senha| Eduardo | |
+|RF-005| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize a página inicial| Vitor | |
+|RF-006| O sistema deve permitir que o usuário logado registre uma lista dos seus gastos e que possam ser classificados como essencial ou não| Vitor | |
+|RF-007| O sistema deve permitir que o usuário logado visualize seus itens registrados| Sofia | visualizarDespesas.css, visualizar-despesas.html |
+|RF-008| O sistema deve permitir que o usuário logado edite/delete os itens registrados| Sofia | visualizarDespesas.css, visualizar-despesas.html |
+|RF-009| O sistema deve permitir que o usuário logado filtre os itens registrados em sua lista por classificação do item (essencial ou não essencial) e data| Sofia | visualizarDespesas.css, visualizar-despesas.html |
+|RF-010| O sistema deve permitir que o usuário logado simule aplicação poupança/renda fixa em X meses o valor que gastou de forma supérflua| Eduardo |
+|RF-011| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize informações sobre a aplicação| Vitor |
+|RF-012| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize dicas de sustentabilidade financeira| Vitor |
 
 ## Descrição das estruturas:
 
