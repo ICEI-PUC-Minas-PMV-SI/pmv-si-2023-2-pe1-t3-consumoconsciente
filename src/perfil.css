@@ -137,6 +137,22 @@ form>div>button {
     font-size: 1em;
 }
 
+.password-button-box {
+    width: 284.668px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+form>div>img {
+    display: none;
+}
+
+img {
+    width: 30px;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 800px) {
     #dropdown {
         display: flex;

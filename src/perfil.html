@@ -53,11 +53,20 @@
         <label class="user-data" for="birthDate">Data de Nascimento</label>
         <input class="user-data" name="birthDate" placeholder="01/02/93" type="text" onfocus="(type='date')" disabled>
         <label class="password-change" for="currentPassword">Digite Senha Atual</label>
-        <input class="password-change" name="currentPassword" type="password">
+        <div class="password-button-box">
+            <input class="password-change" name="currentPassword" type="password">
+            <img id="unhide-password1" src="./images/see-password.svg" alt="see-password">
+        </div>
         <label class="password-change" for="newPassword">Digite Senha Nova</label>
-        <input class="password-change" name="newPassword" type="password">
+        <div class="password-button-box">
+            <input class="password-change" name="newPassword" type="password">
+            <img id="unhide-password2" src="./images/see-password.svg" alt="see-password">
+        </div>
         <label class="password-change" for="verifyPassword">Confirme Senha Nova</label>
-        <input class="password-change" name="verifyPassword" type="password">
+        <div class="password-button-box">
+            <input class="password-change" name="verifyPassword" type="password">
+            <img id="unhide-password3" src="./images/see-password.svg" alt="see-password">
+        </div>
 
         <div>
             <button id="edit-data" type="button">Editar Dados</button>
@@ -93,7 +102,8 @@
             editButton.innerHTML = "Salvar"
             editButtonClicked = !editButtonClicked
         } else {
-            for (let j = 0; j < inputs.length; j++) {
+            console.log(inputs)
+            for (let j = 0; j < 4; j++) {
                 inputs[j].disabled = true
                 inputs[j].style.backgroundColor = "#b2bab1"
             }
@@ -105,8 +115,15 @@
 
     let passwordButtonClicked = false
     const userDataInputs = document.getElementsByClassName('user-data')
-    const passwordInputs = document.getElementsByClassName('password-change')
+    let passwordInputs = document.getElementsByClassName('password-change')
+    const unhidePassButton1 = document.getElementById('unhide-password1')
+    const unhidePassButton2 = document.getElementById('unhide-password2')
+    const unhidePassButton3 = document.getElementById('unhide-password3')
+    passwordInputs = [...passwordInputs, unhidePassButton1, unhidePassButton2, unhidePassButton3]
+
     passwordButton.addEventListener('click', function () {
+
+
         if (passwordButton.innerHTML === "Editar Senha") {
             for (let i = 0; i < userDataInputs.length; i++) {
                 userDataInputs[i].style.display = "none"
@@ -128,6 +145,25 @@
             passwordButton.innerHTML = "Editar Senha"
             passwordButtonClicked = !passwordButtonClicked
         }
+    })
+
+    unhidePassButton1.addEventListener('click', function () {
+        if (passwordInputs[1].type === "password")
+            passwordInputs[1].type = "text"
+        else
+            passwordInputs[1].type = "password"
+    })
+    unhidePassButton2.addEventListener('click', function () {
+        if (passwordInputs[3].type === "password")
+            passwordInputs[3].type = "text"
+        else
+            passwordInputs[3].type = "password"
+    })
+    unhidePassButton3.addEventListener('click', function () {
+        if (passwordInputs[5].type === "password")
+            passwordInputs[5].type = "text"
+        else
+            passwordInputs[5].type = "password"
     })
 </script>
 
