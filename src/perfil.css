@@ -64,12 +64,14 @@ span:first-letter {
     border-radius: 0.5em;
 }
 
-.link:hover {
+.link:hover,
+form>button:hover {
     scale: 1.1;
 }
 
 .icon-button {
     margin: 0 5px;
+    width: 30px;
 }
 
 button {
@@ -79,94 +81,56 @@ button {
     cursor: pointer;
 }
 
-img {
-    width: 30px;
+form {
+    margin: 40px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2DB237;
+    border-radius: 20px;
+    padding: 30px 20px;
+    max-width: 450px;
 }
 
 h1 {
-    font-size: 1em;
-    margin-top: 20px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #E9EDE8;
 }
 
-#filters {
-    display: flex;
-    margin: 3% 0;
-    border-radius: 20px;
-    padding: 2%;
-    background-color: #2DB237;
+label {
+    width: 250px;
+    margin-top: 0.5em;
+    color: #E9EDE8;
+    font-weight: 600;
 }
 
-#filters>div,
-#filters>div>div {
-    display: flex;
-}
-
-select,
 input {
-    border-radius: 5px;
     padding: 0.5em;
+    width: 250px;
+    margin: 0.8em;
+    border-radius: 5px;
     border: none;
+    background-color: #E9EDE8;
+    color: #13472E;
+}
+
+.password-change {
+    display: none;
+}
+
+form>div {
+    margin-top: 10px;
+}
+
+form>div>button {
+    margin-top: 15px;
     width: 150px;
-}
-
-.date-inputs {
-    display: flex;
-    align-items: center;
-    margin: 0 25px;
-}
-
-.date-inputs>p {
-    margin-right: 10px;
-    font-weight: bolder;
+    background-color: #13472E;
     color: #E9EDE8;
-}
-
-table {
-    margin: 3% 0 1% 0;
-    width: 100%;
+    padding: 0.5em;
+    border-radius: 0.5em;
     font-size: 1em;
-}
-
-th {
-    background-color: #2DB237;
-    color: #E9EDE8;
-}
-
-tr:hover {
-    background-color: #c2cbc0;
-}
-
-td,
-th {
-    padding: 10px;
-}
-
-.cell-with-pencil {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.cell-with-pencil>img {
-    margin-left: 15px;
-    width: 30px;
-}
-
-.cell-with-pencil>img:hover {
-    cursor: pointer;
-}
-
-#total {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 3%;
-    border-top: #13472E 2px solid;
-}
-
-#total>p {
-    margin: 0 2em;
-    height: 1em;
 }
 
 @media screen and (max-width: 800px) {
@@ -215,40 +179,8 @@ th {
         color: #13472E;
     }
 
-    #filters {
+    form>div {
+        display: flex;
         flex-direction: column;
-        align-items: center;
-        padding: 5%;
-    }
-
-    #filters>div>div {
-        flex-direction: column;
-    }
-
-    select {
-        width: 55%;
-    }
-
-    #dates-box {
-        align-items: flex-end;
-    }
-
-    .date-inputs {
-        margin-top: 0.5em;
-    }
-
-    #table-wrapper {
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
-    }
-
-    #total {
-        flex-direction: column-reverse;
-    }
-
-    #total>p,
-    #total>a {
-        margin-top: 3%;
     }
 }

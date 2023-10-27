@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="perfil.css">
+</head>
+
+<body>
+    <nav>
+        <a href="./paginaInicialCC/index.html" id="logo">
+            <span class="logo-text">CONSUMO</span>
+            <span class="logo-text">CONSCIENTE</span>
+            <img id="logo-img" src="./images/piggy-bank.png" alt="logo">
+        </a>
+        <div id="dropdown">
+            <button><img style="width:36px" src="./images/menu.svg" alt="menu"></button>
+            <div id="dropdown-content">
+                <ul id="nav-links">
+                    <a class="link">Registrar Despesas</a>
+                </ul>
+                <ul id="nav-links">
+                    <a href="visualizar-despesas.html" class="link">Visualizar Despesas</a>
+                </ul>
+                <div id="dropdown-buttons">
+                    <a href="./perfil.html"><img class="icon-button" src="./images/user.svg" alt="profile"></a>
+                    <a><img class="icon-button" src="./images/logout.svg" alt="logout"></a>
+                </div>
+            </div>
+        </div>
+        <div id="nav-right-box">
+            <div id="nav-links">
+                <a class="link">Registrar Despesas</a>
+                <a href="./visualizar-despesas.html" class="link">Visualizar Despesas</a>
+            </div>
+            <div>
+                <a href="./perfil.html"><img class="icon-button" src="./images/user.svg" alt="profile"></a>
+                <a><img class="icon-button" src="./images/logout.svg" alt="logout"></a>
+            </div>
+        </div>
+    </nav>
+
+    <form>
+        <h1>Dados do Usuário:</h1>
+        <label class="user-data" for="name">Nome</label>
+        <input class="user-data" name="name" placeholder="João da Silva" type="text" disabled>
+        <label class="user-data" for="email">Email</label>
+        <input class="user-data" name="email" placeholder="joaodasilva@gmail.com" type="text" disabled>
+        <label class="user-data" for="phone">Telefone</label>
+        <input class="user-data" name="phone" placeholder="(11) 98765-1234" type="text" disabled>
+        <label class="user-data" for="birthDate">Data de Nascimento</label>
+        <input class="user-data" name="birthDate" placeholder="01/02/93" type="text" onfocus="(type='date')" disabled>
+        <label class="password-change" for="currentPassword">Digite Senha Atual</label>
+        <input class="password-change" name="currentPassword" type="password">
+        <label class="password-change" for="newPassword">Digite Senha Nova</label>
+        <input class="password-change" name="newPassword" type="password">
+        <label class="password-change" for="verifyPassword">Confirme Senha Nova</label>
+        <input class="password-change" name="verifyPassword" type="password">
+
+        <div>
+            <button id="edit-data" type="button">Editar Dados</button>
+            <button id="edit-password" type="button">Editar Senha</button>
+        </div>
+    </form>
+
+</body>
+
+<script>
+    let isDropdownOpen = false
+    const dropdownContent = document.getElementById('dropdown-content')
+    document.getElementById('dropdown').addEventListener('click', function () {
+        if (!isDropdownOpen) {
+            dropdownContent.style.display = "block";
+        } else {
+            dropdownContent.style.display = "none";
+        }
+        isDropdownOpen = !isDropdownOpen
+    })
+
+    let editButtonClicked = false
+    const inputs = document.getElementsByTagName('input')
+    const editButton = document.getElementById('edit-data')
+    const passwordButton = document.getElementById('edit-password')
+    editButton.addEventListener('click', function () {
+        if (editButton.innerHTML === "Editar Dados") {
+            for (let i = 0; i < inputs.length; i++) {
+                inputs[i].disabled = false;
+            }
+            passwordButton.style.display = "none"
+            editButton.innerHTML = "Salvar"
+            editButtonClicked = !editButtonClicked
+        } else {
+            for (let j = 0; j < inputs.length; j++) {
+                inputs[j].disabled = true;
+            }
+            passwordButton.style.display = "inline-block"
+            editButton.innerHTML = "Editar Dados"
+            editButtonClicked = !editButtonClicked
+        }
+    })
+
+    let passwordButtonClicked = false
+    const userDataInputs = document.getElementsByClassName('user-data')
+    const passwordInputs = document.getElementsByClassName('password-change')
+    passwordButton.addEventListener('click', function () {
+        if (passwordButton.innerHTML === "Editar Senha") {
+            for (let i = 0; i < userDataInputs.length; i++) {
+                userDataInputs[i].style.display = "none"
+            }
+            for (let j = 0; j < passwordInputs.length; j++) {
+                passwordInputs[j].style.display = "inline-block"
+            }
+            editButton.style.display = "none"
+            passwordButton.innerHTML = "Salvar"
+            passwordButtonClicked = !passwordButtonClicked
+        } else {
+            for (let i = 0; i < userDataInputs.length; i++) {
+                userDataInputs[i].style.display = "inline-block"
+            }
+            for (let j = 0; j < passwordInputs.length; j++) {
+                passwordInputs[j].style.display = "none"
+            }
+            editButton.style.display = "inline-block"
+            passwordButton.innerHTML = "Editar Senha"
+            passwordButtonClicked = !passwordButtonClicked
+        }
+    })
+</script>
+
+</html>
