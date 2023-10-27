@@ -59,5 +59,5 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Id             | Número (Inteiro)  | Identificador único da despesa            | 85239                                          |
 | Nome do Item   | Texto             | Nome da despesa                           | Cafézinho                                      |
 | Data de Compra | Texto             | Data que o produto foi adquirido          | 01/10/2023                                     |
-| Classificação  | Texto             | Se o item é Essencial ou não              | Não Eseencial                      |
+| Classificação  | Boolean           | Se o item é Essencial ou não              | false (Não Essencial)                      |
 | Custo          | Float             | Valor do item adquirido                   | 100,00                                      |
