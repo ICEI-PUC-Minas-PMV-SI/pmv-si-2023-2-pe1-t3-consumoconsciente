@@ -45,7 +45,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 ## Usuário
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único do usuário            | 1545646                                              |
+| Id             | Número (Inteiro)  | Identificador único do usuário            | 1545646                                              |
 | Nome        | Texto             | Nome do usuário                         | João da Silva                                 |
 | Email      | Texto             | Email do usuário                      | joaodasilva@hotmail.com                           |
 | Telefone  | Texto  | Telefone do usuário | (11) 99123-4567                                     |
@@ -56,7 +56,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 ## Despesa
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Nome do Item   | Texto             | Nome da despesa                           | cafezinho                                      |
-| Data de Compra | Texto             | Data que o produto foi adquirodo          | 01/10/2023                                     |
-| Classificação  | Texto             | Se o Item é Essencial ou não              | Essencial \ Não Eseencial                      |
-| Custo          | float             | valor do item adquirido                   | R$ 100,00                                      |
+| Id             | Número (Inteiro)  | Identificador único da despesa            | 85239                                          |
+| Nome do Item   | Texto             | Nome da despesa                           | Cafézinho                                      |
+| Data de Compra | Texto             | Data que o produto foi adquirido          | 01/10/2023                                     |
+| Classificação  | Texto             | Se o item é Essencial ou não              | Não Eseencial                      |
+| Custo          | Float             | Valor do item adquirido                   | 100,00                                      |
