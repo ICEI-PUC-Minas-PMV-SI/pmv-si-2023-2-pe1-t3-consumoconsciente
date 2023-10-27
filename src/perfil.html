@@ -86,14 +86,16 @@
     editButton.addEventListener('click', function () {
         if (editButton.innerHTML === "Editar Dados") {
             for (let i = 0; i < inputs.length; i++) {
-                inputs[i].disabled = false;
+                inputs[i].disabled = false
+                inputs[i].style.backgroundColor = "#E9EDE8"
             }
             passwordButton.style.display = "none"
             editButton.innerHTML = "Salvar"
             editButtonClicked = !editButtonClicked
         } else {
             for (let j = 0; j < inputs.length; j++) {
-                inputs[j].disabled = true;
+                inputs[j].disabled = true
+                inputs[j].style.backgroundColor = "#b2bab1"
             }
             passwordButton.style.display = "inline-block"
             editButton.innerHTML = "Editar Dados"

@@ -115,6 +115,10 @@ input {
     color: #13472E;
 }
 
+input.user-data {
+    background-color: #b2bab1;
+}
+
 .password-change {
     display: none;
 }
