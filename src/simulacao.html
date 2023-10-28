@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consumo Consciente - Simulação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200;400&family=Poppins:ital,wght@0,400;1,200&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style-simulacao.css">
+    <title>Simulação</title>
 </head>
 
-
 <body>
+
     <header>
         <nav>
             <div id="logo">
@@ -21,8 +26,9 @@
                 <button><img style="width:24px" src="../images/menu.svg" alt="menu"></button>
                 <div id="dropdown-content">
                     <ul id="nav-links">
-                        <li class="link">Visualizar Despesas</li>
-                        <li class="link">Registrar Despesas</a>
+
+                        <li class="link">Visualizar Despesas</li>                       
+                        <li class="link">Registrar Despesas</li>
                     </ul>
                     <div id="dropdown-buttons">
                         <button><img src="../images/user.svg" alt="profile"></button>
@@ -32,8 +38,8 @@
             </div>
             <div id="nav-right-box">
                 <div id="nav-links">
-                    <a class="link">Visualizar Despesas</a>
-                    <a class="link">Registrar Despesas</a>
+                    <a href="/visualizar-despesas.html" class="link">Visualizar Despesas</a>
+                    <a href="http://globo.com"class="link">Registrar Despesas</a>
                 </div>
                 <div>
                     <button><img src="../images/user.svg" alt="profile"></button>
@@ -41,145 +47,115 @@
                 </div>
             </div>
         </nav>
-        </div>
     </header>
 
-    <h2>Quanto renderia R$ 0,00 em uma aplicação?</h2>
-    <!-- <img src="/images/investimento.png" alt="" class="img-investimento"> -->
-
-    <div class="row">
-        <div class="column1">
-            <div class="card">Poupança</div>
+    <main class="cards">
+        <section class="card poupanca">
+            <h2>Poupança</h2>
+            <h3>O investimento mais amado pelos Brasileiros</h3>
+            <div class="imagem">
+                <img src="/images/1.png" alt="Poupanca" class="investimento">
+            </div>
 
             <table>
                 <thead>
                     <th class="tb-header">Tempo</th>
                     <th class="tb-header">Valor</th>
                 </thead>
-
                 <tr>
-
                     <td class="tb-linha">3 meses</td>
                     <td class="tb-linha">R$ 0.00</td>
-
                 </tr>
-
                 <tr>
                     <td class="tb-linha">6 meses</td>
                     <td class="tb-linha">R$ 0.00</td>
                 </tr>
-
                 <tr>
                     <td class="tb-linha">12 Meses</td>
                     <td class="tb-linha">R$ 0.00</td>
                 </tr>
-
             </table>
 
-        </div>
-        <div class="column2">
-            <div class="card">CDI 100%</div>
+
+        </section>
+        <section class="card cdi">
+            <h2>CDI</h2>
+            <h3>Melhor rentabilidade comparado a poupança</h3>
+            <div class="imagem">
+                <img src="/images/2.png" alt="CDI" class="investimento">
+            </div>
 
             <table>
-
                 <thead>
                     <th class="tb-header">Tempo</th>
                     <th class="tb-header">Valor</th>
                 </thead>
-
                 <tr>
                     <td class="tb-linha">3 meses</td>
                     <td class="tb-linha">R$ 0.00</td>
                 </tr>
-
                 <tr>
                     <td class="tb-linha">6 meses</td>
                     <td class="tb-linha">R$ 0.00</td>
                 </tr>
-
                 <tr>
                     <td class="tb-linha">12 Meses</td>
                     <td class="tb-linha">R$ 0.00</td>
                 </tr>
-
             </table>
 
-        </div>
-        <div class="column3">
-            <div class="card">CDI 110%</div>
+            <button class="botao2">
 
+            </button>
+        </section>
+        <section class="card prefixado">
+            <h2>Pré Fixado</h2>
+            <h3>Você sabe exatamente quanto irá render</h3>
+            <div class="imagem">
+                <img src="/images/3.png" alt="PreFIxado" class="investimento">
+            </div>
             <table>
-
                 <thead>
                     <th class="tb-header">Tempo</th>
                     <th class="tb-header">Valor</th>
                 </thead>
-
                 <tr>
                     <td class="tb-linha">3 meses</td>
                     <td class="tb-linha">R$ 0.00</td>
                 </tr>
-
                 <tr>
                     <td class="tb-linha">6 meses</td>
                     <td class="tb-linha">R$ 0.00</td>
                 </tr>
-
                 <tr>
                     <td class="tb-linha">12 Meses</td>
                     <td class="tb-linha">R$ 0.00</td>
                 </tr>
-
             </table>
 
-        </div>
-    </div>
+        </section>
+    </main>
 
+    <section class="explicacao-poupanca">
+        <h5>Poupança</h5>
+        <p>Desde 2012, o rendimento da poupança passou por uma mudança. A regra agora é a seguinte:
+            Quando a Selic (taxa básica do juros) estiver abaixo de 8,5% ao ano, a poupança rende 70% do valor da taxa
+            básica mais a Taxa Referencial (TR).
+            Quando estiver maior do que 8,5% ao ano, o rendimento passa a ser de 0,5% ao mês mais a TR.</p>
+    </section>
+    <section class="explicacao-cdi">
 
-
-    <h2>Como funciona o rendimento da poupança</h2>
-
-
-
-    <section class="section-poupanca">
-
-        <p>Se a Taxa Selic, a taxa básica de juros do Brasil, ficar igual ou menor do que 8,5% ao ano, o rendimento da
-            poupança será de 70% da Taxa Selic + TR;</p>
-        <p>Se a Taxa Selic for maior que 8,5%, então o rendimento da caderneta de poupança será 0,5% ao mês + TR.</p>
-        <p>A Taxa Selic atual é de 13,75% e, portanto, aplica-se a remuneração de 0,5% ao mês + TR.</p>
-        <p>A variação da Taxa Referencial também está mudando, mas ainda bem abaixo de um ponto percentual.</p>
-
+        <h5>Rendimento CDI</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptate reiciendis quaerat vitae at nisi
+            maiores nostrum deleniti architecto velit!</p>
     </section>
 
-    <h2>E o CDI</h2>
-
-    <section class="section-CDI">
-        
-        
-        <p>CDI e a Selic possuem valores bastante próximos.</p>
-
-        <p>Geralmente, a taxa DI está entre 0,1 e 0,2% abaixo da taxa de
-        juros.</p>
-        
-        <p>Essa proximidade se deve ao fato de que o risco de crédito dos empréstimos interbancários é bastante baixo
-        semelhante ao do governo.</p>
-
-        <p>Além disso, as operações com o CDI têm como objetivo equilibrar o caixa das instituições financeiras.</p>
-        
-        <p>Do contrário, um banco poderia emprestar dinheiro para o outro à taxa Selic e pegar emprestado à DI, ou seja,<br>
-        haveria lucros na negociação.</p>
-        
-        <p>A taxa básica de juros é definida através das trocas financeiras entre o Banco Central e as instituições
-        financeiras.</p>
-        
-         <p>A sua meta é estabelecida pelo Comitê de Política Monetária (COPOM). Enquanto isso, a taxa DI é definida diariamente
-        pelas operações interbancárias.</p>
-        
-        <p>O Banco Central também define a taxa de rentabilidade da poupança. Apesar de que a caderneta é isenta de Imposto de
-        Renda e demais taxas, ela costuma ser menos atrativa que um investimento indexado ao CDI.</p> 
-
-        <p>Quanto a taxa Selic se encontra abaixo de 8,5% ao ano, que é o nosso caso atual, a poupança rende exatamente 70% da Selic.</p>
-
+    <section class="explicacao-prefixado">
+        <h5>Pré Fixado</h5>
+        <p>Os investimentos prefixados seguem uma porcentagem ao ano. Não importa a flutuação da inflação, seu retorno já é pré estabelecido.
+        A vantagem desse título é a estar protegido da inflação, caso a mesma seja que o valor fixado do seu título.
+        A simulação, considerou um título 10,80% ao ano
+        </p>
     </section>
 
 
