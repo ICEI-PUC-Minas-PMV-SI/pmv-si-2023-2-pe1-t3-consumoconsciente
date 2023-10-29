@@ -5,10 +5,10 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 ## Design
 
 # Desktop
-![image](/docs/img/Responsividade_Desktop.png)
+![image](/docs/img/desktop.png)
 
 # Mobile
-![image](/docs/img/Responsividade_Mobile.png)
+![image](/docs/img/mobile.png)
 
 
 ## Cores
