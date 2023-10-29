@@ -44,6 +44,11 @@ span:first-letter {
     display: none;
 }
 
+#dropdown button{
+    border: none;
+    cursor: pointer;
+}
+
 #nav-right-box {
     display: flex;
     align-items: center;
