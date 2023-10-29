@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/piggy-bank.png">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <title>Consumo Consciente</title>
+</head>
+
+<body>
+  <a href="#"><input type="image" src="images/seta.SVG" id="seta"></a>
+    <nav>
+        <div id="logo">
+            <span class="logo-text">CONSUMO</span>
+            <span class="logo-text">CONSCIENTE</span>
+            <img id="logo-img" src="./images/piggy-bank.png" alt="logo">
+        </div>
+        <div id="dropdown">
+            <button><img style="width:24px" src="images/menu.svg" alt="menu"></button>
+            <div id="dropdown-content">
+                <ul id="nav-links">
+                    <li class="link">Visualizar Despesas</li>
+                    <li class="link">Registrar Despesas</a>
+                </ul>
+                
+                <div id="dropdown-buttons">
+                    <button><img src="images/user.svg" alt="profile"></button>
+                    <button><img src="images/logout.svg" alt="logout"></button>
+                </div>
+            </div>
+        </div>
+        <div id="nav-right-box">
+            <div id="nav-links">
+                <a class="link">Visualizar Despesas</a>
+                <a class="link">Registrar Despesas</a>
+            </div>
+            <div>
+                <button><img src="images/user.svg" alt="profile"></button>
+                <button><img src="images/logout.svg" alt="logout"></button>
+            </div>
+        </div>
+    </nav>
+<hr>
+   <header>
+  <div id="conteudoHeader">
+    
+    <figure>
+      <img src="images/ilustracao.svg" alt="ilustração">
+    </figure>
+    <h2>Consumo Consciente é uma aplicação desenvolvida para auxiliar usuários a manter um controle eficaz de suas finanças. Nosso propósito é introduzir na sociedade a importância do consumo consciente, ajudando as pessoas a identificar gastos supérfluos e a evitar impulsos financeiros imediatos. </h2>
+  </div>
+</header>
+
+  <div id="direcionarPararBaixo">
+            
+    <a href="#slider"><img src="images//icons8-seta-para-expandir-48.png" alt=""></a>
+  </div> 
+  
+  <div>
+    <h1 id="tituloDicas">Dicas úteis</h1>
+    <section id="slider">
+        <input type="radio" name="slider" id="s1" checked>
+        <input type="radio" name="slider" id="s2">
+        <input type="radio" name="slider" id="s3">
+    
+        <label for="s1" id="slide1"><img src="images/Carrossel1.jpg" alt=""></label>
+        <label for="s2" id="slide2"><img src="images/Carrossel2.jpg" alt=""></label>
+        <label for="s3" id="slide3"><img src="images/Carrossel3.jpg" alt=""></label>
+      </section>
+    </div>
+
+      <section id="manual">
+        <h1>Manual</h1>
+        
+        <section>
+          <h2>REGISTRAR DESPESAS</h2>
+          <p>Serão inseridas as despesas com suas informações complementares, como nome, data, classificação e valor</p>
+        </section>
+
+        <section>
+          <h2>VISUALIZAR DESPESAS</h2>
+          <p>Será possível visualizar todas as despesas em forma de gráfico, mantendo todas organizadas com suas devidas informações</p>
+        </section>
+
+        <section>
+          <h2>SIMULAÇÃO</h2>
+          <p>Destinado a mostrar quanto o dinheiro do total de gastos renderia em diversas formas de rendimento.</p>
+        </section>
+
+        <section>
+          <h2>LOGIN</h2>
+          <p>Permite o usuário entrar na aplicação inserindo o seu email e sua senha cadastradas anteriormente.</p>
+        </section>
+
+        <section>
+          <h2>CADASTRO</h2>
+          <p>Permite ao usuário acessar a página de cadastro, onde poderá preencher as informações necessárias, como nome, email e senha, para criar uma conta na aplicação</p>
+        </section>
+
+        <section>
+          <h2>PERFIL</h2>
+          <p>Na aba de perfil, o usuário pode visualizar e atualizar as informações de sua conta, como nome, email e foto de perfil.</p>
+        </section>
+      </section>
+
+      <footer>
+        <div class="footer">
+          <div class="row">
+            <ul id="redes-sociais">
+              <li href="#"><a class="fa fa-facebook"></a></li>
+              <li href="#"><a class="fa fa-instagram"></a></li>
+              <li href="#"><a class="fa fa-youtube"></a></li>
+              <li href="#"><a class="fa fa-twitter"></a></li>
+            </ul>
+          </div>
+    
+          <div class="row">
+            <ul>
+    
+              <li><a href="????">
+                  <a2>Principal</a2>
+                </a></li>
+              <li><a href="????">
+                  <a2>Visualizar Despesas</a2>
+                </a></li>
+              <li><a href="????">
+                  <a2>Registrar Despesas</a2>
+                </a></li>
+              <li><a href="????">
+                  <a2>Simulação</a2>
+                </a></li>
+            </ul>
+          </div>
+    
+          <div class="copy">
+            © Copyright 2023 - Consumo Consciente
+          </div>
+        </div>
+      </footer>
+
+    <script>
+        let isDropdownOpen = false
+        const dropdownContent = document.getElementById('dropdown-content')
+        document.getElementById('dropdown').addEventListener('click', function () {
+            if (!isDropdownOpen) {
+                dropdownContent.style.display = "block";
+            } else {
+                dropdownContent.style.display = "none";
+            }
+            isDropdownOpen = !isDropdownOpen
+        })
+
+
+
+        const openOverlayElements = document.querySelectorAll(".openOverlay");
+
+openOverlayElements.forEach(function(element) {
+    element.addEventListener("click", function() {
+        document.getElementById("overlay").style.display = "block";
+    });
+});
+
+document.getElementById("closeOverlay").addEventListener("click", function() {
+    document.getElementById("overlay").style.display = "none";
+});
+
+    </script>
+    
+    
