@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="adicionar-despesas.css">
     <title>Document</title>
 </head>
+
 <body>
     <nav>
-        <a href="./paginaInicialCC/index.html" id="logo">
+        <a href="index.html" id="logo">
             <span class="logo-text">CONSUMO</span>
             <span class="logo-text">CONSCIENTE</span>
             <img id="logo-img" src="./images/piggy-bank.png" alt="logo">
@@ -35,7 +37,7 @@
             </div>
         </div>
     </nav>
-    
+
     <section id="add-container">
         <h1>Adicione suas despesas:</h1>
         <input type="text" class="add-element" placeholder="Nome da despesa">
@@ -49,16 +51,17 @@
     </section>
 
     <script>
-         let isDropdownOpen = false
-    const dropdownContent = document.getElementById('dropdown-content')
-    document.getElementById('dropdown').addEventListener('click', function () {
-        if (!isDropdownOpen) {
-            dropdownContent.style.display = "block";
-        } else {
-            dropdownContent.style.display = "none";
-        }
-        isDropdownOpen = !isDropdownOpen
-    })
+        let isDropdownOpen = false
+        const dropdownContent = document.getElementById('dropdown-content')
+        document.getElementById('dropdown').addEventListener('click', function () {
+            if (!isDropdownOpen) {
+                dropdownContent.style.display = "block";
+            } else {
+                dropdownContent.style.display = "none";
+            }
+            isDropdownOpen = !isDropdownOpen
+        })
     </script>
 </body>
+
 </html>
