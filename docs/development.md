@@ -31,14 +31,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-002| O sistema deve permitir que o usuário cadastrado efetue login| Lucas | |
 |RF-003| O sistema deve permitir que o usuário logado gerencie os dados de sua conta| Sofia | perfil.css, perfil.html |
 |RF-004| O sistema deve permitir que o usuário cadastrado recupere sua senha| Eduardo | |
-|RF-005| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize a página inicial| Vitor | |
-|RF-006| O sistema deve permitir que o usuário logado registre uma lista dos seus gastos e que possam ser classificados como essencial ou não| Vitor | |
+|RF-005| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize a página inicial| Vitor | adicionar-despesas.html
+|RF-006| O sistema deve permitir que o usuário logado registre uma lista dos seus gastos e que possam ser classificados como essencial ou não| Vitor | adicionar-despesas.html
 |RF-007| O sistema deve permitir que o usuário logado visualize seus itens registrados| Sofia | visualizarDespesas.css, visualizar-despesas.html |
 |RF-008| O sistema deve permitir que o usuário logado edite/delete os itens registrados| Sofia | visualizarDespesas.css, visualizar-despesas.html |
 |RF-009| O sistema deve permitir que o usuário logado filtre os itens registrados em sua lista por classificação do item (essencial ou não essencial) e data| Sofia | visualizarDespesas.css, visualizar-despesas.html |
 |RF-010| O sistema deve permitir que o usuário logado simule aplicação poupança/renda fixa em X meses o valor que gastou de forma supérflua| Eduardo |
-|RF-011| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize informações sobre a aplicação| Vitor |
-|RF-012| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize dicas de sustentabilidade financeira| Vitor |
+|RF-011| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize informações sobre a aplicação| Vitor | index.html
+|RF-012| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize dicas de sustentabilidade financeira| Vitor | index.html
 
 ## Descrição das estruturas:
 
