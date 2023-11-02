@@ -73,6 +73,10 @@ button {
   cursor: pointer;
 }
 
+.index {
+  text-decoration: none;
+}
+
 
 
 .cards {
