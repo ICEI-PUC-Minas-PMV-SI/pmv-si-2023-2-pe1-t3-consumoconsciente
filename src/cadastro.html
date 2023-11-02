@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cadastro.css">
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
+  </style>
+
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg mb-0">
+    <div class="container-fluid">
+      <div id="logo">
+        <span id="logo-text">CONSUMO CONSCIENTE</span>
+        <img id="logo-img" src="../imagens/piggy-bank.png" alt="logo">
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul id="ul-navbar" class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-end align-items-center">
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <section class="area-login">
+    <div class="login"; style="height: 630px;">
+        <div id="logo2">
+            <span id="logo2-text">CONSUMO CONSCIENTE</span>
+            <img id="logo2-img" src="../imagens/piggy-bank.png" alt="logo">
+          </div>
+
+        <div id="msgFormulario"></div>
+
+        <div id="msgError"></div>
+
+        <div id="msgSuccess"></div>
+
+        <form method="POST">
+            <input type="text"name="nome" id="nome" placeholder="Nome" required>
+
+            <input type="text" name="e-mail" id="email" placeholder="E-mail" required>
+
+
+            <input type="tel" name="telefone" id="tel" placeholder="Telefone" required>
+
+
+            <input type="password" name="senha" id="senha" placeholder="Senha" required>
+
+
+            <input type="password" name="confirmar" id="confirmsenha" placeholder="Confirmação Senha" required>
+
+
+            <input class="btn-submit" type="button" value="cadastrar" id="btncadastro" onclick="campos()">
+        </form>
+        <p>Já possui uma conta? <a href="/login/login.html">Logar</a></p>
+    </div>
+</section>
+
+
+
+  <footer>
+    <div class="footer">
+      <div class="row">
+        <ul>
+          <li href="#"><a class="fa fa-facebook"></a></li>
+          <li href="#"><a class="fa fa-instagram"></a></li>
+          <li href="#"><a class="fa fa-youtube"></a></li>
+          <li href="#"><a class="fa fa-twitter"></a></li>
+        </ul>
+      </div>
+
+      <div class="row">
+        <ul>
+
+          <li><a href="????">
+              <a2>Principal</a2>
+            </a></li>
+          <li><a href="????">
+              <a2>Visualizar Despesas</a2>
+            </a></li>
+          <li><a href="????">
+              <a2>Registrar Despesas</a2>
+            </a></li>
+          <li><a href="????">
+              <a2>Simulação</a2>
+            </a></li>
+        </ul>
+      </div>
+
+      <div class="copy">
+        © Copyright 2023 - Consumo Consciente
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
