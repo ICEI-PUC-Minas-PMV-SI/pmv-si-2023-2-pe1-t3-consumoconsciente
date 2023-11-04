@@ -98,28 +98,11 @@ p {
   margin-bottom: 3%;
 }
 
-.dicas1 {
+img.dicas {
   width: 30%;
+  margin-bottom: 3%;
   border-radius: 30px;
-  position: absolute; top: 35%; left: 65%;
-  border: solid 5px rgb(16, 68, 14);  
  
-}
-
-.dicas2 {
-  width: 30%;
-  border-radius: 30px;
-  border: solid 5px rgb(16, 68, 14);  
-  position: absolute; top: 100%; left: 65%;
-  
-}
-
-.dicas3 {
-  width: 30%;
-  border-radius: 30px;
-  border: solid 5px rgb(16, 68, 14);  
-  position: absolute; top: 155%; left: 65%;
-  
 }
 
 
@@ -141,9 +124,11 @@ height: 80px;
     display: none;
   }
 
-.dicas1, .dicas2, .dicas3 {
-display: none;
+  .dicas {
+    position: relative; left: 30%;
+    
+
+  }
 
 }
 
-}
