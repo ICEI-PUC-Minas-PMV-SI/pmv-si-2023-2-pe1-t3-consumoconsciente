@@ -13,7 +13,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
   </style>
 
-  <title>Document</title>
+  <title>Cadastro</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
@@ -23,7 +23,7 @@
     <div class="container-fluid">
       <div id="logo">
         <span id="logo-text">CONSUMO CONSCIENTE</span>
-        <img id="logo-img" src="../imagens/piggy-bank.png" alt="logo">
+        <img id="logo-img" src="images/piggy-bank.png" alt="logo">
       </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,38 +39,38 @@
 
 
   <section class="area-login">
-    <div class="login"; style="height: 630px;">
-        <div id="logo2">
-            <span id="logo2-text">CONSUMO CONSCIENTE</span>
-            <img id="logo2-img" src="../imagens/piggy-bank.png" alt="logo">
-          </div>
+    <div class="login" ; style="height: 630px;">
+      <div id="logo2">
+        <span id="logo2-text">CONSUMO CONSCIENTE</span>
+        <img id="logo2-img" src="images/piggy-bank.png" alt="logo">
+      </div>
 
-        <div id="msgFormulario"></div>
+      <div id="msgFormulario"></div>
 
-        <div id="msgError"></div>
+      <div id="msgError"></div>
 
-        <div id="msgSuccess"></div>
+      <div id="msgSuccess"></div>
 
-        <form method="POST">
-            <input type="text"name="nome" id="nome" placeholder="Nome" required>
+      <form method="POST">
+        <input type="text" name="nome" id="nome" placeholder="Nome" required>
 
-            <input type="text" name="e-mail" id="email" placeholder="E-mail" required>
-
-
-            <input type="tel" name="telefone" id="tel" placeholder="Telefone" required>
+        <input type="text" name="e-mail" id="email" placeholder="E-mail" required>
 
 
-            <input type="password" name="senha" id="senha" placeholder="Senha" required>
+        <input type="tel" name="telefone" id="tel" placeholder="Telefone" required>
 
 
-            <input type="password" name="confirmar" id="confirmsenha" placeholder="Confirmação Senha" required>
+        <input type="password" name="senha" id="senha" placeholder="Senha" required>
 
 
-            <input class="btn-submit" type="button" value="cadastrar" id="btncadastro" onclick="campos()">
-        </form>
-        <p>Já possui uma conta? <a href="/login/login.html">Logar</a></p>
+        <input type="password" name="confirmar" id="confirmsenha" placeholder="Confirmação Senha" required>
+
+
+        <input class="btn-submit" type="button" value="cadastrar" id="btncadastro" onclick="campos()">
+      </form>
+      <p>Já possui uma conta? <a href="login.html">Logar</a></p>
     </div>
-</section>
+  </section>
 
 
 
@@ -116,5 +116,3 @@
 </body>
 
 </html>
-
-
