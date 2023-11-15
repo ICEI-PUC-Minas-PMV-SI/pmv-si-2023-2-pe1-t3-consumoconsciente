@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visualizar Despesas</title>
     <link rel="stylesheet" href="visualizarDespesas.css">
+
 </head>
 
 <body>
@@ -41,7 +42,8 @@
         Despesas registradas:
     </h1>
     <section id="filters">
-        <select>
+        <select id="filter-select">
+            <option value="default">Escolha uma Opção</option>
             <option value="essencial">Essencial</option>
             <option value="naoEssencial">Não Essencial</option>
         </select>
@@ -49,21 +51,21 @@
             <div id="dates-box">
                 <div class="date-inputs">
                     <p>De:</p>
-                    <input type="date">
+                    <input id="start-date" type="date">
                 </div>
                 <div class="date-inputs">
                     <p>Até:</p>
-                    <input type="date">
+                    <input id="end-date" type="date">
                 </div>
             </div>
-            <button>
+            <button id="clear-filters">
                 <img src="./images/eraser.svg" alt="clearInputs">
             </button>
         </div>
     </section>
 
     <div id="table-wrapper">
-        <table>
+        <!-- <table>
             <tr>
                 <th>Nome do Item/Despesa</th>
                 <th>Data de Compra</th>
@@ -88,7 +90,7 @@
                 <td>Essencial</td>
                 <td class="cell-with-pencil">R$1200,00 <img src="./images/pencil.svg" alt="pencil"></td>
             </tr>
-        </table>
+        </table> -->
     </div>
 
 
@@ -102,18 +104,6 @@
     </section>
 
 </body>
-
-<script>
-    let isDropdownOpen = false
-    const dropdownContent = document.getElementById('dropdown-content')
-    document.getElementById('dropdown').addEventListener('click', function () {
-        if (!isDropdownOpen) {
-            dropdownContent.style.display = "block";
-        } else {
-            dropdownContent.style.display = "none";
-        }
-        isDropdownOpen = !isDropdownOpen
-    })
-</script>
+<script src="visualizar-despesas.js"></script>
 
 </html>
