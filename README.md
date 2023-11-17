@@ -10,7 +10,6 @@ Estimular o usuário ao consumo consciente, enumerando gastos desnecessários qu
 
 ## Integrantes
 
-* Carmen Maria Costa Araujo
 * Eduardo Silva Gomes de Almeida
 * Lucas Soares dos Reis
 * Sofia Pitta Sesso
