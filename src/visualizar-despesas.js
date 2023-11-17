@@ -1,17 +1,17 @@
 const expensesMock = [
     {
-        "id": 85239,
-        "expenseName": "Cafézinho",
-        "purchaseDate": "2023-03-02",
-        "isEssential": false,
-        "cost": 7.50
-    },
-    {
         "id": 45647,
         "expenseName": "Conta de energia elétrica",
         "purchaseDate": "2023-10-02",
         "isEssential": true,
         "cost": 153.00
+    },
+    {
+        "id": 85239,
+        "expenseName": "Cafézinho",
+        "purchaseDate": "2023-03-02",
+        "isEssential": false,
+        "cost": 7.50
     },
     {
         "id": 36451,
@@ -60,18 +60,22 @@ const formatDate = (date) => {
 const tableContainer = document.getElementById('table-wrapper')
 let expenses
 let filteredExpenses
+const total = document.getElementById('total-value')
 
 window.addEventListener('pageshow', function () {
     expenses = JSON.parse(localStorage.getItem("expenses"))
     tableContainer.innerHTML = mapTableData(expenses);
     filteredExpenses = expenses
+    total.innerHTML = `Total: R$${calculateCosts(filteredExpenses)}`
 })
 
 function mapTableData(expenses) {
     let table = '<table>'
     table += '<tr><th>Nome do Item/Despesa</th><th>Data de Compra</th><th>Classificação</th><th>Custo</th></tr>'
     expenses.forEach(expense => {
-        table += `<tr><td>${expense.expenseName}</td><td>${formatDate(expense.purchaseDate).formatedDate}</td><td>${expense.isEssential ? "Essencial" : "Não Essencial"}</td><td class="cell-with-pencil">R$${expense.cost.toFixed(2)} <img src="./images/pencil.svg" alt="pencil"></td></tr>`;
+        expense.isEssential ?
+            table += `<tr><td>${expense.expenseName}</td><td>${formatDate(expense.purchaseDate).formatedDate}</td><td>Essencial</td><td class="cell-with-pencil">R$${expense.cost.toFixed(2)} <img src="./images/pencil.svg" alt="pencil"></td></tr>` :
+            table += `<tr  style="background-color:#fcd2d2"><td>${expense.expenseName}</td><td>${formatDate(expense.purchaseDate).formatedDate}</td><td>Não Essencial</td><td class="cell-with-pencil">R$${expense.cost.toFixed(2)} <img src="./images/pencil.svg" alt="pencil"></td></tr>`
     });
     table += '</table>'
 
@@ -89,6 +93,7 @@ filterElements.forEach(function (element) {
     element.addEventListener("change", function () {
         filteredExpenses = filterExpenses()
         tableContainer.innerHTML = mapTableData(filteredExpenses)
+        total.innerHTML = `Total: R$${calculateCosts(filteredExpenses)}`
     })
 })
 
@@ -126,4 +131,23 @@ clearButton.addEventListener('click', function () {
     startDateInput.value = ""
     endDateInput.value = ""
     tableContainer.innerHTML = mapTableData(expenses)
+})
+
+//Calculte total cost:
+const calculateCosts = (filteredExpenses) => {
+    let total = 0
+    for (let i = 0; i < filteredExpenses.length; i++) {
+        total += filteredExpenses[i].cost
+    }
+    return total.toFixed(2)
+}
+
+//Guardar despesas filtradas:
+const simulationButton = document.getElementById('simulation-button')
+simulationButton.addEventListener('click', function () {
+    localStorage.removeItem("filteredItems")
+    const removedEssentials = filteredExpenses.filter(expense => {
+        return !expense.isEssential
+    })
+    localStorage.setItem("filteredItems", JSON.stringify(removedEssentials))
 })
