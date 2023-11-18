@@ -33,31 +33,31 @@ const expensesMock = [
 
 //ADICIONAR DISPESAS:
 
-function adicionarDespesa() {
-    window.alert('Dispesa adicionada!')
-    const nomeDespesa = document.getElementById('expenseName').value;
-    const dataCompra = document.getElementById('purchaseDate').value;
-    const essencial = document.getElementById('isEssential').value === 'essencial';
-    const valor = parseFloat(document.getElementById('cost').value);
+// function adicionarDespesa() {
+//     window.alert('Dispesa adicionada!')
+//     const nomeDespesa = document.getElementById('expenseName').value;
+//     const dataCompra = document.getElementById('purchaseDate').value;
+//     const essencial = document.getElementById('isEssential').value === 'essencial';
+//     const valor = parseFloat(document.getElementById('cost').value);
 
-    const novaDespesa = {
-        id: Date.now(),
-        expenseName: nomeDespesa,
-        purchaseDate: dataCompra,
-        isEssential: essencial,
-        cost: valor
-    };
+//     const novaDespesa = {
+//         id: Date.now(),
+//         expenseName: nomeDespesa,
+//         purchaseDate: dataCompra,
+//         isEssential: essencial,
+//         cost: valor
+//     };
 
-    expensesMock.push(novaDespesa);
+//     expensesMock.push(novaDespesa);
 
-    // localStorage.setItem("expenses", JSON.stringify(expensesMock));
-    console.log(expensesMock);
-}
+//     // localStorage.setItem("expenses", JSON.stringify(expensesMock));
+//     console.log(expensesMock);
+// }
 
-document.getElementById('addExpenseBtn').addEventListener('click', adicionarDespesa);
+// document.getElementById('addExpenseBtn').addEventListener('click', adicionarDespesa);
 
 
-console.log(expensesMock);
+// console.log(expensesMock);
 
 
 //************************************************************************************************************ */
@@ -156,7 +156,7 @@ const filterExpenses = () => {
 
 }
 
-//Clear filters logic:
+// Clear filters logic:
 
 const clearButton = document.getElementById('clear-filters')
 
@@ -167,7 +167,7 @@ clearButton.addEventListener('click', function () {
     tableContainer.innerHTML = mapTableData(expenses)
 })
 
-//Calculte total cost:
+// Calculte total cost:
 const calculateCosts = (filteredExpenses) => {
     let total = 0
     for (let i = 0; i < filteredExpenses.length; i++) {
@@ -176,12 +176,12 @@ const calculateCosts = (filteredExpenses) => {
     return total.toFixed(2)
 }
 
-//Guardar despesas filtradas:
+// Save expenses total:
 const simulationButton = document.getElementById('simulation-button')
 simulationButton.addEventListener('click', function () {
     localStorage.removeItem("filteredItems")
     const removedEssentials = filteredExpenses.filter(expense => {
         return !expense.isEssential
     })
-    localStorage.setItem("filteredItems", JSON.stringify(removedEssentials))
+    localStorage.setItem("filteredItems", JSON.stringify(calculateCosts(removedEssentials)))
 })
