@@ -122,7 +122,6 @@ const startDateInput = document.getElementById('start-date')
 const endDateInput = document.getElementById('end-date')
 
 const filterElements = [select, startDateInput, endDateInput]
-
 filterElements.forEach(function (element) {
     element.addEventListener("change", function () {
         filteredExpenses = filterExpenses()
@@ -183,5 +182,5 @@ simulationButton.addEventListener('click', function () {
     const removedEssentials = filteredExpenses.filter(expense => {
         return !expense.isEssential
     })
-    localStorage.setItem("filteredItems", JSON.stringify(calculateCosts(removedEssentials)))
+    localStorage.setItem("filteredItems", calculateCosts(removedEssentials))
 })
