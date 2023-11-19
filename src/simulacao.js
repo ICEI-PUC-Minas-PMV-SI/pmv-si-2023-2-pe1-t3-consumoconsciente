@@ -43,7 +43,12 @@ var pre12arr = pre12.toFixed(2)
 
 // Alterando valores  HTML
 
-document.querySelector('#tb-linha-pp3').innerHTML = "R$" + pp3arr
+window.addEventListener('pageshow', function () {
+    const td = document.getElementById('tb-linha-pp3')
+    console.log(td)
+    td.innerHTML = "R$" + pp3arr
+
+})
 
 
 

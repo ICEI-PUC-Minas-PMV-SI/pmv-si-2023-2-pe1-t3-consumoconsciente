@@ -35,22 +35,22 @@ const expensesMock = [
 
 const addExpenseBtn = document.getElementById('addExpenseBtn');
 
-addExpenseBtn.addEventListener('click', function () {
+addExpenseBtn && addExpenseBtn.addEventListener('click', function () {
     const expenseNameInput = document.getElementById('expenseName');
     const purchaseDateInput = document.getElementById('purchaseDate');
     const isEssentialSelect = document.getElementById('isEssential');
     const costInput = document.getElementById('cost');
 
-    
+
     const newExpense = {
-        "id": Math.floor(Math.random() * 100000), 
+        "id": Math.floor(Math.random() * 100000),
         "expenseName": expenseNameInput.value,
         "purchaseDate": purchaseDateInput.value,
         "isEssential": isEssentialSelect.value === 'essencial',
         "cost": parseFloat(costInput.value)
     };
 
-   
+
     expensesMock.push(newExpense);
 
     expenseNameInput.value = '';
@@ -58,7 +58,7 @@ addExpenseBtn.addEventListener('click', function () {
     isEssentialSelect.value = 'essencial';
     costInput.value = '';
 
-    console.log(expensesMock); 
+    console.log(expensesMock);
 });
 
 
