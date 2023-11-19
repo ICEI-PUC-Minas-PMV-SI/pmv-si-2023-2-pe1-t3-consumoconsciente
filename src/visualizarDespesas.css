@@ -141,7 +141,13 @@ th {
     padding: 10px;
 }
 
-.cell-with-pencil {
+.non-essential>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cell-with-pencil>div {
     display: flex;
     justify-content: space-between;
     align-items: center;

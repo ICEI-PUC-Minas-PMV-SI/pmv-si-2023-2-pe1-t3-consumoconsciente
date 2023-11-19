@@ -45,29 +45,28 @@
     <form>
         <h1>Dados do Usuário:</h1>
         <label class="user-data" for="name">Nome</label>
-        <input class="user-data" name="name" placeholder="João da Silva" type="text" disabled>
+        <input class="user-data" name="name" type="text" disabled>
         <label class="user-data" for="email">Email</label>
-        <input class="user-data" name="email" placeholder="joaodasilva@gmail.com" type="text" disabled>
+        <input class="user-data" name="email" type="text" disabled>
         <label class="user-data" for="phone">Telefone</label>
-        <input class="user-data" name="phone" placeholder="(11) 98765-1234" type="text" disabled>
-        <label class="user-data" for="birthDate">Data de Nascimento</label>
-        <input class="user-data" name="birthDate" placeholder="01/02/93" type="text" onfocus="(type='date')" disabled>
+        <input class="user-data" name="phone" type="text" disabled>
         <label class="password-change" for="currentPassword">Digite Senha Atual</label>
         <div class="password-button-box">
             <input class="password-change" name="currentPassword" type="password">
-            <img id="unhide-password1" src="./images/see-password.svg" alt="see-password">
+            <img class="unhide-password" src="./images/see-password.svg" alt="see-password">
         </div>
+        <p class="error-message"></p>
         <label class="password-change" for="newPassword">Digite Senha Nova</label>
         <div class="password-button-box">
             <input class="password-change" name="newPassword" type="password">
-            <img id="unhide-password2" src="./images/see-password.svg" alt="see-password">
+            <img class="unhide-password" src="./images/see-password.svg" alt="see-password">
         </div>
         <label class="password-change" for="verifyPassword">Confirme Senha Nova</label>
         <div class="password-button-box">
             <input class="password-change" name="verifyPassword" type="password">
-            <img id="unhide-password3" src="./images/see-password.svg" alt="see-password">
+            <img class="unhide-password" src="./images/see-password.svg" alt="see-password">
         </div>
-
+        <p class="error-message"></p>
         <div>
             <button id="edit-data" type="button">Editar Dados</button>
             <button id="edit-password" type="button">Editar Senha</button>

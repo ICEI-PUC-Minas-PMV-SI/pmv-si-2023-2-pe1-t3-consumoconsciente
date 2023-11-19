@@ -108,8 +108,8 @@ function mapTableData(expenses) {
     table += '<tr><th>Nome do Item/Despesa</th><th>Data de Compra</th><th>Classificação</th><th>Custo</th></tr>'
     expenses.forEach(expense => {
         expense.isEssential ?
-            table += `<tr><td>${expense.expenseName}</td><td>${formatDate(expense.purchaseDate).formatedDate}</td><td>Essencial</td><td class="cell-with-pencil">R$${expense.cost.toFixed(2)} <img src="./images/pencil.svg" alt="pencil"></td></tr>` :
-            table += `<tr  style="background-color:#fcd2d2"><td>${expense.expenseName}</td><td>${formatDate(expense.purchaseDate).formatedDate}</td><td>Não Essencial</td><td class="cell-with-pencil">R$${expense.cost.toFixed(2)} <img src="./images/pencil.svg" alt="pencil"></td></tr>`
+            table += `<tr><td>${expense.expenseName}</td><td>${formatDate(expense.purchaseDate).formatedDate}</td><td>Essencial</td><td class="cell-with-pencil"><div>R$${expense.cost.toFixed(2)} <img src="./images/pencil.svg" alt="pencil"></div></td></tr>` :
+            table += `<tr class="non-essetial-row"><td>${expense.expenseName}</td><td>${formatDate(expense.purchaseDate).formatedDate}</td><td class="non-essential"><div>Não Essencial <img src="./images/wasted-money.png" alt="burning-money"></div></td><td class="cell-with-pencil"><div>R$${expense.cost.toFixed(2)} <img src="./images/pencil.svg" alt="pencil"></div></td></tr>`
     });
     table += '</table>'
 
@@ -156,7 +156,6 @@ const filterExpenses = () => {
 }
 
 // Clear filters logic:
-
 const clearButton = document.getElementById('clear-filters')
 
 clearButton.addEventListener('click', function () {
