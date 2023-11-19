@@ -3,6 +3,8 @@
 // Puxar valor total das Despesas
 let valor = JSON.parse(localStorage.getItem("filteredItems"))
 
+var valor2 = valor.toFixed(2)
+
 // Calculos
 
 // Poupança
@@ -44,9 +46,46 @@ var pre12arr = pre12.toFixed(2)
 // Alterando valores  HTML
 
 window.addEventListener('pageshow', function () {
-    const td = document.getElementById('tb-linha-pp3')
-    console.log(td)
-    td.innerHTML = "R$" + pp3arr
+
+    const txth1 = document.getElementById('valor-h1')
+    console.log(txth1)
+    txth1.innerHTML = "R$ " + valor2
+
+    const td1 = document.getElementById('tb-linha-pp3')
+    console.log(td1)
+    td1.innerHTML = "R$ " + pp3arr
+
+    const td2 = document.getElementById('tb-linha-pp6')
+    console.log(td2)
+    td2.innerHTML = "R$ " + pp6arr
+
+    const td3 = document.getElementById('tb-linha-pp12')
+    console.log(td3)
+    td3.innerHTML = "R$ " + pp12arr
+
+    const td4 = document.getElementById('tb-linha-cdi3')
+    console.log(td4)
+    td4.innerHTML = "R$ " + cdi3arr
+
+    const td5 = document.getElementById('tb-linha-cdi6')
+    console.log(td5)
+    td5.innerHTML = "R$ " + cdi6arr
+
+    const td6 = document.getElementById('tb-linha-cdi12')
+    console.log(td6)
+    td6.innerHTML = "R$ " + cdi12arr
+
+    const td7 = document.getElementById('tb-linha-pre3')
+    console.log(td7)
+    td7.innerHTML = "R$ " + pre3arr
+
+    const td8 = document.getElementById('tb-linha-pre6')
+    console.log(td8)
+    td8.innerHTML = "R$ " + pre6arr
+
+    const td9 = document.getElementById('tb-linha-pre12')
+    console.log(td9)
+    td9.innerHTML = "R$ " + pre12arr
 
 })
 
