@@ -77,6 +77,13 @@ button {
   text-decoration: none;
 }
 
+h1 {
+  color: #06620f;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
 
 
 .cards {
