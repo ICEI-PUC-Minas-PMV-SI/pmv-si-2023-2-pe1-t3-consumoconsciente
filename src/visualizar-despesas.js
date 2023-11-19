@@ -33,31 +33,33 @@ const expensesMock = [
 
 //ADICIONAR DISPESAS:
 
-// function adicionarDespesa() {
-//     window.alert('Dispesa adicionada!')
-//     const nomeDespesa = document.getElementById('expenseName').value;
-//     const dataCompra = document.getElementById('purchaseDate').value;
-//     const essencial = document.getElementById('isEssential').value === 'essencial';
-//     const valor = parseFloat(document.getElementById('cost').value);
+const addExpenseBtn = document.getElementById('addExpenseBtn');
 
-//     const novaDespesa = {
-//         id: Date.now(),
-//         expenseName: nomeDespesa,
-//         purchaseDate: dataCompra,
-//         isEssential: essencial,
-//         cost: valor
-//     };
+addExpenseBtn.addEventListener('click', function () {
+    const expenseNameInput = document.getElementById('expenseName');
+    const purchaseDateInput = document.getElementById('purchaseDate');
+    const isEssentialSelect = document.getElementById('isEssential');
+    const costInput = document.getElementById('cost');
 
-//     expensesMock.push(novaDespesa);
+    
+    const newExpense = {
+        "id": Math.floor(Math.random() * 100000), 
+        "expenseName": expenseNameInput.value,
+        "purchaseDate": purchaseDateInput.value,
+        "isEssential": isEssentialSelect.value === 'essencial',
+        "cost": parseFloat(costInput.value)
+    };
 
-//     // localStorage.setItem("expenses", JSON.stringify(expensesMock));
-//     console.log(expensesMock);
-// }
+   
+    expensesMock.push(newExpense);
 
-// document.getElementById('addExpenseBtn').addEventListener('click', adicionarDespesa);
+    expenseNameInput.value = '';
+    purchaseDateInput.value = '';
+    isEssentialSelect.value = 'essencial';
+    costInput.value = '';
 
-
-// console.log(expensesMock);
+    console.log(expensesMock); 
+});
 
 
 //************************************************************************************************************ */

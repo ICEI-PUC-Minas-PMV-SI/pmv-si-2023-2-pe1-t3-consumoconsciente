@@ -40,14 +40,14 @@
 
     <section id="add-container">
         <h1>Adicione suas despesas:</h1>
-        <input type="text" class="add-element" placeholder="Nome da despesa">
-        <input type="date" class="add-element">
-        <select class="add-element">
+        <input type="text" id="expenseName" class="add-element" placeholder="Nome da despesa">
+        <input type="date" id="purchaseDate" class="add-element">
+        <select id="isEssential" class="add-element">
             <option value="essencial">Essencial</option>
             <option value="naoEssencial">Não Essencial</option>
         </select>
-        <input type="number" class="add-element" placeholder="R$0,00">
-        <button>+</button>
+        <input type="number" id="cost" class="add-element" placeholder="R$0,00">
+        <button id="addExpenseBtn">+</button>
     </section>
 
     <script>
@@ -62,6 +62,8 @@
             isDropdownOpen = !isDropdownOpen
         })
     </script>
+
+    <script type="module" src="visualizar-despesas.js"></script>
 </body>
 
 </html>
