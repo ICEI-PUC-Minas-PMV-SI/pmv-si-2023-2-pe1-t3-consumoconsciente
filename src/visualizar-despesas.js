@@ -4,28 +4,64 @@ const expensesMock = [
         "expenseName": "Conta de energia elétrica",
         "purchaseDate": "2023-10-02",
         "isEssential": true,
-        "cost": 153.00
+        "cost": 153.00,
+        "userId": "1"
     },
     {
         "id": 85239,
         "expenseName": "Cafézinho",
         "purchaseDate": "2023-03-02",
         "isEssential": false,
-        "cost": 7.50
+        "cost": 7.50,
+        "userId": "1"
     },
     {
         "id": 36451,
         "expenseName": "Tênis da nike",
         "purchaseDate": "2023-04-15",
         "isEssential": false,
-        "cost": 450.00
+        "cost": 450.00,
+        "userId": "2"
     },
     {
         "id": 36451,
         "expenseName": "Conserto do carro",
-        "purchaseDate": "2023-05-24",
+        "purchaseDate": "2023-06-22",
         "isEssential": true,
-        "cost": 1200.00
+        "cost": 1200.00,
+        "userId": "2"
+    },
+    {
+        "id": 45622,
+        "expenseName": "Jantar com a família",
+        "purchaseDate": "2023-08-07",
+        "isEssential": true,
+        "cost": 220.00,
+        "userId": "1"
+    },
+    {
+        "id": 85211,
+        "expenseName": "Video game novo",
+        "purchaseDate": "2023-07-09",
+        "isEssential": false,
+        "cost": 259.99,
+        "userId": "1"
+    },
+    {
+        "id": 36478,
+        "expenseName": "Presente de aniversário",
+        "purchaseDate": "2023-11-12",
+        "isEssential": true,
+        "cost": 150.99,
+        "userId": "2"
+    },
+    {
+        "id": 36452,
+        "expenseName": "Compras de mercado",
+        "purchaseDate": "2023-01-31",
+        "isEssential": true,
+        "cost": 633.00,
+        "userId": "2"
     }
 ]
 
@@ -94,15 +130,21 @@ const formatDate = (date) => {
 
 // Display expenses logic:
 const tableContainer = document.getElementById('table-wrapper')
+const user = JSON.parse(localStorage.getItem("userlogado"))
 let expenses
 let filteredExpenses
 const total = document.getElementById('total-value')
 
 window.addEventListener('pageshow', function () {
     expenses = JSON.parse(localStorage.getItem("expenses"))
-    tableContainer.innerHTML = mapTableData(expenses);
-    filteredExpenses = expenses
-    total.innerHTML = `Total: R$${calculateCosts(filteredExpenses)}`
+    expenses = expenses.filter(expense => {
+        return expense.userId === user.id
+    })
+    if (tableContainer) {
+        tableContainer.innerHTML = mapTableData(expenses);
+        filteredExpenses = expenses
+        total.innerHTML = `Total: R$${calculateCosts(filteredExpenses).replace(".", ",")}`
+    }
 })
 
 function mapTableData(expenses) {
@@ -110,8 +152,8 @@ function mapTableData(expenses) {
     table += '<tr><th>Nome do Item/Despesa</th><th>Data de Compra</th><th>Classificação</th><th>Custo</th></tr>'
     expenses.forEach(expense => {
         expense.isEssential ?
-            table += `<tr><td>${expense.expenseName}</td><td>${formatDate(expense.purchaseDate).formatedDate}</td><td>Essencial</td><td class="cell-with-pencil"><div>R$${expense.cost.toFixed(2)} <img src="./images/pencil.svg" alt="pencil"></div></td></tr>` :
-            table += `<tr class="non-essetial-row"><td>${expense.expenseName}</td><td>${formatDate(expense.purchaseDate).formatedDate}</td><td class="non-essential"><div>Não Essencial <img src="./images/wasted-money.png" alt="burning-money"></div></td><td class="cell-with-pencil"><div>R$${expense.cost.toFixed(2)} <img src="./images/pencil.svg" alt="pencil"></div></td></tr>`
+            table += `<tr><td>${expense.expenseName}</td><td>${formatDate(expense.purchaseDate).formatedDate}</td><td>Essencial</td><td class="cell-with-pencil"><div>R$${expense.cost.toFixed(2).replace(".", ",")} <img src="./images/pencil.svg" alt="pencil"></div></td></tr>` :
+            table += `<tr class="non-essetial-row"><td>${expense.expenseName}</td><td>${formatDate(expense.purchaseDate).formatedDate}</td><td class="non-essential"><div>Não Essencial <img src="./images/wasted-money.png" alt="burning-money"></div></td><td class="cell-with-pencil"><div>R$${expense.cost.toFixed(2).replace(".", ",")} <img src="./images/pencil.svg" alt="pencil"></div></td></tr>`
     });
     table += '</table>'
 
@@ -124,7 +166,7 @@ const startDateInput = document.getElementById('start-date')
 const endDateInput = document.getElementById('end-date')
 
 const filterElements = [select, startDateInput, endDateInput]
-filterElements.forEach(function (element) {
+filterElements[0] && filterElements.forEach(function (element) {
     element.addEventListener("change", function () {
         filteredExpenses = filterExpenses()
         tableContainer.innerHTML = mapTableData(filteredExpenses)
@@ -160,7 +202,7 @@ const filterExpenses = () => {
 // Clear filters logic:
 const clearButton = document.getElementById('clear-filters')
 
-clearButton.addEventListener('click', function () {
+clearButton && clearButton.addEventListener('click', function () {
     select.value = "default"
     startDateInput.value = ""
     endDateInput.value = ""
@@ -170,15 +212,17 @@ clearButton.addEventListener('click', function () {
 // Calculte total cost:
 const calculateCosts = (filteredExpenses) => {
     let total = 0
-    for (let i = 0; i < filteredExpenses.length; i++) {
-        total += filteredExpenses[i].cost
+    if (filteredExpenses) {
+        for (let i = 0; i < filteredExpenses.length; i++) {
+            total += filteredExpenses[i].cost
+        }
     }
     return total.toFixed(2)
 }
 
 // Save expenses total:
 const simulationButton = document.getElementById('simulation-button')
-simulationButton.addEventListener('click', function () {
+simulationButton && simulationButton.addEventListener('click', function () {
     localStorage.removeItem("filteredItems")
     const removedEssentials = filteredExpenses.filter(expense => {
         return !expense.isEssential

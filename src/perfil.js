@@ -1,15 +1,7 @@
-const userMock = {
-    name: "Sofia Pitta",
-    email: "sofiapitta@email.com",
-    phone: "(11) 99999-1234",
-    password: "123456",
-}
-
 let userData
 
 window.addEventListener('pageshow', function () {
-    localStorage.setItem("user", JSON.stringify(userMock))
-    userData = JSON.parse(localStorage.getItem("user"))
+    userData = JSON.parse(localStorage.getItem("userlogado"))
 })
 
 // Dropdown logic:
@@ -26,9 +18,9 @@ document.getElementById('dropdown').addEventListener('click', function () {
 
 //Display user resgistered data in inputs:
 window.addEventListener('pageshow', function () {
-    userDataInputs[1].value = userData.name
-    userDataInputs[3].value = userData.email
-    userDataInputs[5].value = userData.phone
+    userDataInputs[1].value = userData.nomeusuario
+    userDataInputs[3].value = userData.emailusuario
+    userDataInputs[5].value = userData.telefoneusuario
 })
 
 // Edit user data inputs and button behavior:
@@ -115,8 +107,6 @@ const showUserDataInputs = () => {
     for (let j = 0; j < passwordInputs.length; j++) {
         passwordInputs[j].style.display = "none"
     }
-    errorMessageFields[0].innerHTML = ""
-    errorMessageFields[1].innerHTML = ""
     editButton.innerHTML = "Editar Dados"
     passwordButton.innerHTML = "Editar Senha"
     passwordButtonClicked = !passwordButtonClicked
@@ -137,35 +127,40 @@ const disableUserDatainputs = () => {
 const saveNewUserData = () => {
     userData = {
         ...userData,
-        name: userDataInputs[1].value,
-        email: userDataInputs[3].value,
-        phone: userDataInputs[5].value
+        nomeusuario: userDataInputs[1].value,
+        emailusuario: userDataInputs[3].value,
+        telefoneusuario: userDataInputs[5].value
     }
-    localStorage.removeItem("user")
-    localStorage.setItem("user", JSON.stringify(userData))
+    localStorage.removeItem("userlogado")
+    localStorage.setItem("userlogado", JSON.stringify(userData))
 }
 
 //Save new password to local storage:
 const saveNewPassword = () => {
-    const validCurrentPassword = userData.password === passwordInputs[1].value
-    const newPasswordsMatch = passwordInputs[3].value === passwordInputs[5].value
-    const currentPassSameAsNewPass = passwordInputs[1].value === passwordInputs[3].value
+    errorMessageFields[0].innerHTML = ""
+    errorMessageFields[1].innerHTML = ""
 
-    if (validCurrentPassword && newPasswordsMatch && !currentPassSameAsNewPass) {
+    const emptyInputs = !passwordInputs[1].value || !passwordInputs[3].value || !passwordInputs[5].value
+    const validCurrentPassword = userData.senha === passwordInputs[1].value
+    const newPasswordsMatch = passwordInputs[3].value === passwordInputs[5].value
+    const currentPassSameAsNewPass = userData.senha === passwordInputs[3].value
+
+    if (validCurrentPassword && newPasswordsMatch && !currentPassSameAsNewPass && !emptyInputs) {
         userData = {
             ...userData,
-            password: passwordInputs[3].value
+            senha: passwordInputs[3].value
         }
-        localStorage.removeItem("user")
-        localStorage.setItem("user", JSON.stringify(userData))
-        errorMessageFields[0].innerHTML = ""
+        localStorage.removeItem("userlogado")
+        localStorage.setItem("userlogado", JSON.stringify(userData))
         clearPassInputs()
         showUserDataInputs()
+    } else if (emptyInputs) {
+        errorMessageFields[1].innerHTML = "Preencha todos os campos"
     } else if (!validCurrentPassword) {
         errorMessageFields[0].innerHTML = "Senha atual inválida"
     } else if (!newPasswordsMatch) {
         errorMessageFields[1].innerHTML = "Ambas as senhas precisam ser iguais"
-    } else {
+    } else if (!newPasswordsMatch) {
         errorMessageFields[1].innerHTML = "Sua nova senha deve ser diferente da senha atual"
     }
 }
@@ -176,4 +171,6 @@ const clearPassInputs = () => {
         passwordInputs[i].value = ""
         passwordInputs[i].type = "password"
     }
+    errorMessageFields[0].innerHTML = ""
+    errorMessageFields[1].innerHTML = ""
 }

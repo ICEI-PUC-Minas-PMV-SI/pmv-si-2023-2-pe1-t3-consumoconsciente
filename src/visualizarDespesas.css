@@ -121,6 +121,21 @@ input {
     color: #E9EDE8;
 }
 
+#edit-table-pop-up {
+    display: none;
+    position: absolute;
+    right: calc(50vw - 170px);
+    top: calc(50vh - 50px);
+    background-color: #2DB237;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#edit-table-pop-up>div>button {}
+
 table {
     margin: 3% 0 1% 0;
     width: 100%;
