@@ -61,3 +61,4 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Data de Compra | Texto             | Data que o produto foi adquirido          | 01/10/2023                                     |
 | Classificação  | Boolean           | Se o item é Essencial ou não              | false (Não Essencial)                      |
 | Custo          | Float             | Valor do item adquirido                   | 100,00                                      |
+| Id do Usuário  | Número (Inteiro)  | Identificador único do usuário            | 1545646 |
