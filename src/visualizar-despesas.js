@@ -137,12 +137,11 @@ const total = document.getElementById('total-value')
 
 window.addEventListener('pageshow', function () {
     expenses = JSON.parse(localStorage.getItem("expenses"))
-    expenses = expenses.filter(expense => {
+    filteredExpenses = expenses.filter(expense => {
         return expense.userId === user.id
     })
     if (tableContainer) {
-        tableContainer.innerHTML = mapTableData(expenses);
-        filteredExpenses = expenses
+        tableContainer.innerHTML = mapTableData(filteredExpenses);
         total.innerHTML = `Total: R$${calculateCosts(filteredExpenses).replace(".", ",")}`
     }
 })
@@ -152,8 +151,8 @@ function mapTableData(expenses) {
     table += '<tr><th>Nome do Item/Despesa</th><th>Data de Compra</th><th>Classificação</th><th>Custo</th></tr>'
     expenses.forEach(expense => {
         expense.isEssential ?
-            table += `<tr><td>${expense.expenseName}</td><td>${formatDate(expense.purchaseDate).formatedDate}</td><td>Essencial</td><td class="cell-with-pencil"><div>R$${expense.cost.toFixed(2).replace(".", ",")} <img src="./images/pencil.svg" alt="pencil"></div></td></tr>` :
-            table += `<tr class="non-essetial-row"><td>${expense.expenseName}</td><td>${formatDate(expense.purchaseDate).formatedDate}</td><td class="non-essential"><div>Não Essencial <img src="./images/wasted-money.png" alt="burning-money"></div></td><td class="cell-with-pencil"><div>R$${expense.cost.toFixed(2).replace(".", ",")} <img src="./images/pencil.svg" alt="pencil"></div></td></tr>`
+            table += `<tr><td>${expense.expenseName}</td><td>${formatDate(expense.purchaseDate).formatedDate}</td><td>Essencial</td><td class="cell-with-pencil"><div>R$${expense.cost.toFixed(2).replace(".", ",")} <img onclick='editExpense(${JSON.stringify(expense)})' src="./images/pencil.svg" alt="pencil"></div></td></tr>` :
+            table += `<tr class="non-essetial-row"><td>${expense.expenseName}</td><td>${formatDate(expense.purchaseDate).formatedDate}</td><td class="non-essential"><div>Não Essencial <img src="./images/wasted-money.png" alt="burning-money"></div></td><td class="cell-with-pencil"><div>R$${expense.cost.toFixed(2).replace(".", ",")} <img onclick='editExpense(${JSON.stringify(expense)})' src="./images/pencil.svg" alt="pencil"></div></td></tr>`
     });
     table += '</table>'
 
@@ -175,7 +174,10 @@ filterElements[0] && filterElements.forEach(function (element) {
 })
 
 const filterExpenses = () => {
-    filteredExpenses = expenses
+    filteredExpenses = expenses.filter(expense => {
+        return expense.userId === user.id
+    })
+
     selectOptions = {
         essencial: filteredExpenses.filter(expense => {
             return expense.isEssential
@@ -206,7 +208,9 @@ clearButton && clearButton.addEventListener('click', function () {
     select.value = "default"
     startDateInput.value = ""
     endDateInput.value = ""
-    tableContainer.innerHTML = mapTableData(expenses)
+    tableContainer.innerHTML = mapTableData(expenses.filter(expense => {
+        return expense.userId === user.id
+    }))
 })
 
 // Calculte total cost:
@@ -228,4 +232,57 @@ simulationButton && simulationButton.addEventListener('click', function () {
         return !expense.isEssential
     })
     localStorage.setItem("filteredItems", calculateCosts(removedEssentials))
+})
+
+// Edit expense pop up:
+const popUp = document.getElementById('edit-table-pop-up')
+let isPopUpOpened = false
+const editExpenseInputs = document.querySelectorAll('.edit-expense')
+
+const editExpense = (expense) => {
+    editExpenseInputs[0].value = expense.expenseName
+    editExpenseInputs[1].value = expense.purchaseDate
+    editExpenseInputs[2].value = expense.isEssential ? "essencial" : "naoEssencial"
+    editExpenseInputs[3].value = `${(expense.cost).toFixed(2)}`
+
+    saveOrDeleteNewExpense(expense)
+    popUp.style.display = "flex"
+    isPopUpOpened = !isPopUpOpened
+}
+
+// Save new expense or delete expense:
+const saveButton = document.getElementById('save-button')
+const deleteButton = document.getElementById('delete-button')
+
+const saveOrDeleteNewExpense = (expense) => {
+    const removedExpense = expenses.filter((element) => {
+        return element.id !== expense.id
+    })
+
+    saveButton.addEventListener('click', function () {
+        const newExpense = {
+            ...expense,
+            expenseName: editExpenseInputs[0].value,
+            purchaseDate: editExpenseInputs[1].value,
+            isEssential: editExpenseInputs[2].value === "essencial" ? true : false,
+            cost: Number(editExpenseInputs[3].value)
+        }
+
+        localStorage.removeItem("expenses")
+        localStorage.setItem("expenses", JSON.stringify([...removedExpense, newExpense]))
+        window.location.reload()
+    })
+
+    deleteButton.addEventListener('click', function () {
+        localStorage.removeItem("expenses")
+        localStorage.setItem("expenses", JSON.stringify([...removedExpense]))
+        window.location.reload()
+    })
+}
+
+// Cancel editing expense:
+const cancelButton = document.getElementById('cancel-button')
+cancelButton.addEventListener('click', function () {
+    popUp.style.display = "none"
+    isPopUpOpened = !isPopUpOpened
 })

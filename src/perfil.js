@@ -16,7 +16,7 @@ document.getElementById('dropdown').addEventListener('click', function () {
     isDropdownOpen = !isDropdownOpen
 })
 
-//Display user resgistered data in inputs:
+// Display user resgistered data in inputs:
 window.addEventListener('pageshow', function () {
     userDataInputs[1].value = userData.nomeusuario
     userDataInputs[3].value = userData.emailusuario
@@ -63,7 +63,7 @@ passwordButton.addEventListener('click', function () {
     }
 })
 
-//Hide/unhide password logic:
+// Hide/unhide password logic:
 for (let i = 0; i < unhidePassButtons.length; i++) {
     unhidePassButtons[i].addEventListener('click', function () {
         const passInputIndex = 2 * i + 1
@@ -86,7 +86,7 @@ const enableUserDatainputs = () => {
     editButtonClicked = !editButtonClicked
 }
 
-//Show password inputs for editing password:
+// Show password inputs for editing password:
 const showPasswordInputs = () => {
     for (let i = 0; i < userDataInputs.length; i++) {
         userDataInputs[i].style.display = "none"
@@ -99,7 +99,7 @@ const showPasswordInputs = () => {
     passwordButtonClicked = !passwordButtonClicked
 }
 
-//Change from password inputs back to user data inputs:
+// Change from password inputs back to user data inputs:
 const showUserDataInputs = () => {
     for (let i = 0; i < userDataInputs.length; i++) {
         userDataInputs[i].style.display = "inline-block"
@@ -112,7 +112,7 @@ const showUserDataInputs = () => {
     passwordButtonClicked = !passwordButtonClicked
 }
 
-//Disable user data inputs after saving/cancelling:
+// Disable user data inputs after saving/cancelling:
 const disableUserDatainputs = () => {
     for (let j = 0; j < 3; j++) {
         inputs[j].disabled = true
@@ -123,7 +123,7 @@ const disableUserDatainputs = () => {
     editButtonClicked = !editButtonClicked
 }
 
-//Save new user data to local storage:
+// Save new user data to local storage:
 const saveNewUserData = () => {
     userData = {
         ...userData,
@@ -135,10 +135,11 @@ const saveNewUserData = () => {
     localStorage.setItem("userlogado", JSON.stringify(userData))
 }
 
-//Save new password to local storage:
+// Save new password to local storage:
+const errorMessageBoxes = document.getElementsByClassName('error-message-box')
+
 const saveNewPassword = () => {
-    errorMessageFields[0].innerHTML = ""
-    errorMessageFields[1].innerHTML = ""
+    clearErrorMessages()
 
     const emptyInputs = !passwordInputs[1].value || !passwordInputs[3].value || !passwordInputs[5].value
     const validCurrentPassword = userData.senha === passwordInputs[1].value
@@ -155,22 +156,35 @@ const saveNewPassword = () => {
         clearPassInputs()
         showUserDataInputs()
     } else if (emptyInputs) {
-        errorMessageFields[1].innerHTML = "Preencha todos os campos"
+        errorMessageBoxes[1].style.display = "flex"
+        showErrors(1, "Preencha todos os campos")
     } else if (!validCurrentPassword) {
-        errorMessageFields[0].innerHTML = "Senha atual inválida"
+        showErrors(0, "Senha atual inválida")
     } else if (!newPasswordsMatch) {
-        errorMessageFields[1].innerHTML = "Ambas as senhas precisam ser iguais"
+        showErrors(1, "Ambas as senhas precisam ser iguais")
     } else if (!newPasswordsMatch) {
-        errorMessageFields[1].innerHTML = "Sua nova senha deve ser diferente da senha atual"
+        showErrors(1, "Sua nova senha deve ser diferente da senha atual")
     }
 }
 
-//Clear password inputs:
+// Clear password inputs:
 const clearPassInputs = () => {
     for (let i = 1; i < 6; i += 2) {
         passwordInputs[i].value = ""
         passwordInputs[i].type = "password"
     }
+    clearErrorMessages()
+}
+
+const clearErrorMessages = () => {
     errorMessageFields[0].innerHTML = ""
     errorMessageFields[1].innerHTML = ""
+    errorMessageBoxes[0].style.display = "none"
+    errorMessageBoxes[1].style.display = "none"
+}
+
+// Show error messages:
+const showErrors = (index, message) => {
+    errorMessageBoxes[index].style.display = "flex"
+    errorMessageFields[index].innerHTML = message
 }

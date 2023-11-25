@@ -123,6 +123,25 @@ input.user-data {
     display: none;
 }
 
+.error-message-box {
+    display: none;
+    font-weight: 700;
+    width: 284.668px;
+    border-radius: 10px;
+    background-color: #E9EDE8;
+    border: 1px solid #13472E;
+    padding: 5px 10px;
+    align-items: center;
+    margin: 5px 0;
+    justify-content: center;
+}
+
+.error-message-box>img {
+    display: block;
+    height: 100%;
+    margin-right: 10px;
+}
+
 form>div {
     margin-top: 10px;
 }
