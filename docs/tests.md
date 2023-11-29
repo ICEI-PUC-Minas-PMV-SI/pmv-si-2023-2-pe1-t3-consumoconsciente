@@ -22,7 +22,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 ## Plano de Testes de Software
 
-Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito  Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
+Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
 **Caso de Teste** | **CT01 - Criar conta parte 1**
@@ -39,6 +39,56 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Requisitos associados** | RF-001
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Resultado obtido** | Sucesso.
+
+---
+
+**Caso de Teste** | **CT01 - Editar dados do usuário**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário clica na página do perfil e clica em editar dados.<br>2) Os campos com os dados do usuário ficam habilitados para edição.<br>3) Usuário edita os campos conforme necessário e clica em salvar.<br>4) Os inputs são desabilitados novamente. A aplicação armazena os dados novos e os exibe nos inputs.
+**Requisitos associados** | RF-003
+**Resultado esperado** | Edição dos dados do usuário
+**Dados de entrada** | Inserção de dados no formulário de informações cadastradas.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT02 - Editar senha**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário clica na página do perfil e clica em editar senha.<br>2) Os campos para inserir a senha atual e a nova senha são exibidos na tela.<br>3) Usuário adiciona sua senha atual e sua senha nova<br>4) Aplicação verifica se os campos são válidos e informa o usuário caso não sejam.<br>4) A aplicação volta a exibir os inputs anteriores em caso de sucesso.
+**Requisitos associados** | RF-003
+**Resultado esperado** | Edição dos dados da senha
+**Dados de entrada** | Inserção da senha atual, nova senha e confirmação da senha.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT03 - Visualizar despesas cadastradas**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário clica na página de visualizar depesas.<br>2) As despesas que ele cadastrou anteriormente são exibidas na tabela de despesa, informando os nomes, custos, classificações (essencial ou não essencial) e datas em que foram realizadas.
+**Requisitos associados** | RF-007
+**Resultado esperado** | Exibição das despesas cadastradas
+**Dados de entrada** | - 
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT04 - Editar as despesas registradas**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário clica na página de visualizar depesas.<br>2) Usuário escolhe uma despesa para editar e clica no ícone do lápis<br>3) Um modal é exibido com os campos onde o usuário pode editar as informações sobre a despesa<br>4) Usuário edita os campos e clica em salvar.<br> A aplicação atualiza a despesa editada.
+**Requisitos associados** | RF-008
+**Resultado esperado** | Edição de despesas cadastradas
+**Dados de entrada** | Inserção de informações sobre a despesa nos campos da despesa registrada
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT05 - Deletar as despesas registradas**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário clica na página de visualizar depesas.<br>2) Usuário escolhe uma despesa para deletar e clica no ícone do lápis<br>3) Um modal é exibido com a opção de deletar a despesa clicada<br>4) Usuário clica em deletar.<br>5) A aplicação remove a despesa selecionada da listagem de despesas salvas.
+**Requisitos associados** | RF-008
+**Resultado esperado** | Deleção de despesas cadastradas
+**Dados de entrada** | -
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT06 - Filtrar as despesas registradas**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário clica na página de visualizar depesas.<br>2) Usuário escolhe uma classificação de despesas (essencial ou não essencial) e/ou um período de tempo em que as depesas foram realizadas<br>3) A aplicação exibe apenas as despesas que se encaixam dentro do filtro utilizado.
+**Requisitos associados** | RF-009
+**Resultado esperado** | Exibição de despesas cadastradas dependendo do filtro adicionado
+**Dados de entrada** | Inserção da classificação das depesas e/ou período em que as despesas foram realizadas
 **Resultado obtido** | Sucesso.
 
 ## Registro dos Testes de Software
