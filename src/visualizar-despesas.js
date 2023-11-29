@@ -77,15 +77,16 @@ addExpenseBtn && addExpenseBtn.addEventListener('click', function () {
     const isEssentialSelect = document.getElementById('isEssential');
     const costInput = document.getElementById('cost');
 
+    const userlogado = JSON.parse(localStorage.getItem("userlogado"));
 
     const newExpense = {
         "id": Math.floor(Math.random() * 100000),
         "expenseName": expenseNameInput.value,
         "purchaseDate": purchaseDateInput.value,
         "isEssential": isEssentialSelect.value === 'essencial',
-        "cost": parseFloat(costInput.value)
+        "cost": parseFloat(costInput.value),
+        "userId": userlogado ? userlogado.user_id : "Usuário não cadastrado!" 
     };
-
 
     expensesMock.push(newExpense);
 
@@ -95,6 +96,7 @@ addExpenseBtn && addExpenseBtn.addEventListener('click', function () {
     costInput.value = '';
 
     console.log(expensesMock);
+    console.log(userlogado);
 });
 
 
