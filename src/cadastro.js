@@ -83,25 +83,30 @@ function limparformsenhas(){
 }
 
 
+
 /*Função Cadastro*/
-function cadastroNovo(){
+function cadastroNovo() {
     var nome = document.getElementById("nome").value;
     var email = document.getElementById("email").value;
     var tel = document.getElementById("tel").value;
     var senha = document.getElementById("senha").value;
 
+    var user_id = generateUserId();
+
     var novoCadastro = {
+        "user_id": user_id,
         "nomeusuario": nome,
         "emailusuario": email,
         "telefoneusuario": tel,
-        "senha" : senha
+        "senha": senha
     }
 
     bancoContatos.push(novoCadastro);
-    localStorage.setItem("userlogado",   JSON.stringify(novoCadastro));
-    localStorage.setItem("cadastros",   JSON.stringify(bancoContatos));
+    localStorage.setItem("userlogado", JSON.stringify(novoCadastro));
+    localStorage.setItem("cadastros", JSON.stringify(bancoContatos));
     console.log(bancoContatos);
-
 }
 
-
+function generateUserId() {
+    return Date.now().toString();
+}
