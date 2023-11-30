@@ -1,73 +1,4 @@
-const expensesMock = [
-    {
-        "id": 45647,
-        "expenseName": "Conta de energia elétrica",
-        "purchaseDate": "2023-10-02",
-        "isEssential": true,
-        "cost": 153.00,
-        "userId": "1"
-    },
-    {
-        "id": 85239,
-        "expenseName": "Cafézinho",
-        "purchaseDate": "2023-03-02",
-        "isEssential": false,
-        "cost": 7.50,
-        "userId": "1"
-    },
-    {
-        "id": 36451,
-        "expenseName": "Tênis da nike",
-        "purchaseDate": "2023-04-15",
-        "isEssential": false,
-        "cost": 450.00,
-        "userId": "2"
-    },
-    {
-        "id": 36451,
-        "expenseName": "Conserto do carro",
-        "purchaseDate": "2023-06-22",
-        "isEssential": true,
-        "cost": 1200.00,
-        "userId": "2"
-    },
-    {
-        "id": 45622,
-        "expenseName": "Jantar com a família",
-        "purchaseDate": "2023-08-07",
-        "isEssential": true,
-        "cost": 220.00,
-        "userId": "1"
-    },
-    {
-        "id": 85211,
-        "expenseName": "Video game novo",
-        "purchaseDate": "2023-07-09",
-        "isEssential": false,
-        "cost": 259.99,
-        "userId": "1"
-    },
-    {
-        "id": 36478,
-        "expenseName": "Presente de aniversário",
-        "purchaseDate": "2023-11-12",
-        "isEssential": true,
-        "cost": 150.99,
-        "userId": "2"
-    },
-    {
-        "id": 36452,
-        "expenseName": "Compras de mercado",
-        "purchaseDate": "2023-01-31",
-        "isEssential": true,
-        "cost": 633.00,
-        "userId": "2"
-    }
-]
-
-//************************************************************************************************************ */
-
-//ADICIONAR DISPESAS:
+// ADICIONAR DISPESAS:
 
 const addExpenseBtn = document.getElementById('addExpenseBtn');
 
@@ -93,8 +24,6 @@ addExpenseBtn && addExpenseBtn.addEventListener('click', function () {
     purchaseDateInput.value = '';
     isEssentialSelect.value = 'essencial';
     costInput.value = '';
-
-    console.log(expensesMock);
 });
 
 
@@ -227,7 +156,6 @@ const calculateCosts = (filteredExpenses) => {
 // Save expenses total:
 const simulationButton = document.getElementById('simulation-button')
 simulationButton && simulationButton.addEventListener('click', function () {
-    localStorage.removeItem("filteredItems")
     const removedEssentials = filteredExpenses.filter(expense => {
         return !expense.isEssential
     })
@@ -268,13 +196,11 @@ const saveOrDeleteNewExpense = (expense) => {
             cost: Number(editExpenseInputs[3].value)
         }
 
-        localStorage.removeItem("expenses")
         localStorage.setItem("expenses", JSON.stringify([...removedExpense, newExpense]))
         window.location.reload()
     })
 
     deleteButton.addEventListener('click', function () {
-        localStorage.removeItem("expenses")
         localStorage.setItem("expenses", JSON.stringify([...removedExpense]))
         window.location.reload()
     })

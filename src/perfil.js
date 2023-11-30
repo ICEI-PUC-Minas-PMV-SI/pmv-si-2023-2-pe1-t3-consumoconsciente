@@ -1,7 +1,9 @@
 let userData
+let registeredUsers
 
 window.addEventListener('pageshow', function () {
     userData = JSON.parse(localStorage.getItem("userlogado"))
+    registeredUsers = JSON.parse(this.localStorage.getItem("cadastros"))
 })
 
 // Dropdown logic:
@@ -131,7 +133,10 @@ const saveNewUserData = () => {
         emailusuario: userDataInputs[3].value,
         telefoneusuario: userDataInputs[5].value
     }
-    localStorage.removeItem("userlogado")
+    const filteredRegisteredUsers = registeredUsers.filter(user => {
+        return user.id !== userData.id
+    })
+    localStorage.setItem("cadastros", JSON.stringify([...filteredRegisteredUsers, userData]))
     localStorage.setItem("userlogado", JSON.stringify(userData))
 }
 
@@ -151,7 +156,10 @@ const saveNewPassword = () => {
             ...userData,
             senha: passwordInputs[3].value
         }
-        localStorage.removeItem("userlogado")
+        const filteredRegisteredUsers = registeredUsers.filter(user => {
+            return user.id !== userData.id
+        })
+        localStorage.setItem("cadastros", JSON.stringify([...filteredRegisteredUsers, userData]))
         localStorage.setItem("userlogado", JSON.stringify(userData))
         clearPassInputs()
         showUserDataInputs()
