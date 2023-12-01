@@ -10,11 +10,11 @@ body {
     transition: background 0.4s ease-in;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-#seta{
+#seta {
     position: fixed;
     border-radius: 50%;
     width: 50px;
@@ -25,13 +25,13 @@ html{
     bottom: 20px;
     right: 20px;
     z-index: 2;
-  }
+}
 
-  #seta:hover{
+#seta:hover {
     background-color: #13472E;
-    opacity:unset;
+    opacity: unset;
     color: white;
-  }
+}
 
 
 /* PÁGINA INICIAL/NAVBAR */
@@ -76,7 +76,11 @@ span:first-letter {
 #nav-links {
     display: flex;
     align-items: center;
-    
+
+}
+
+a {
+    cursor: pointer;
 }
 
 #dropdown-content #nav-links a {
@@ -107,56 +111,58 @@ button {
     cursor: pointer;
 }
 
-#direcionarPararBaixo{
+#direcionarPararBaixo {
     text-align: center;
     margin-top: -5px;
 }
 
 hr {
-    border: 1px solid #4d4d4d; 
-  }
+    border: 1px solid #4d4d4d;
+}
 
 #conteudoHeader {
     display: flex;
-    align-items: center; 
-    justify-content: space-between; 
+    align-items: center;
+    justify-content: space-between;
     width: 85%;
     margin: auto;
     margin-top: 110px;
-  }
+}
 
-  #conteudoHeader h2{
-    flex: 1; 
+#conteudoHeader h2 {
+    flex: 1;
     font-size: 2.1vw;
     line-height: 1.5;
     color: #4d4d4d;
-  }
-  
-  figure {
-    flex: 1; 
+}
+
+figure {
+    flex: 1;
     transform: translateY(0px);
     animation: float 4s ease-in-out infinite;
-  }
+}
 
-  figure img{
+figure img {
     width: 700px;
     max-width: 100%;
     height: auto;
-  }
-  
-  @keyframes float{
-    0%{
+}
+
+@keyframes float {
+    0% {
         transform: translateY(0px);
     }
-    50%{
+
+    50% {
         transform: translateY(-50px);
     }
-    100%{
+
+    100% {
         transform: translateY(0px);
     }
 }
-  
-  
+
+
 /* CARROAEL DE DICAS */
 
 #slider {
@@ -167,17 +173,18 @@ hr {
     font-family: 'Helvetica Neue', sans-serif;
     perspective: 1400px;
     transform-style: preserve-3d;
-  }
+}
 
 
-#tituloDicas, #manual h1{
+#tituloDicas,
+#manual h1 {
     margin-top: 60px;
     text-align: center;
     font-size: 3.5vw;
     color: #13472E;
 }
 
-  input[type=radio] {
+input[type=radio] {
     position: relative;
     top: 108%;
     left: 52%;
@@ -187,18 +194,18 @@ hr {
     opacity: 0.4;
     transform: translateX(-83px);
     cursor: pointer;
-  }
+}
 
-  input[type=radio]:nth-child(4) {
+input[type=radio]:nth-child(4) {
     margin-right: 0px;
-  }
+}
 
-  input[type=radio]:checked {
+input[type=radio]:checked {
     opacity: 1;
-  }
+}
 
-  #slider label,
-  #slider label img {
+#slider label,
+#slider label img {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -213,135 +220,142 @@ hr {
     align-items: center;
     justify-content: center;
     transition: transform 400ms ease;
-  }
+}
 
 
-  #s1:checked ~ #slide1,
-  #s2:checked ~ #slide2,
-  #s3:checked ~ #slide3 {
-    box-shadow: 0 13px 26px rgba(0,0,0, 0.3), 0 12px 6px rgba(0,0,0, 0.2);
+#s1:checked~#slide1,
+#s2:checked~#slide2,
+#s3:checked~#slide3 {
+    box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3), 0 12px 6px rgba(0, 0, 0, 0.2);
     transform: translate3d(0%, 0, 0px);
-  }
+}
 
-  #s1:checked ~ #slide2,
-  #s2:checked ~ #slide3,
-  #s3:checked ~ #slide1 {
-    box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
+#s1:checked~#slide2,
+#s2:checked~#slide3,
+#s3:checked~#slide1 {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
     transform: translate3d(20%, 0, -100px);
-  }
+}
 
-  #s1:checked ~ #slide3,
-  #s2:checked ~ #slide1,
-  #s3:checked ~ #slide2 {
-    box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
+#s1:checked~#slide3,
+#s2:checked~#slide1,
+#s3:checked~#slide2 {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
     transform: translate3d(-20%, 0, -100px);
-  }
+}
 
 
-  /* MANUAL */
+/* MANUAL */
 
-  #manual{
+#manual {
     text-align: center;
     margin-bottom: 100px;
-    
-  }
 
-  #manual h1{
+}
+
+#manual h1 {
     margin-bottom: 60px;
-  }
+}
 
 #manual section {
-    width: 600px; 
+    width: 600px;
     height: 300px;
-    border: 2px solid #13472E; 
+    border: 2px solid #13472E;
     border-left: 6px solid #13472E;
-    margin: auto 50px 50px 50px ;
-    position: relative; 
-    display:inline-table; 
+    margin: auto 50px 50px 50px;
+    position: relative;
+    display: inline-table;
     cursor: pointer;
-    background: -webkit-linear-gradient(to right, #2db2381f, #13472e73);  
-    background: linear-gradient(to right, #2db2381f, #13472e73); 
+    background: -webkit-linear-gradient(to right, #2db2381f, #13472e73);
+    background: linear-gradient(to right, #2db2381f, #13472e73);
     border-radius: 20px;
 }
 
-#manual section h2{
+#manual section h2 {
     margin-top: 50px;
     margin-bottom: 30px;
     color: #03341c;
 }
 
-#manual section p{
+#manual section p {
     font-size: 25px;
     padding: 5px;
     color: #03341c;
     width: 90%;
-    margin: auto;    
+    margin: auto;
 }
 
 
-  /* FOOTER */
+/* FOOTER */
 
-  .footer {
+.footer {
     border-top: 40px;
     padding: 30px 0px;
     text-align: center;
-    
-    }
 
-    .footer, .footer ul, .footer .row, .footer .row ul, .footer .row ul li, .footer .row ul li a, .footer .row a2, .footer .copy{
-        background-color: #f9faf8;
-    }
+}
 
-    .footer .row {
-        width: 100%;
-        margin: 1% 0%;
-        padding: 0.6% 0%;
-        color: gray;
-        font-size: 1.3em;
-        align-items: center;
-    }
+.footer,
+.footer ul,
+.footer .row,
+.footer .row ul,
+.footer .row ul li,
+.footer .row ul li a,
+.footer .row a2,
+.footer .copy {
+    background-color: #f9faf8;
+}
 
-    .footer .row ul {
-        width: 100%;
-    }
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 1.3em;
+    align-items: center;
+}
 
-    footer .row ul :hover {
-        background-color: #2db237;
-    }
+.footer .row ul {
+    width: 100%;
+}
 
-    .footer .row ul li {
-        display: inline-block;
-        margin: 0px 30px;
-    }
+footer .row ul :hover {
+    background-color: #2db237;
+}
 
-    .footer .row ul li a {
-        color: gray;
-        text-decoration: none;
-    }
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
 
-    .footer .copy{
-        color: gray;
-    }
+.footer .row ul li a {
+    color: gray;
+    text-decoration: none;
+}
+
+.footer .copy {
+    color: gray;
+}
 
 
 
 /* RESPONSIVIDADE PÁGINA INICIAL/NAVBAR */
 
-@media screen and (max-width: 700px){
-    #conteudoHeader h2{
+@media screen and (max-width: 700px) {
+    #conteudoHeader h2 {
         font-size: 3vw;
         text-align: center;
-      }
+    }
 
-      #conteudoHeader {
+    #conteudoHeader {
         display: flex;
         flex-direction: column;
         margin-top: 50px;
-      }
+    }
 
-      figure img{
+    figure img {
         width: 500px;
-      }
+    }
 
 }
 
@@ -350,7 +364,7 @@ hr {
     #dropdown {
         display: flex;
         align-items: flex-end;
-        position: relative;   
+        position: relative;
     }
 
     #dropdown-content {
@@ -390,47 +404,48 @@ hr {
     .link {
         background-color: transparent;
         color: #13472E;
-        
-    }  
+
+    }
 }
 
-@media(max-width:448px){
-    #direcionarPararBaixo img{
-    width: 30px;
-    padding: 7px;
+@media(max-width:448px) {
+    #direcionarPararBaixo img {
+        width: 30px;
+        padding: 7px;
     }
 }
 
 
 /* RESPONSIVIDADE DICAS */
 
-@media(max-width: 1100px){
+@media(max-width: 1100px) {
 
     input[type=radio] {
         left: 60%;
         width: 13px;
     }
 
-    #slider{
+    #slider {
         margin: 50px auto 120px;
     }
 
-    #tituloDicas, #manual h1{
-       
+    #tituloDicas,
+    #manual h1 {
+
         font-size: 5vw;
-    } 
+    }
 }
 
-@media(max-width: 600px){
-    
+@media(max-width: 600px) {
+
     #slider {
         width: 75%;
         height: 40vw;
         margin: 40px auto 100px;
-    } 
+    }
 }
 
-@media(max-width: 450px){
+@media(max-width: 450px) {
 
     #slider {
         width: 73%;
@@ -447,66 +462,66 @@ hr {
 
 /* RESPONSIVIDADE MANUAL */
 
-@media(max-width: 830px){
+@media(max-width: 830px) {
 
-    #manual{
+    #manual {
         margin-bottom: 50px;
     }
 
     #manual section {
-      width: 400px;
-      height: 200px;
-      margin: auto 30px 30px 30px ;
+        width: 400px;
+        height: 200px;
+        margin: auto 30px 30px 30px;
     }
 
-    
-    #manual section h2{
-       font-size: 20px;
-       margin-top: 15px;
-       margin-bottom: 10px;
+
+    #manual section h2 {
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
     }
-    
-    #manual section p{
-      font-size: 15px;
+
+    #manual section p {
+        font-size: 15px;
     }
 }
 
-@media(max-width: 450px){
+@media(max-width: 450px) {
 
-    #manual{
+    #manual {
         margin-bottom: 30px;
     }
 
     #manual section {
-      width: 300px;
+        width: 300px;
     }
- 
-    #manual section h2{
-       font-size: 18px;
-       margin-bottom: 20px;
-       margin-top: 30px;
+
+    #manual section h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+        margin-top: 30px;
     }
 }
 
 
- /* RESPONSIVIDADE FOOTER */
+/* RESPONSIVIDADE FOOTER */
 
- @media(max-width: 900px){
+@media(max-width: 900px) {
     .footer .row ul li a {
-        font-size: 1rem; 
+        font-size: 1rem;
     }
 
-    .footer{
+    .footer {
         display: block;
     }
 
-    #redes-sociais li{
+    #redes-sociais li {
         display: inline-block;
         margin-bottom: 15px;
     }
-   
-    
-    .footer .copy{
+
+
+    .footer .copy {
         font-size: 0.8rem;
         margin-top: 20px;
     }
@@ -515,24 +530,16 @@ hr {
         display: block;
         margin-bottom: 10px;
     }
-   }
+}
 
-   @media(max-width: 450px){
+@media(max-width: 450px) {
 
 
     .footer .row ul li a {
-        font-size: 0.8rem; 
+        font-size: 0.8rem;
     }
 
-    .footer .copy{
+    .footer .copy {
         font-size: 0.6rem;
     }
-   }
-
-
-
-
-
-
-
-
+}

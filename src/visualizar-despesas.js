@@ -1,6 +1,7 @@
 // ADICIONAR DISPESAS:
 
 const addExpenseBtn = document.getElementById('addExpenseBtn');
+let expensesArray = []
 
 addExpenseBtn && addExpenseBtn.addEventListener('click', function () {
     const expenseNameInput = document.getElementById('expenseName');
@@ -19,7 +20,8 @@ addExpenseBtn && addExpenseBtn.addEventListener('click', function () {
         "userId": userlogado ? userlogado.user_id : "Usuário não cadastrado!"
     };
 
-    expensesMock.push(newExpense);
+    expensesArray.push(newExpense);
+    localStorage.setItem('expenses', expensesArray);
 
     expenseNameInput.value = '';
     purchaseDateInput.value = '';
@@ -29,11 +31,6 @@ addExpenseBtn && addExpenseBtn.addEventListener('click', function () {
 
 
 //************************************************************************************************************ */
-
-
-window.addEventListener('pageshow', function () {
-    localStorage.setItem("expenses", JSON.stringify(expensesMock))
-})
 
 // Dropdown logic:
 let isDropdownOpen = false

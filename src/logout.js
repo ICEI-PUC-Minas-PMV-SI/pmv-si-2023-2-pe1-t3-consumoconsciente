@@ -1,5 +1,4 @@
-const iconButtons = document.querySelectorAll('a')
-const logoutButtons = [iconButtons[3], iconButtons[6]]
+const logoutButtons = document.querySelectorAll('.logout-button')
 
 logoutButtons.forEach(button => {
     button.addEventListener('click', function () {

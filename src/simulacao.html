@@ -11,6 +11,8 @@
         rel="stylesheet">
     <link rel="stylesheet" href="style-simulacao.css">
     <script src="simulacao.js"></script>
+    <script src="logout.js"></script>
+    <script src="autorizaçao.js"></script>
     <title>Simulação</title>
 </head>
 
@@ -33,13 +35,13 @@
                 </div>
                 <div>
                     <a href="perfil.html"><img src="./images/user.svg" alt="profile"></a>
-                    <a href="login.html"><img src="./images/logout.svg" alt="logout"></a>
+                    <a class="logout-button"><img src="./images/logout.svg" alt="logout"></a>
                 </div>
             </div>
         </nav>
     </header>
 
-<h1>Confira a rentabilidade para o valor de <span id="valor-h1">R$0,00</span> nas seguintes aplicações:</h1>
+    <h1>Confira a rentabilidade para o valor de <span id="valor-h1">R$0,00</span> nas seguintes aplicações:</h1>
 
     <main class="cards">
         <section class="card poupanca">
@@ -142,15 +144,18 @@
         <h5>Rendimento CDI</h5>
         <p>O CDI é uma modalidade que acompanha a SELIC, taxa básica de juros do Brasil. Dessa forma é um investimento
             mais vantajoso que a poupança, e o rendimento é diário. Atualmente o CDI está em 12.15% aa.
-            A simulação considerou o rendimento de 100% do CDI para sua aplicação. As taxas CDI e Selic podem ser acompanhadas em
-            <cite>https://www.b3.com.br/pt_br/para-voce</cite>.</p>
+            A simulação considerou o rendimento de 100% do CDI para sua aplicação. As taxas CDI e Selic podem ser
+            acompanhadas em
+            <cite>https://www.b3.com.br/pt_br/para-voce</cite>.
+        </p>
     </section>
 
     <section class="explicacao-prefixado">
         <h5>Pré Fixado</h5>
         <p>Os investimentos prefixados seguem uma porcentagem ao ano. Não importa a flutuação da inflação, seu retorno
             já é pré estabelecido.
-            A vantagem desse título é saber exatamente o quanto irá resgatar, independete se haverá oscilação na inflação.
+            A vantagem desse título é saber exatamente o quanto irá resgatar, independete se haverá oscilação na
+            inflação.
             A simulação, considerou um título 10,80% ao ano
         </p>
     </section>
