@@ -58,7 +58,7 @@ function logar() {
                 emailusuario: item.emailusuario,
                 telefoneusuario: item.telefoneusuario,
                 senha: item.senha,
-                id: item.id
+                id: item.user_id
             }
 
             logado = true;
