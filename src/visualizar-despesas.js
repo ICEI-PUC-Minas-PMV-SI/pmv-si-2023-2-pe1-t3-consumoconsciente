@@ -10,7 +10,6 @@ addExpenseBtn && addExpenseBtn.addEventListener('click', function () {
     const costInput = document.getElementById('cost');
 
     const userlogado = JSON.parse(localStorage.getItem("userlogado"));
-    console.log(expensesArray)
 
     const newExpense = {
         "id": Math.floor(Math.random() * 100000),
@@ -22,7 +21,6 @@ addExpenseBtn && addExpenseBtn.addEventListener('click', function () {
     };
 
     expensesArray = [...expensesArray, newExpense]
-    console.log(expensesArray)
     localStorage.setItem('expenses', JSON.stringify(expensesArray));
 
     expenseNameInput.value = '';
