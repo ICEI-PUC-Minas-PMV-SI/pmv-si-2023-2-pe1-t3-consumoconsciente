@@ -1,0 +1,18 @@
+{
+  "name": "pmv-si-2023-2-pe1-t3-consumoconsciente",
+  "version": "1.0.0",
+  "description": "`CURSO: Sistemas de Informação`",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.9.7"
+  }
+}
