@@ -99,6 +99,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Filtrar despesas entre essencias e não essenciais.
 **Resultado obtido** | Sucesso.
 
+**Caso de Teste** | **CT08 - Recuperar Senha**
+ :--------------: | ------------
+**Procedimento**  | 1) Na página de login, abaixo do botão de entrar, o usuário tem a opção de recuperar sua senha 
+**Requisitos associados** | RF-004
+**Resultado esperado** | A senha é enviada via email
+**Dados de entrada** | Clicar no botão recuperar senha
+**Resultado obtido** | Falha. Não estamos conseguindo enviar email para recuperação de senha
+
 
 ## Registro dos Testes de Software
 
