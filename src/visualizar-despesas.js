@@ -1,7 +1,7 @@
 // ADICIONAR DISPESAS:
 
 const addExpenseBtn = document.getElementById('addExpenseBtn');
-let expensesArray = []
+let expensesArray = JSON.parse(localStorage.getItem('expenses'))
 
 addExpenseBtn && addExpenseBtn.addEventListener('click', function () {
     const expenseNameInput = document.getElementById('expenseName');
@@ -10,6 +10,7 @@ addExpenseBtn && addExpenseBtn.addEventListener('click', function () {
     const costInput = document.getElementById('cost');
 
     const userlogado = JSON.parse(localStorage.getItem("userlogado"));
+    console.log(expensesArray)
 
     const newExpense = {
         "id": Math.floor(Math.random() * 100000),
@@ -17,11 +18,12 @@ addExpenseBtn && addExpenseBtn.addEventListener('click', function () {
         "purchaseDate": purchaseDateInput.value,
         "isEssential": isEssentialSelect.value === 'essencial',
         "cost": parseFloat(costInput.value),
-        "userId": userlogado ? userlogado.user_id : "Usuário não cadastrado!"
+        "userId": userlogado ? userlogado.id : "Usuário não cadastrado!"
     };
 
-    expensesArray.push(newExpense);
-    localStorage.setItem('expenses', expensesArray);
+    expensesArray = [...expensesArray, newExpense]
+    console.log(expensesArray)
+    localStorage.setItem('expenses', JSON.stringify(expensesArray));
 
     expenseNameInput.value = '';
     purchaseDateInput.value = '';
