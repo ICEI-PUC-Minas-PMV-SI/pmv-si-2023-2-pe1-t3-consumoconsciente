@@ -22,27 +22,6 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 ## Plano de Testes de Software
 
-Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
-
-
-**Caso de Teste** | **CT01 - Criar conta parte 1**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário informa nome, sobrenome, email, senha, Estado e Cidade e clica no botão "Continuar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro.
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
-
-**Caso de Teste** | **CT02 - Criar conta parte 2**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
-
----
-
 **Caso de Teste** | **CT01 - Editar dados do usuário**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário clica na página do perfil e clica em editar dados.<br>2) Os campos com os dados do usuário ficam habilitados para edição.<br>3) Usuário edita os campos conforme necessário e clica em salvar.<br>4) Os inputs são desabilitados novamente. A aplicação armazena os dados novos e os exibe nos inputs.
@@ -166,9 +145,11 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
-
+| 1 | Voce é uma pessoa que deseja visualizar apenas as suas despesas não essenciais do mês passado para saber onde poderá diminuir gastos esse mês. Encontre onde e como apenas essas despesas serão exibidas. |
+| 2 | Você é uma pessoa que errou ao digitar o custo de uma despesa. Encontre onde é possível editar esse valor e corrija-o. |
+| 3 | Você é uma pessoa que adicionou a mesma despesa duas vezes. Encontre onde é possível deletar a despesa duplicada. |
+| 4 | Você é uma pessoa que cadastrou a data de nascimento incorreta ao se cadastrar na aplicação. Encontre onde é possível editar esse dado e corrija-o. |
+| 5 | Você é uma pessoa que deseja alterar sua senha. Encontre é possível alterar sua senha e mude-a para uma senha nova. |
 
 
 ## Registro de Testes de Usabilidade
@@ -206,8 +187,6 @@ Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,0
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
     redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
-
-
 
 
 ## Avaliação dos Testes de Usabilidade
