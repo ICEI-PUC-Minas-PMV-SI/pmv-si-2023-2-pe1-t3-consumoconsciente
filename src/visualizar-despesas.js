@@ -20,7 +20,11 @@ addExpenseBtn && addExpenseBtn.addEventListener('click', function () {
         "userId": userlogado ? userlogado.id : "Usuário não cadastrado!"
     };
 
-    expensesArray = [...expensesArray, newExpense]
+    if (!expensesArray) {
+        expensesArray = [newExpense]
+    } else {
+        expensesArray = [...expensesArray, newExpense]
+    }
     localStorage.setItem('expenses', JSON.stringify(expensesArray));
 
     expenseNameInput.value = '';
@@ -206,7 +210,7 @@ const saveOrDeleteNewExpense = (expense) => {
 
 // Cancel editing expense:
 const cancelButton = document.getElementById('cancel-button')
-cancelButton.addEventListener('click', function () {
+cancelButton && cancelButton.addEventListener('click', function () {
     popUp.style.display = "none"
     isPopUpOpened = !isPopUpOpened
 })
