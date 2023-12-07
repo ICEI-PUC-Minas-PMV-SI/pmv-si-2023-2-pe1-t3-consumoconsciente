@@ -145,7 +145,7 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1 | Você é uma pessoa que adicionou várias despesas e deseja filtrar para que possa visualizar melhor. |
+| 1 | Você é uma pessoa que adicionou várias despesas e deseja filtrar para que possa visualizar melhor. Encontre onde adicionar despesas e onde filtrá-las |
 | 2 | Voce é uma pessoa que adicionou uma despesa com o custo errado. Encontre onde editá-la e corrige esse valor. |
 | 3 | Você é uma pessoa que cadastrou a data de nascimento incorreta ao se cadastrar na aplicação. Encontre onde é possível editar esse dado e corrija-o. |
 
