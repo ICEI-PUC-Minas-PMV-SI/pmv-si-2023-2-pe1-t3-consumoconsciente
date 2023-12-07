@@ -146,10 +146,8 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
 | 1 | Voce é uma pessoa que deseja visualizar apenas as suas despesas não essenciais do mês passado para saber onde poderá diminuir gastos esse mês. Encontre onde e como apenas essas despesas serão exibidas. |
-| 2 | Você é uma pessoa que errou ao digitar o custo de uma despesa. Encontre onde é possível editar esse valor e corrija-o. |
-| 3 | Você é uma pessoa que adicionou a mesma despesa duas vezes. Encontre onde é possível deletar a despesa duplicada. |
-| 4 | Você é uma pessoa que cadastrou a data de nascimento incorreta ao se cadastrar na aplicação. Encontre onde é possível editar esse dado e corrija-o. |
-| 5 | Você é uma pessoa que deseja alterar sua senha. Encontre é possível alterar sua senha e mude-a para uma senha nova. |
+| 2 | Você é uma pessoa que cadastrou a data de nascimento incorreta ao se cadastrar na aplicação. Encontre onde é possível editar esse dado e corrija-o. |
+
 
 
 ## Registro de Testes de Usabilidade
