@@ -1,7 +1,7 @@
 
 /*Validação de senhas*/
 
-function campos(){
+function campos() {
     var senha = document.getElementById("senha");
     var confirm_senha = document.getElementById("confirmsenha");
     var email = document.getElementById("email");
@@ -9,27 +9,27 @@ function campos(){
     var tel = document.getElementById("tel");
     let msgFormulario = document.querySelector("#msgFormulario");
 
-    if(senha.value == "" || confirm_senha.value == "" || email == "" || nome == "" || tel == ""){
+    if (senha.value == "" || confirm_senha.value == "" || email == "" || nome == "" || tel == "") {
         msgError.setAttribute("style", "display: none")
         msgFormulario.setAttribute("style", "display: block")
         msgSuccess.setAttribute("style", "display: none")
         msgFormulario.innerHTML = "Preencha todos os campos"
-    } else{
+    } else {
         validatesenha()
     }
 }
-function validatesenha(){
+function validatesenha() {
     let msgError = document.querySelector("#msgError");
     let msgSuccess = document.querySelector("#msgSuccess");
     var senha = document.getElementById("senha");
     var confirm_senha = document.getElementById("confirmsenha");
 
-    if(senha.value != confirm_senha.value) {
+    if (senha.value != confirm_senha.value) {
         msgFormulario.setAttribute("style", "display: none"),
-        confirm_senha.setCustomValidity(
-        msgError.setAttribute("style", "display: block"),
-        msgError.innerHTML = "Senhas não conferem"
-        );
+            confirm_senha.setCustomValidity(
+                msgError.setAttribute("style", "display: block"),
+                msgError.innerHTML = "Senhas não conferem"
+            );
         limparformsenhas()
     } else {
         msgFormulario.setAttribute("style", "display: none")
@@ -47,38 +47,40 @@ function validatesenha(){
 }
 
 /*Vetor cadastros*/
-let bancoContatos = JSON.parse (    localStorage.getItem("cadastros")   );
+let bancoContatos = JSON.parse(localStorage.getItem("cadastros"));
 
-if(!bancoContatos){
- bancoContatos = [
+if (!bancoContatos) {
+    bancoContatos = [
         {
             "nomeusuario": "Jorge",
             "emailusuario": "jorgecampos@hotmail.com",
             "telefoneusuario": "(31) 99845 - 5643",
-            "senha" : "coxinha123"
+            "senha": "coxinha123",
+            "id": "54667874643"
         },
         {
             "nomeusuario": "Maria",
             "emailusuario": "mariacampos@hotmail.com",
             "telefoneusuario": "(31) 99845 - 5643",
-            "senha" : "coxinha321"
+            "senha": "coxinha321",
+            "id": "456686841"
         }
     ]
 }
 
 /*Função Limpar formulário*/
-function limparform(){
-    document.getElementById("nome").value="";
-    document.getElementById("email").value="";
-    document.getElementById("tel").value="";
-    document.getElementById("confirmsenha").value="";
-    document.getElementById("senha").value="";
+function limparform() {
+    document.getElementById("nome").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("tel").value = "";
+    document.getElementById("confirmsenha").value = "";
+    document.getElementById("senha").value = "";
 
 }
 
-function limparformsenhas(){
-    document.getElementById("confirmsenha").value="";
-    document.getElementById("senha").value="";
+function limparformsenhas() {
+    document.getElementById("confirmsenha").value = "";
+    document.getElementById("senha").value = "";
 
 }
 
@@ -91,10 +93,10 @@ function cadastroNovo() {
     var tel = document.getElementById("tel").value;
     var senha = document.getElementById("senha").value;
 
-    var user_id = generateUserId();
+    var id = generateUserId();
 
     var novoCadastro = {
-        "user_id": user_id,
+        "id": id,
         "nomeusuario": nome,
         "emailusuario": email,
         "telefoneusuario": tel,
