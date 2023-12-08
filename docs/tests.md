@@ -152,7 +152,7 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que adicionou várias despesas e deseja filtrar para que possa visualizar melhor. Encontre onde adicionar despesas e onde filtrá-la
+Cenário 1: Você é uma pessoa que deseja gerenciar suas despesas. Para isso, você deverá adicionar três despesas diferentes e filtrá-las por essenciais.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
