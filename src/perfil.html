@@ -46,18 +46,30 @@
         <h1>Dados do Usuário:</h1>
         <label class="user-data" for="name">Nome</label>
         <input class="user-data" name="name" type="text" disabled>
+        <div class="error-message-box1">
+            <img class="error-icon" src="./images/warning.svg" alt="warning-icon">
+            <p class="error-message1"></p>
+        </div>
         <label class="user-data" for="email">Email</label>
-        <input class="user-data" name="email" type="text" disabled>
+        <input class="user-data" name="email" type="email" disabled>
+        <div class="error-message-box1">
+            <img class="error-icon" src="./images/warning.svg" alt="warning-icon">
+            <p class="error-message1"></p>
+        </div>
         <label class="user-data" for="phone">Telefone</label>
         <input class="user-data" name="phone" type="text" disabled>
+        <div class="error-message-box1">
+            <img class="error-icon" src="./images/warning.svg" alt="warning-icon">
+            <p class="error-message1"></p>
+        </div>
         <label class="password-change" for="currentPassword">Digite Senha Atual</label>
         <div class="password-button-box">
             <input class="password-change" name="currentPassword" type="password">
             <img class="unhide-password" src="./images/see-password.svg" alt="see-password">
         </div>
-        <div class="error-message-box">
+        <div class="error-message-box2">
             <img class="error-icon" src="./images/warning.svg" alt="warning-icon">
-            <p class="error-message"></p>
+            <p class="error-message2"></p>
         </div>
         <label class="password-change" for="newPassword">Digite Senha Nova</label>
         <div class="password-button-box">
@@ -69,9 +81,9 @@
             <input class="password-change" name="verifyPassword" type="password">
             <img class="unhide-password" src="./images/see-password.svg" alt="see-password">
         </div>
-        <div class="error-message-box">
+        <div class="error-message-box2">
             <img class="error-icon" src="./images/warning.svg" alt="warning-icon">
-            <p class="error-message"></p>
+            <p class="error-message2"></p>
         </div>
         <div>
             <button id="edit-data" type="button">Editar Dados</button>

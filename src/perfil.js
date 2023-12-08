@@ -36,7 +36,6 @@ editButton.addEventListener('click', function () {
     } else if (editButton.innerHTML === "Salvar") {
         if (editButtonClicked) {
             saveNewUserData()
-            disableUserDatainputs()
         }
         else {
             saveNewPassword()
@@ -50,7 +49,8 @@ const userDataInputs = document.getElementsByClassName('user-data')
 let passwordInputs = document.getElementsByClassName('password-change')
 const unhidePassButtons = document.getElementsByClassName('unhide-password')
 passwordInputs = [...passwordInputs, unhidePassButtons[0], unhidePassButtons[1], unhidePassButtons[2]]
-const errorMessageFields = document.getElementsByClassName('error-message')
+const errorMessageFields1 = document.getElementsByClassName('error-message1')
+const errorMessageFields2 = document.getElementsByClassName('error-message2')
 
 passwordButton.addEventListener('click', function () {
     if (passwordButton.innerHTML === "Editar Senha") {
@@ -126,25 +126,51 @@ const disableUserDatainputs = () => {
 }
 
 // Save new user data to local storage:
+const errorMessageBoxes1 = document.getElementsByClassName('error-message-box1')
+
 const saveNewUserData = () => {
-    userData = {
-        ...userData,
-        nomeusuario: userDataInputs[1].value,
-        emailusuario: userDataInputs[3].value,
-        telefoneusuario: userDataInputs[5].value
+    clearErrorMessages(errorMessageFields1, errorMessageBoxes1)
+
+    const emptyInputs = !userDataInputs[1].value || !userDataInputs[3].value || !userDataInputs[5].value
+    const nameRegex = new RegExp(/^[ a-zA-ZÀ-ÿ\u00f1\u00d1]*$/g)
+    const isNameValid = nameRegex.test(userDataInputs[1].value)
+
+    const emailRegex = new RegExp(/^[A-Za-z0-9_!#$%&'*+\/=?`{|}~^.-]+@[A-Za-z0-9.-]+$/, "gm")
+    const isEmailValid = emailRegex.test(userDataInputs[3].value)
+
+    const phoneRegex = new RegExp(/^\(?(\d{2})\)?[- ]?(\d{5})[- ]?(\d{4})$/)
+    const isPhoneValid = phoneRegex.test(userDataInputs[5].value)
+
+    if (!emptyInputs && isNameValid && isEmailValid && isPhoneValid) {
+        userData = {
+            ...userData,
+            nomeusuario: userDataInputs[1].value,
+            emailusuario: userDataInputs[3].value,
+            telefoneusuario: userDataInputs[5].value
+        }
+        const filteredRegisteredUsers = registeredUsers.filter(user => {
+            return user.id !== userData.id
+        })
+        localStorage.setItem("cadastros", JSON.stringify([...filteredRegisteredUsers, userData]))
+        localStorage.setItem("userlogado", JSON.stringify(userData))
+        disableUserDatainputs()
+    } else if (emptyInputs) {
+        showErrors(2, "Preencha todos os campos", errorMessageBoxes1, errorMessageFields1)
+    } else if (!isNameValid) {
+        showErrors(0, "Nome inválido", errorMessageBoxes1, errorMessageFields1)
+    } else if (!isEmailValid) {
+        showErrors(1, "Email inválido", errorMessageBoxes1, errorMessageFields1)
+    } else if (!isPhoneValid) {
+        showErrors(2, "Telefone inválido", errorMessageBoxes1, errorMessageFields1)
     }
-    const filteredRegisteredUsers = registeredUsers.filter(user => {
-        return user.id !== userData.id
-    })
-    localStorage.setItem("cadastros", JSON.stringify([...filteredRegisteredUsers, userData]))
-    localStorage.setItem("userlogado", JSON.stringify(userData))
+
 }
 
 // Save new password to local storage:
-const errorMessageBoxes = document.getElementsByClassName('error-message-box')
+const errorMessageBoxes2 = document.getElementsByClassName('error-message-box2')
 
 const saveNewPassword = () => {
-    clearErrorMessages()
+    clearErrorMessages(errorMessageFields2, errorMessageBoxes2)
 
     const emptyInputs = !passwordInputs[1].value || !passwordInputs[3].value || !passwordInputs[5].value
     const validCurrentPassword = userData.senha === passwordInputs[1].value
@@ -164,14 +190,13 @@ const saveNewPassword = () => {
         clearPassInputs()
         showUserDataInputs()
     } else if (emptyInputs) {
-        errorMessageBoxes[1].style.display = "flex"
-        showErrors(1, "Preencha todos os campos")
+        showErrors(1, "Preencha todos os campos", errorMessageBoxes2, errorMessageFields2)
     } else if (!validCurrentPassword) {
-        showErrors(0, "Senha atual inválida")
+        showErrors(0, "Senha atual inválida", errorMessageBoxes2, errorMessageFields2)
     } else if (!newPasswordsMatch) {
-        showErrors(1, "Ambas as senhas precisam ser iguais")
+        showErrors(1, "Ambas as senhas precisam ser iguais", errorMessageBoxes2, errorMessageFields2)
     } else if (!newPasswordsMatch) {
-        showErrors(1, "Sua nova senha deve ser diferente da senha atual")
+        showErrors(1, "Sua nova senha deve ser diferente da senha atual", errorMessageBoxes2, errorMessageFields2)
     }
 }
 
@@ -184,15 +209,15 @@ const clearPassInputs = () => {
     clearErrorMessages()
 }
 
-const clearErrorMessages = () => {
-    errorMessageFields[0].innerHTML = ""
-    errorMessageFields[1].innerHTML = ""
-    errorMessageBoxes[0].style.display = "none"
-    errorMessageBoxes[1].style.display = "none"
+const clearErrorMessages = (errorMessageFields, errorMessageBoxes) => {
+    for (let i = 0; i < errorMessageFields.length; i++) {
+        errorMessageFields[i].innerHTML = ""
+        errorMessageBoxes[i].style.display = "none"
+    }
 }
 
 // Show error messages:
-const showErrors = (index, message) => {
+const showErrors = (index, message, errorMessageBoxes, errorMessageFields) => {
     errorMessageBoxes[index].style.display = "flex"
     errorMessageFields[index].innerHTML = message
 }

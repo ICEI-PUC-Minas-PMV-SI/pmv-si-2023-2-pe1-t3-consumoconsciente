@@ -123,7 +123,8 @@ input.user-data {
     display: none;
 }
 
-.error-message-box {
+.error-message-box1,
+.error-message-box2 {
     display: none;
     font-weight: 700;
     width: 284.668px;
@@ -136,7 +137,8 @@ input.user-data {
     justify-content: center;
 }
 
-.error-message-box>img {
+.error-message-box1>img,
+.error-message-box2>img {
     display: block;
     height: 100%;
     margin-right: 10px;
