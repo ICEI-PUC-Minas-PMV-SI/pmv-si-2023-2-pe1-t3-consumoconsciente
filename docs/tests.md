@@ -234,7 +234,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT13 - Recuperar Senha*                                         |
 |---|---|
 |Requisito Associado | RF-004 - Recuperação da senha.|
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1Lo0DC8BUsMTxxEslmv-o0msmotI6NsW-/view?usp=sharing | 
 |Link do vídeo do teste realizado: |  | 
 |Link do vídeo do teste realizado: |  | 
 
@@ -249,7 +249,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT15 - Compatibilidade com qualquer navegador*                                         |
 |---|---|
 |Requisito Associado | RNF-005 - Site é renderizado e funcionalidades listadas acima funcionam como esperado.|
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1SHI22wVc8Tc-NDePD9FwosdDoVimgTEE/view?usp=sharing | 
 |Link do vídeo do teste realizado: |  | 
 |Link do vídeo do teste realizado: |  | 
 |Link do vídeo do teste realizado: |  | 
