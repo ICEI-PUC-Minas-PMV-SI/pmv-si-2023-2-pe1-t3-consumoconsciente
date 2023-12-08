@@ -22,31 +22,47 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 ## Plano de Testes de Software
 
-- cadastro
-- login
-- visualizar pagina de perfil e dicas como usuário não logado
-- adicionar despesa
-- responsividade
-- O sistema deve ser compatível para rodar em qualquer navegador
-- Site de fácil navegação - mostrar icones, Reconhecimento em vez de memorização, Ajude os usuários a reconhecerem, diagnosticarem e recuperarem-se de erros
-
-**Caso de Teste** | **CT01 - Editar dados do usuário**
+**Caso de Teste** | **CT01 - Visualizar página inicial e informações sobre a aplicação**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário clica na página do perfil e clica em editar dados.<br>2) Os campos com os dados do usuário ficam habilitados para edição.<br>3) Usuário edita os campos conforme necessário e clica em salvar.<br>4) Os inputs são desabilitados novamente. A aplicação armazena os dados novos e os exibe nos inputs.
-**Requisitos associados** | RF-003
-**Resultado esperado** | Edição dos dados do usuário
-**Dados de entrada** | Inserção de dados no formulário de informações cadastradas.
+**Procedimento**  | 1) Usuário sem cadastro acessa a página inicial da aplicação e utiliza o scroll do mouse para visualizar as informações sobre a aplicação.
+**Requisitos associados** | RF-005 e RF-011
+**Resultado esperado** | Visualização da página inicial e informações sobre a aplicação
+**Dados de entrada** | -
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT02 - Editar senha**
+**Caso de Teste** | **CT02 - Visualizar página de dicas**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário clica na página do perfil e clica em editar senha.<br>2) Os campos para inserir a senha atual e a nova senha são exibidos na tela.<br>3) Usuário adiciona sua senha atual e sua senha nova<br>4) Aplicação verifica se os campos são válidos e informa o usuário caso não sejam.<br>4) A aplicação volta a exibir os inputs anteriores em caso de sucesso.
-**Requisitos associados** | RF-003
-**Resultado esperado** | Edição dos dados da senha
-**Dados de entrada** | Inserção da senha atual, nova senha e confirmação da senha.
+**Procedimento**  | 1) Usuário sem cadastro acessa a página inicial da aplicação e clica no botão que o redireciona para a página de dicas.
+**Requisitos associados** | RF-012
+**Resultado esperado** | Visualização das dicas
+**Dados de entrada** | -
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT03 - Visualizar despesas cadastradas**
+**Caso de Teste** | **CT03 - Cadastrar um novo usuário**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário acessa a página inicial da aplicação e clica no botão de login.<br>2) Na página de login, ele clica no botão para criar um conta.<br>3) Usuário adicionar seus dados no formulário de cadastro e clica em Cadastrar.
+**Requisitos associados** | RF-001
+**Resultado esperado** | Criação da conta do usuário
+**Dados de entrada** | Inserção de dados no formulário de informações sobre o usuário.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT04 - Executar o login**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário acessa a página de login.<br>2) Ele adiciona seu nome cadastrado e sua senha e clica em Entrar.
+**Requisitos associados** | RF-002
+**Resultado esperado** | Execução do login
+**Dados de entrada** | Inserção do nome e da senha do usuário.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT05 - Adicionar despesas**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário acessa a página de adicionar despesas.<br>2) Ele preenche os campos necessários e clica no botão de adicionar a nova despesa.
+**Requisitos associados** | RF-006
+**Resultado esperado** | Adição de despesas
+**Dados de entrada** | Inserção de dados no formulário sobre a despesa.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT06 - Visualizar despesas cadastradas**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário clica na página de visualizar depesas.<br>2) As despesas que ele cadastrou anteriormente são exibidas na tabela de despesa, informando os nomes, custos, classificações (essencial ou não essencial) e datas em que foram realizadas.
 **Requisitos associados** | RF-007
@@ -54,31 +70,31 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 **Dados de entrada** | - 
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT04 - Editar as despesas registradas**
+**Caso de Teste** | **CT07 - Editar as despesas registradas**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário clica na página de visualizar depesas.<br>2) Usuário escolhe uma despesa para editar e clica no ícone do lápis<br>3) Um modal é exibido com os campos onde o usuário pode editar as informações sobre a despesa<br>4) Usuário edita os campos e clica em salvar.<br> A aplicação atualiza a despesa editada.
+**Procedimento**  | 1) Usuário clica na página de visualizar depesas.<br>2) Usuário escolhe uma despesa para editar e clica no ícone do lápis.<br>3) Um modal é exibido com os campos onde o usuário pode editar as informações sobre a despesa<br>4) Usuário edita os campos e clica em salvar.
 **Requisitos associados** | RF-008
 **Resultado esperado** | Edição de despesas cadastradas
 **Dados de entrada** | Inserção de informações sobre a despesa nos campos da despesa registrada
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT05 - Deletar as despesas registradas**
+**Caso de Teste** | **CT08 - Deletar as despesas registradas**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário clica na página de visualizar depesas.<br>2) Usuário escolhe uma despesa para deletar e clica no ícone do lápis<br>3) Um modal é exibido com a opção de deletar a despesa clicada<br>4) Usuário clica em deletar.<br>5) A aplicação remove a despesa selecionada da listagem de despesas salvas.
+**Procedimento**  | 1) Usuário clica na página de visualizar depesas.<br>2) Usuário escolhe uma despesa para deletar e clica no ícone do lápis.<br>3) Um modal é exibido com a opção de deletar a despesa.<br>4) Usuário clica em deletar.
 **Requisitos associados** | RF-008
 **Resultado esperado** | Deleção de despesas cadastradas
 **Dados de entrada** | -
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT06 - Filtrar as despesas registradas**
+**Caso de Teste** | **CT09 - Filtrar as despesas registradas**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário clica na página de visualizar depesas.<br>2) Usuário escolhe uma classificação de despesas (essencial ou não essencial) e/ou um período de tempo em que as depesas foram realizadas<br>3) A aplicação exibe apenas as despesas que se encaixam dentro do filtro utilizado.
+**Procedimento**  | 1) Usuário clica na página de visualizar depesas.<br>2) Usuário escolhe uma classificação de despesas (essencial ou não essencial) e/ou um período de tempo em que as depesas foram realizadas
 **Requisitos associados** | RF-009
 **Resultado esperado** | Exibição de despesas cadastradas dependendo do filtro adicionado
 **Dados de entrada** | Inserção da classificação das depesas e/ou período em que as despesas foram realizadas
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT07 - Simular rendimentos**
+**Caso de Teste** | **CT10 - Simular rendimentos**
  :--------------: | ------------
 **Procedimento**  | 1) Após o usuário filtrar as despesas registradas por não essencias, na pagina 'Visualizar Despesas', o mesmo irá clicar no botão 'Simular aplicação'. 
 **Requisitos associados** | RF-010
@@ -86,13 +102,45 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 **Dados de entrada** | Filtrar despesas entre essencias e não essenciais.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT08 - Recuperar Senha**
+**Caso de Teste** | **CT11 - Editar dados do usuário**
  :--------------: | ------------
-**Procedimento**  | 1) Na página de login, abaixo do botão de entrar, o usuário tem a opção de recuperar sua senha 
+**Procedimento**  | 1) Usuário clica na página do perfil e clica em editar dados.<br>2) Usuário edita os campos com seus dados conforme necessário e clica em salvar.
+**Requisitos associados** | RF-003
+**Resultado esperado** | Edição dos dados do usuário
+**Dados de entrada** | Inserção de dados no formulário de informações cadastradas.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT12 - Editar senha**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário clica na página do perfil e clica em editar senha.<br>2) Usuário adiciona sua senha atual e sua senha nova.
+**Requisitos associados** | RF-003
+**Resultado esperado** | Edição dos dados da senha
+**Dados de entrada** | Inserção da senha atual, nova senha e confirmação da senha.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT13 - Recuperar Senha**
+ :--------------: | ------------
+**Procedimento**  | 1) Na página de login, abaixo do botão de entrar, o usuário tem a opção de recuperar sua senha.<br> 2) Usuário adiciona seu email no campo disponível e clica o botão para enviar um email com sua senha temporária. 
 **Requisitos associados** | RF-004
-**Resultado esperado** | A senha é enviada via email
-**Dados de entrada** | Clicar no botão recuperar senha
-**Resultado obtido** | Falha. Não estamos conseguindo enviar email para recuperação de senha
+**Resultado esperado** | Recuperação da senha
+**Dados de entrada** | Email do usuário
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT14 - Responsividade**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário navega pela aplicação utilizando um tamanho de tela mobile 
+**Requisitos associados** | RNF-001
+**Resultado esperado** | Todas as telas tem comportamento ajustado para telas mobile.
+**Dados de entrada** | -
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT15 - Compatibilidade com qualquer navegador**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário usa link da aplicação em navegadores diferentes. 
+**Requisitos associados** | RNF-005
+**Resultado esperado** | Side é renderizado e funcionalidades listadas acima funcionam como esperado.
+**Dados de entrada** | -
+**Resultado obtido** | Sucesso
 
 
 ## Registro dos Testes de Software
@@ -156,7 +204,7 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | 1 | Você é uma pessoa que quer gerenciar suas finanças. Encontre onde fazer o cadastro na aplicação, faça o login e adicione pelo menos 5 despesas que variem entre essencial e não essencial |
 | 2 | Voce é uma pessoa que deseja visualizar suas depesas cadastradas. Encontre onde visualizá-las e filtre apenas as despesas essenciais. |
 | 3 | Você é uma pessoa que registrou suas despesas com campos incorretos. Encontre onde editar uma despesa e deletar outra despesa. |
-| 4 | Você é uma pessoa que gostaria de visualizar quanto suas despesas não essenciais renderiam em uma aplicação. Encontre a página de visualizar os valores que seriam aplicados. |
+| 4 | Você é uma pessoa que gostaria de visualizar quanto suas despesas não essenciais renderiam em uma aplicação. Encontre a página de visualizar quanto você ganharia aplicando o valor de suas despesas não essencias. |
 
 
 ## Registro de Testes de Usabilidade
