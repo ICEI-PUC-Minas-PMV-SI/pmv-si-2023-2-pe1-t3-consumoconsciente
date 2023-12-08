@@ -83,12 +83,14 @@ h1 {
   text-align: center;
   margin: 50px 0 0 0;
   font-size: 48px;
+  color: #13472e;
 }
 
 h2 {
   text-align: left;
   margin: 50px 0 10px 0;
   font-size: 18px;
+  color: #13472e;
 }
 
 p {
@@ -96,6 +98,7 @@ p {
   max-width: 900px;
   font-size: 18px;
   margin-bottom: 3%;
+  color: #13472e;
 }
 
 img.dicas {
