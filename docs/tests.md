@@ -114,7 +114,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
  :--------------: | ------------
 **Procedimento**  | 1) Usuário clica na página do perfil e clica em editar senha.<br>2) Usuário adiciona sua senha atual e sua senha nova.
 **Requisitos associados** | RF-003
-**Resultado esperado** | Edição dos dados da senha
+**Resultado esperado** | Edição da senha
 **Dados de entrada** | Inserção da senha atual, nova senha e confirmação da senha.
 **Resultado obtido** | Sucesso.
 
@@ -138,7 +138,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
  :--------------: | ------------
 **Procedimento**  | 1) Usuário usa link da aplicação em navegadores diferentes. 
 **Requisitos associados** | RNF-005
-**Resultado esperado** | Side é renderizado e funcionalidades listadas acima funcionam como esperado.
+**Resultado esperado** | Site é renderizado e funcionalidades listadas acima funcionam como esperado.
 **Dados de entrada** | -
 **Resultado obtido** | Sucesso
 
@@ -150,12 +150,109 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT01 - Visualizar página inicial e informações sobre a aplicação*                                         |
 |---|---|
 |Requisito Associado | RF-005 e RF-011 - Visualização da página inicial e informações sobre a aplicação.|
-|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1qbz9rDhKO11ik2XutSAihu5q0vi3k2__/view?usp=drive_link | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1-27UDYjw5anziBm5Hg8KNhZDbGi5dSW_/view?usp=sharing | 
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
 
-|*Caso de Teste*                                 |*TC-02 - Efetuar Login (usuário autenticado)*                                         |
+|*Caso de Teste*                                 |*CT02 - Visualizar página de dicas*                                         |
 |---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | RF-012 - Visualização das dicas.|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1Iad9XUzXZ1z1VsfN1CxUeMzJs2gK_dtZ/view?usp=sharing | 
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT03 - Cadastrar um novo usuário*                                         |
+|---|---|
+|Requisito Associado | RF-001 - Criação da conta do usuário.|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1CD6h1Aw_BKcO-cS6W8JkYbEdqdbxKPxS/view?usp=sharing | 
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT04 - Executar o login*                                         |
+|---|---|
+|Requisito Associado | RF-002 - Execução do login.|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1N8nbIV05cnvFLhaSvMoSyBsDHMUrYx9M/view?usp=sharing | 
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT05 - Adicionar despesas*                                         |
+|---|---|
+|Requisito Associado | RF-006 - Adição de despesas.|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1H4x9eV6dJ2iLP_T_qdjOWYSzn60ITqNB/view?usp=sharing | 
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT06 - Visualizar despesas cadastradas*                                         |
+|---|---|
+|Requisito Associado | RF-007 - Exibição das despesas cadastradas.|
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT07 - Editar as despesas registradas*                                         |
+|---|---|
+|Requisito Associado | RF-008 - Edição de despesas cadastradas.|
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT08 - Deletar as despesas registradas*                                         |
+|---|---|
+|Requisito Associado | RF-008 - Deleção de despesas cadastradas.|
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT09 - Filtrar as despesas registradas*                                         |
+|---|---|
+|Requisito Associado | RF-009 - Exibição de despesas cadastradas dependendo do filtro adicionado.|
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT10 - Simular rendimentos*                                         |
+|---|---|
+|Requisito Associado | RF-010 - Ao ser direcionado para a página de simulação, a mesma informa os possíveis rendimentos em 3, 6, 12 meses na Poupança, CDI e Prefixado.|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1hlGpzzmsyvjZ8KsduHApOrTsdwss5Up9/view?usp=sharing | 
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT11 - Editar dados do usuário*                                         |
+|---|---|
+|Requisito Associado | RF-003 - Edição dos dados do usuário.|
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT12 - Editar senha*                                         |
+|---|---|
+|Requisito Associado | RF-003 - Edição da senha.|
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT13 - Recuperar Senha*                                         |
+|---|---|
+|Requisito Associado | RF-004 - Recuperação da senha.|
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT14 - Responsividade*                                         |
+|---|---|
+|Requisito Associado | RNF-001 - Todas as telas tem comportamento ajustado para telas mobile.|
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT15 - Compatibilidade com qualquer navegador*                                         |
+|---|---|
+|Requisito Associado | RNF-005 - Site é renderizado e funcionalidades listadas acima funcionam como esperado.|
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |  | 
 
 
 ## Avaliação dos Testes de Software
