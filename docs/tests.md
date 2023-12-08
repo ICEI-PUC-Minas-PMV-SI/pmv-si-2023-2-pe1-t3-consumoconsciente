@@ -22,6 +22,14 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 ## Plano de Testes de Software
 
+- cadastro
+- login
+- visualizar pagina de perfil e dicas como usuário não logado
+- adicionar despesa
+- responsividade
+- O sistema deve ser compatível para rodar em qualquer navegador
+- Site de fácil navegação - mostrar icones, Reconhecimento em vez de memorização, Ajude os usuários a reconhecerem, diagnosticarem e recuperarem-se de erros
+
 **Caso de Teste** | **CT01 - Editar dados do usuário**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário clica na página do perfil e clica em editar dados.<br>2) Os campos com os dados do usuário ficam habilitados para edição.<br>3) Usuário edita os campos conforme necessário e clica em salvar.<br>4) Os inputs são desabilitados novamente. A aplicação armazena os dados novos e os exibe nos inputs.
