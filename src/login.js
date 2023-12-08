@@ -62,7 +62,7 @@ function logar() {
             }
 
             logado = true;
-
+            console.log()
             localStorage.setItem("userlogado", JSON.stringify(uservalid));
 
         }
@@ -73,7 +73,6 @@ function logar() {
         const currentUrl = window.location.href
         const characterWherePathBegins = currentUrl.lastIndexOf("/")
         const urlWithoutPath = currentUrl.slice(0, characterWherePathBegins)
-        localStorage.removeItem('userlogado')
         window.location.href = `${urlWithoutPath}/index.html`
     }
 
