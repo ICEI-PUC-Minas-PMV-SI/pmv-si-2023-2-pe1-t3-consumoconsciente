@@ -4,6 +4,7 @@ const dropDown = document.getElementById('dropdown')
 const buttons = document.querySelectorAll('a')
 const headerButtons = document.getElementById('nav-right-box')
 const loginButtons = [buttons[1], buttons[5]]
+const links = document.querySelectorAll('.row')
 
 window.addEventListener('pageshow', function () {
     if (!isUserLogged) {
@@ -21,6 +22,7 @@ window.addEventListener('pageshow', function () {
 if (!isUserLogged) {
     dropDown.style.display = 'none'
     headerButtons.style.display = "none"
+    links[1].style.display = 'none'
 
     for (const button of loginButtons) {
         button.style.display = "inline"
