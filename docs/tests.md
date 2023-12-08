@@ -1,5 +1,3 @@
-# Testes
-
 # Teste de Software
 
 ## Plano de Testes de Software
