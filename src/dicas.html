@@ -15,28 +15,39 @@
 
 <body>
 
-    <header>
-        <nav>
-            <div id="logo">
+    <nav>
+        <div id="logo">
+            <span class="logo-text">CONSUMO</span>
+            <span class="logo-text">CONSCIENTE</span>
+            <img id="logo-img" src="./images/piggy-bank.png" alt="logo">
+        </div>
+        <a style="display: none;" href="./login.html"> <img src="images/login.svg" alt="logout"></a>
+        <div id="dropdown">
+            <button><img style="width:24px" src="images/menu.svg" alt="menu"></button>
+            <div id="dropdown-content">
+                <ul id="nav-links">
+                    <li class="link"><a href="./visualizar-despesas.html">Visualizar Despesas</a></li>
+                    <li class="link"><a href="./adicionar-despesas.html">Registrar Despesas</a></li>
+                </ul>
 
-                <a href="index.html" class="index">
-                    <span class="logo-text">CONSUMO</span>
-                    <span class="logo-text">CONSCIENTE</span>
-                </a>
-                <img id="logo-img" src="./images/piggy-bank.png" alt="logo">
-            </div>
-            <div id="nav-right-box">
-                <div id="nav-links">
-                    <a href="visualizar-despesas.html" class="link">Visualizar Despesas</a>
-                    <a href="adicionar-despesas.html" class="link">Registrar Despesas</a>
-                </div>
-                <div>
-                    <button><img src="./images/user.svg" alt="profile"></button>
-                    <button><img class="logout-button" src="./images/logout.svg" alt="logout"></button>
+                <div id="dropdown-buttons">
+                    <a href="./perfil.html"><button><img src="images/user.svg" alt="profile"></button></a>
+                    <a class="logout-button"> <img src="images/logout.svg" alt="logout"></a>
+                    <a style="display: none;" href="./login.html"> <img src="images/login.svg" alt="logout"></a>
                 </div>
             </div>
-        </nav>
-    </header>
+        </div>
+        <div id="nav-right-box">
+            <div id="nav-links">
+                <a class="link" href="./visualizar-despesas.html">Visualizar Despesas</a>
+                <a class="link" href="./adicionar-despesas.html">Registrar Despesas</a>
+            </div>
+            <div>
+                <a href="./perfil.html"><button><img src="images/user.svg" alt="profile"></button></a>
+                <a class="logout-button"><img src="images/logout.svg" alt="logout"></a>
+            </div>
+        </div>
+    </nav>
 
     <h1>Aprenda a economizar com nossas dicas</h1>
 
@@ -123,5 +134,17 @@
 </body>
 <script src="logout.js"></script>
 <script src="autorizaçao.js"></script>
+<script>
+    let isDropdownOpen = false
+    const dropdownContent = document.getElementById('dropdown-content')
+    document.getElementById('dropdown').addEventListener('click', function () {
+        if (!isDropdownOpen) {
+            dropdownContent.style.display = "block";
+        } else {
+            dropdownContent.style.display = "none";
+        }
+        isDropdownOpen = !isDropdownOpen
+    })
+</script>
 
 </html>

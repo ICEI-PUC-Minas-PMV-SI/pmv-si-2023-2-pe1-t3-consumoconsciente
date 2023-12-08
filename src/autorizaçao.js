@@ -22,6 +22,9 @@ window.addEventListener('pageshow', function () {
 if (!isUserLogged) {
     dropDown.style.display = 'none'
     headerButtons.style.display = "none"
+    if (headerButtons.style.display === "none") {
+        document.getElementById('logo-img').style.display = "none"
+    }
     links[1].style.display = 'none'
 
     for (const button of loginButtons) {
