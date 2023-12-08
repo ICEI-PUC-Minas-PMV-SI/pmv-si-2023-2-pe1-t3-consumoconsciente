@@ -11,7 +11,7 @@ window.addEventListener('pageshow', function () {
         const characterWherePathBegins = currentUrl.lastIndexOf("/")
         const urlWithoutPath = currentUrl.slice(0, characterWherePathBegins)
         const urlPath = currentUrl.slice(characterWherePathBegins + 1, currentUrl.length)
-        const unloggedUserAllowedPaths = ['index.html', 'login.html', 'cadastro.html', 'dicas.html']
+        const unloggedUserAllowedPaths = ['index.html', 'login.html', 'cadastro.html', 'dicas.html', 'RecoveryPassword.html']
         if (unloggedUserAllowedPaths.indexOf(urlPath) === -1) {
             window.location.href = `${urlWithoutPath}/login.html`
         }
