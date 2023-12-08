@@ -30,7 +30,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Nome        | Texto             | Nome do usuário                         | João da Silva                                 |
 | Email      | Texto             | Email do usuário                      | joaodasilva@hotmail.com                           |
 | Telefone  | Texto  | Telefone do usuário | (11) 99123-4567                                     |
-| Data de nascimento  | Texto  | Data de nascimento do usuário | 01/02/93                                         |
 | Senha  | Texto  | Senha de login do usuário | !@$jhjf&$                                      |
 
 
