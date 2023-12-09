@@ -227,7 +227,7 @@ input::placeholder {
   display: block;
   text-align: center;
   background-color: #13472e(216, 41, 28)!Important;
-  font-size: 20px;
+  font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
