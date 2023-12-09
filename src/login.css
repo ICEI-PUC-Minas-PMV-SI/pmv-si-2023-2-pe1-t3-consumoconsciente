@@ -103,12 +103,17 @@ h1 {
 @media(max-width:448px) {
   #logo {
     font-size: 1.2rem;
+    margin-left :80px
+
   }
 
   .custom-link {
-    font-size: 0.8rem;
+    font-size: 0.8rem; 
   }
-
+  
+  .p{
+    font-size: 0.5px;
+  }
 }
 
 /*FIM CABEÇALHO*/
@@ -218,7 +223,6 @@ input::placeholder {
   transition: .5s;
   
 }
-
 .btnentrar {
   display: block;
   text-align: center;
@@ -233,9 +237,8 @@ input::placeholder {
 p {
   background-color: white;
   color: black;
-  font-size: 15px;
+  font-size: 12px;
 }
-
 
 /*FOOTER*/
 .footer {
