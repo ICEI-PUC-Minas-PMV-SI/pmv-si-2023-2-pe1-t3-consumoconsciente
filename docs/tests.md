@@ -282,16 +282,15 @@ Cenário 1: Você é uma pessoa que quer gerenciar suas finanças. Encontre onde
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| 1       | SIM             | 5                    | 45.07 segundos                  |
+| 2       | SIM             | 5                    | 35.00 segundos                  |
+| 3       | SIM             | 4                    | 50.10 segundos                  |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Média**     | 100%           | 5                | 38.79 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 25.00 segundos |
 
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+    Comentários dos usuários: Muito intuitivo. Achei o cadastro rápido e adicionei minhas despesas em pouco tempo. 
 
 
 
