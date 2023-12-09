@@ -164,7 +164,7 @@
 |*Caso de Teste*                                 |*CT06 - Visualizar despesas cadastradas*                                         |
 |---|---|
 |Requisito Associado | RF-007 - Exibição das despesas cadastradas.|
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |https://drive.google.com/file/d/1d7_ADTFPRng9u5lJy4E6hdSS47moCbCz/view?usp=sharing  | 
 |Link do vídeo do teste realizado: |  | 
 |Link do vídeo do teste realizado: |  | 
 
