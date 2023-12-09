@@ -130,7 +130,7 @@
 |---|---|
 |Requisito Associado | RF-005 e RF-011 - Visualização da página inicial e informações sobre a aplicação.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1-27UDYjw5anziBm5Hg8KNhZDbGi5dSW_/view?usp=sharing | 
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1qcMvX9XXRAgpUT4SHM6VsfehR1d4MDp5/view?usp=drive_link | 
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT02 - Visualizar página de dicas*                                         |
