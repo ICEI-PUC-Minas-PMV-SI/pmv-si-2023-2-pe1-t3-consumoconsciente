@@ -103,8 +103,12 @@ h1 {
 @media(max-width:448px) {
   #logo {
     font-size: 1.2rem;
-    margin-left :80px
+    margin-left :40px
 
+  }
+  #logo2 {
+    font-size: 1px;
+  
   }
 
   .custom-link {
