@@ -144,21 +144,21 @@
 |---|---|
 |Requisito Associado | RF-001 - Criação da conta do usuário.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1CD6h1Aw_BKcO-cS6W8JkYbEdqdbxKPxS/view?usp=sharing | 
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1PQJ4TT0ifg_kLllFgOSlLZWkxGzzxZK0/view?usp=sharing | 
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT04 - Executar o login*                                         |
 |---|---|
 |Requisito Associado | RF-002 - Execução do login.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1N8nbIV05cnvFLhaSvMoSyBsDHMUrYx9M/view?usp=sharing | 
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1i1FikA3-8W-g4o5OySP4Nn198an1DX5j/view?usp=sharing | 
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT05 - Adicionar despesas*                                         |
 |---|---|
 |Requisito Associado | RF-006 - Adição de despesas.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1H4x9eV6dJ2iLP_T_qdjOWYSzn60ITqNB/view?usp=sharing | 
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1Jvq0KgLqmHy3KxjJUSPD6RYduif5rEI8/view?usp=sharing | 
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT06 - Visualizar despesas cadastradas*                                         |
@@ -199,14 +199,14 @@
 |*Caso de Teste*                                 |*CT11 - Editar dados do usuário*                                         |
 |---|---|
 |Requisito Associado | RF-003 - Edição dos dados do usuário.|
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1g3cXjBsPtV_RHmsk6uK7NdVzQRh6yRov/view?usp=sharing  | 
 |Link do vídeo do teste realizado: |  | 
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT12 - Editar senha*                                         |
 |---|---|
 |Requisito Associado | RF-003 - Edição da senha.|
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1igGqHdOcnMqVfLgEC3tL61_AyXusxhyf/view?usp=sharing  | 
 |Link do vídeo do teste realizado: |  | 
 |Link do vídeo do teste realizado: |  | 
 
@@ -229,7 +229,7 @@
 |---|---|
 |Requisito Associado | RNF-005 - Site é renderizado e funcionalidades listadas acima funcionam como esperado.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1SHI22wVc8Tc-NDePD9FwosdDoVimgTEE/view?usp=sharing | 
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/16MmvuxxG982vIP-iY-mGEDesfpBSWc8b/view?usp=sharing | 
 |Link do vídeo do teste realizado: |  | 
 |Link do vídeo do teste realizado: |  | 
 
