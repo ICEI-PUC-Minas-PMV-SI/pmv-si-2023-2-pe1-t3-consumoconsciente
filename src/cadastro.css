@@ -64,28 +64,53 @@ h1 {
   color: aqua;
 }
 
-@media(max-width:991px) {
+@media (max-width: 991px) {
+  #logo {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
 
-  #ul-navbar li {
-    margin-top: 1rem;
+  #logo-text {
+    margin: 0 10px;
   }
 
   .custom-link {
     font-size: 1rem;
-    border-radius: 10px;
     padding: 4px;
+  }
+
+  #logo2 {
+    font-size: 1.2rem; 
+  }
+
+  #logo2-text {
+    margin: 0 10px; 
   }
 }
 
-@media(max-width:448px) {
+@media (max-width: 448px) {
   #logo {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .custom-link {
     font-size: 0.8rem;
   }
 
+  .login {
+    width: 100%;
+    padding: 10px;
+    margin-top: 90px; 
+    margin-bottom: 80px; /
+  }
+}
+
+
+
+@media(max-width:767px) {
+  .footer .row ul li {
+    margin: 0px 15px;
+  }
 }
 
 /*FIM CABEÇALHO*/
@@ -185,7 +210,7 @@ h1 {
 
 input::placeholder {
   color: #204e30;
-  font-size: 14px;
+  font-size: 10px;
 
 }
 
@@ -193,9 +218,10 @@ input::placeholder {
   text-align: center;
   display: block;
   background-color: #78bd9c !important;
-  font-size: 20px;
+  font-size: 10px;
   text-transform: uppercase;
   cursor: pointer;
+  
 
 }
 
@@ -208,7 +234,7 @@ input::placeholder {
 p {
   background-color: white;
   color: black;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 
