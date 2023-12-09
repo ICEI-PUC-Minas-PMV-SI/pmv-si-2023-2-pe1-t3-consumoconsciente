@@ -171,21 +171,21 @@
 |*Caso de Teste*                                 |*CT07 - Editar as despesas registradas*                                         |
 |---|---|
 |Requisito Associado | RF-008 - Edição de despesas cadastradas.|
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |https://drive.google.com/file/d/1hkRG5Gw7fj4JH-4kq-vP2EI62znGavm6/view?usp=drive_link | 
 |Link do vídeo do teste realizado: |  | 
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT08 - Deletar as despesas registradas*                                         |
 |---|---|
 |Requisito Associado | RF-008 - Deleção de despesas cadastradas.|
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |https://drive.google.com/file/d/1UFaftoA4w_A_00gdiFEsZRhBkZx7s5k4/view?usp=drive_link  | 
 |Link do vídeo do teste realizado: |  | 
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT09 - Filtrar as despesas registradas*                                         |
 |---|---|
 |Requisito Associado | RF-009 - Exibição de despesas cadastradas dependendo do filtro adicionado.|
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |https://drive.google.com/file/d/1MmZskAB_A0BQUpB5pN5jIYsmhZQNdUuB/view?usp=sharing | 
 |Link do vídeo do teste realizado: |  | 
 |Link do vídeo do teste realizado: |  | 
 
