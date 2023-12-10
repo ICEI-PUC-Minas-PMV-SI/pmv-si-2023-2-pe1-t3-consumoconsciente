@@ -131,13 +131,13 @@
 |Requisito Associado | RF-005 e RF-011 - Visualização da página inicial e informações sobre a aplicação.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1-27UDYjw5anziBm5Hg8KNhZDbGi5dSW_/view?usp=sharing | 
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1qcMvX9XXRAgpUT4SHM6VsfehR1d4MDp5/view?usp=drive_link | 
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1B7PE9IoCnk01FIjJe4UelDwwGhXZYLFy/view?usp=drive_link | 
 
 |*Caso de Teste*                                 |*CT02 - Visualizar página de dicas*                                         |
 |---|---|
 |Requisito Associado | RF-012 - Visualização das dicas.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1Iad9XUzXZ1z1VsfN1CxUeMzJs2gK_dtZ/view?usp=sharing | 
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1MYyhieCssClCt2e7j2ZWwwwpTlHK4cB8/view?usp=drive_link | 
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT03 - Cadastrar um novo usuário*                                         |
@@ -159,69 +159,69 @@
 |Requisito Associado | RF-006 - Adição de despesas.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1H4x9eV6dJ2iLP_T_qdjOWYSzn60ITqNB/view?usp=sharing | 
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1Jvq0KgLqmHy3KxjJUSPD6RYduif5rEI8/view?usp=sharing | 
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1JaE_g8skAVkJ_9n1XkZNYO5R1npLkMdu/view?usp=drive_link | 
 
 |*Caso de Teste*                                 |*CT06 - Visualizar despesas cadastradas*                                         |
 |---|---|
 |Requisito Associado | RF-007 - Exibição das despesas cadastradas.|
 |Link do vídeo do teste realizado: |https://drive.google.com/file/d/1d7_ADTFPRng9u5lJy4E6hdSS47moCbCz/view?usp=sharing  | 
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |https://drive.google.com/file/d/1NOMF8ZpkBeA5BWy2xRO0dQbz65JI9OxC/view?usp=drive_link  | 
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT07 - Editar as despesas registradas*                                         |
 |---|---|
 |Requisito Associado | RF-008 - Edição de despesas cadastradas.|
 |Link do vídeo do teste realizado: |https://drive.google.com/file/d/1hkRG5Gw7fj4JH-4kq-vP2EI62znGavm6/view?usp=drive_link | 
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |https://drive.google.com/file/d/1eknAPUETuntg3BEK6C8FDEEtVCqtYEri/view?usp=drive_link  | 
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT08 - Deletar as despesas registradas*                                         |
 |---|---|
 |Requisito Associado | RF-008 - Deleção de despesas cadastradas.|
 |Link do vídeo do teste realizado: |https://drive.google.com/file/d/1UFaftoA4w_A_00gdiFEsZRhBkZx7s5k4/view?usp=drive_link  | 
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |https://drive.google.com/file/d/1kgqE1yDFSUUTwszutjG6rcLp-l1Y1TFs/view?usp=drive_link  | 
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT09 - Filtrar as despesas registradas*                                         |
 |---|---|
 |Requisito Associado | RF-009 - Exibição de despesas cadastradas dependendo do filtro adicionado.|
 |Link do vídeo do teste realizado: |https://drive.google.com/file/d/1MmZskAB_A0BQUpB5pN5jIYsmhZQNdUuB/view?usp=sharing | 
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: |https://drive.google.com/file/d/1LFhY8eVPmsT7MfVCylTW1nTzghjGaLYK/view?usp=drive_link  | 
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT10 - Simular rendimentos*                                         |
 |---|---|
 |Requisito Associado | RF-010 - Ao ser direcionado para a página de simulação, a mesma informa os possíveis rendimentos em 3, 6, 12 meses na Poupança, CDI e Prefixado.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1hlGpzzmsyvjZ8KsduHApOrTsdwss5Up9/view?usp=sharing | 
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1iZUqNpZ--b_9o4_25B5lNkEa9k7vtFAR/view?usp=drive_link | 
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT11 - Editar dados do usuário*                                         |
 |---|---|
 |Requisito Associado | RF-003 - Edição dos dados do usuário.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1g3cXjBsPtV_RHmsk6uK7NdVzQRh6yRov/view?usp=sharing  | 
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/10t_EPgVPAimZWDE585uA6XNeR4xMLFJ_/view?usp=drive_link | 
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT12 - Editar senha*                                         |
 |---|---|
 |Requisito Associado | RF-003 - Edição da senha.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1igGqHdOcnMqVfLgEC3tL61_AyXusxhyf/view?usp=sharing  | 
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1szOwinB5yKs_T9CcOwI44S_TlE4lmaDd/view?usp=drive_link | 
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT13 - Recuperar Senha*                                         |
 |---|---|
 |Requisito Associado | RF-004 - Recuperação da senha.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1Lo0DC8BUsMTxxEslmv-o0msmotI6NsW-/view?usp=sharing | 
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1VA9OD9TnkdTYq9xReqQbC0yIrE9ZfxGU/view?usp=drive_link | 
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT14 - Responsividade*                                         |
 |---|---|
 |Requisito Associado | RNF-001 - Todas as telas tem comportamento ajustado para telas mobile.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1SV_BX2JI2UHLYuwyS14MI4TWEkfjWQg_/view?usp=sharing | 
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1eXSpjMAKPIPWbxmocZsteqwTkBsDTzvH/view?usp=drive_link | 
 |Link do vídeo do teste realizado: |  | 
 |Link do vídeo do teste realizado: |  | 
 
@@ -230,7 +230,7 @@
 |Requisito Associado | RNF-005 - Site é renderizado e funcionalidades listadas acima funcionam como esperado.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1SHI22wVc8Tc-NDePD9FwosdDoVimgTEE/view?usp=sharing | 
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/16MmvuxxG982vIP-iY-mGEDesfpBSWc8b/view?usp=sharing | 
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1OdJQV9Ea7yLalQJg8sEIJMhhNZ2QoGS9/view?usp=drive_link | 
 |Link do vídeo do teste realizado: |  | 
 
 
