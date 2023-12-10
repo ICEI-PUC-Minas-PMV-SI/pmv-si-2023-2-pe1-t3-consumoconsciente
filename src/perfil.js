@@ -60,8 +60,14 @@ passwordButton.addEventListener('click', function () {
             clearPassInputs()
             showUserDataInputs()
         }
-        else
+        else {
+            userDataInputs[1].value = userData.nomeusuario
+            userDataInputs[3].value = userData.emailusuario
+            userDataInputs[5].value = userData.telefoneusuario
             disableUserDatainputs()
+            clearErrorMessages(errorMessageFields1, errorMessageBoxes1)
+            clearErrorMessages(errorMessageFields2, errorMessageBoxes2)
+        }
     }
 })
 
@@ -153,6 +159,7 @@ const saveNewUserData = () => {
         })
         localStorage.setItem("cadastros", JSON.stringify([...filteredRegisteredUsers, userData]))
         localStorage.setItem("userlogado", JSON.stringify(userData))
+        clearErrorMessages(errorMessageFields1, errorMessageBoxes1)
         disableUserDatainputs()
     } else if (emptyInputs) {
         showErrors(2, "Preencha todos os campos", errorMessageBoxes1, errorMessageFields1)
@@ -163,7 +170,6 @@ const saveNewUserData = () => {
     } else if (!isPhoneValid) {
         showErrors(2, "Telefone inválido", errorMessageBoxes1, errorMessageFields1)
     }
-
 }
 
 // Save new password to local storage:
@@ -187,7 +193,7 @@ const saveNewPassword = () => {
         })
         localStorage.setItem("cadastros", JSON.stringify([...filteredRegisteredUsers, userData]))
         localStorage.setItem("userlogado", JSON.stringify(userData))
-        clearPassInputs()
+        clearPassInputs(errorMessageFields2, errorMessageBoxes2)
         showUserDataInputs()
     } else if (emptyInputs) {
         showErrors(1, "Preencha todos os campos", errorMessageBoxes2, errorMessageFields2)
@@ -206,13 +212,16 @@ const clearPassInputs = () => {
         passwordInputs[i].value = ""
         passwordInputs[i].type = "password"
     }
-    clearErrorMessages()
+    clearErrorMessages(errorMessageFields1, errorMessageBoxes1)
+    clearErrorMessages(errorMessageFields2, errorMessageBoxes2)
 }
 
 const clearErrorMessages = (errorMessageFields, errorMessageBoxes) => {
-    for (let i = 0; i < errorMessageFields.length; i++) {
-        errorMessageFields[i].innerHTML = ""
-        errorMessageBoxes[i].style.display = "none"
+    if (errorMessageFields) {
+        for (let i = 0; i < errorMessageFields.length; i++) {
+            errorMessageFields[i].innerHTML = ""
+            errorMessageBoxes[i].style.display = "none"
+        }
     }
 }
 
