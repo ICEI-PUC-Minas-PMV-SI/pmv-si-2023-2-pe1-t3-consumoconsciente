@@ -236,7 +236,24 @@
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Pontos fortes:
+- As funcionalidades principais do site (adicionar despesas, visualizar despesas e fazer a simulação dos gastos não essencias) tiveram êxito em suas execuções;
+- Validação dos campos no login, cadastro, recuperação de senha, e perfil do usuário;
+- Utilização da API para envio de emails;
+
+Pontos fracos:
+- Alguns dos icones poderiam ser mais indicativos;
+- Falta de mensagem de sucesso ao adicionar uma despesa nova;
+- Validação dos campos ao adicionar e ao editar despesas;
+- Falta de clareza que os valores simulados são referentes ao filtro não essencial da página de visualização das despesas.
+- Falta de clareza nos campos da página de adicionar despesas;
+
+Sugestões de melhorias:
+- Utilizar ícones mais universais para redirecionar para a página de login;
+- Adicionar mensagem de sucesso ou falha ao adicionar uma nova despesa;
+- Adicionar labels para indicar o tipo de informação para preencher os campos da página de adicionar despesas;
+- Adicionar validações para os campos da página de adicionar e editar despesas;
+- Adicionar no texto da página de simulação "com referência ao filtro de despesas não essencias";
 
 # Testes de Usabilidade
 
