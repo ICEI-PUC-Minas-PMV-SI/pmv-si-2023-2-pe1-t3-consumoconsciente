@@ -333,14 +333,8 @@ Cenário 3: Você é uma pessoa que gostaria de visualizar quanto suas despesas 
 
 ## Avaliação dos Testes de Usabilidade
 
+Após feedback do usuários, pudemos notar que poderíamos usar mais as heurísticas de Nielsen, pois, um dos principais comentários foi a dificuldade de navegação, não utilizando ícones universais e também a falta de clareza em alguns menus.
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+Por outro lado, a utilização da aplicação, como adicionar, remover, editar itens foram bem práticas e instantâneas sendo um dos pontos fortes, segundo os utilizadores externos.
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
-
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
-
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
-
-
-
+Mais sugestões de melhoria surgiram durante o teste de usabilidade, como adicionar mais textos explicativos em áreas do site que requerem alguma interação do usuário. Por exemplo, na filtragem das despesas listadas e no modal de edição de uma despesa selecionada. Outra melhoria sugerida por um de nossos usuários externos foi a mudança na sequência de como são apresentadas as páginas disponíveis na aplicação. Começando pela página de registrar despesas, depois a página de visualizar despesas e por último, a página de simular aplicação, dessa maneira o usuário consegue entender qual fluxo ele deve seguir ao utilizar a aplicação.
