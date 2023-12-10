@@ -107,6 +107,10 @@ function cadastroNovo() {
     localStorage.setItem("userlogado", JSON.stringify(novoCadastro));
     localStorage.setItem("cadastros", JSON.stringify(bancoContatos));
     console.log(bancoContatos);
+    const currentUrl = window.location.href
+    const characterWherePathBegins = currentUrl.lastIndexOf("/")
+    const urlWithoutPath = currentUrl.slice(0, characterWherePathBegins)
+    window.location.href = `${urlWithoutPath}/index.html`
 }
 
 function generateUserId() {
