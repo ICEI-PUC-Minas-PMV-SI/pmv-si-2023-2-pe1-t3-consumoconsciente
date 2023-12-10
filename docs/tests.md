@@ -274,9 +274,8 @@ Cenário 1: Você é uma pessoa que quer gerenciar suas finanças. Encontre onde
 | Usuário | Taxa de sucesso | Satisfação subjetiva |
 |---------|-----------------|----------------------|
 | 1       |  SIM            | 4                   |                  
-| 2       |              | 5                    |                  
-| 3       |              | 4                    |                   
-| 4       |              | 4                    |                  
+| 2       |    SIM          | 5                    |                  
+| 3       |              |                     |                                   
 |  |  |  |  |
 | **Média**     | 100%           | 5                |                           
 
@@ -288,8 +287,8 @@ Cenário 2: Voce é uma pessoa que deseja visualizar suas despesas cadastradas. 
 | Usuário | Taxa de sucesso | Satisfação subjetiva |
 |---------|-----------------|----------------------|
 | 1       | SIM             | 5                    |
-| 2       |              | 5                    |    
-| 3       |              | 5                    |                   
+| 2       |              |                    |    
+| 3       |              |                    |                   
 |  |  |  |  |
 | **Média**     | 0%           | 0                |
 | **Tempo para conclusão pelo especialista** | SIM | 5 |
@@ -302,8 +301,8 @@ Cenário 3: Você é uma pessoa que registrou suas despesas com campos incorreto
 | Usuário | Taxa de sucesso | Satisfação subjetiva |
 |---------|-----------------|----------------------|
 | 1       | SIM             | 5                    |
-| 2       |              | 5                    |                        
-| 3       |             | 5                    |                           
+| 2       |              |                     |                        
+| 3       |             |                     |                           
 |  |  |  |  |
 | **Média**     | 0%           | 0                |
 | **Tempo para conclusão pelo especialista** | SIM | 5 |
@@ -316,8 +315,8 @@ Cenário 3: Você é uma pessoa que gostaria de visualizar quanto suas despesas 
 | Usuário | Taxa de sucesso | Satisfação subjetiva |
 |---------|-----------------|----------------------|
 | 1       | SIM             | 4                    |
-| 2       |             | 5                    |                          
-| 3       |             | 5                    |                          
+| 2       |             |                     |                          
+| 3       |             |                     |                          
 |  |  |  |  |
 | **Média**     | 0%           | 0                |
 | **Tempo para conclusão pelo especialista** | SIM | 5 |
