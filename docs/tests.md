@@ -271,7 +271,7 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
 | 1 | Você é uma pessoa que quer gerenciar suas finanças. Encontre onde fazer o cadastro na aplicação, faça o login e adicione pelo menos 5 despesas que variem entre essencial e não essencial |
-| 2 | Voce é uma pessoa que deseja visualizar suas depesas cadastradas. Encontre onde visualizá-las e filtre apenas as despesas essenciais. |
+| 2 | Voce é uma pessoa que deseja visualizar suas despesas cadastradas. Encontre onde visualizá-las e filtre apenas as despesas essenciais. |
 | 3 | Você é uma pessoa que registrou suas despesas com campos incorretos. Encontre onde editar uma despesa e deletar outra despesa. |
 | 4 | Você é uma pessoa que gostaria de visualizar quanto suas despesas não essenciais renderiam em uma aplicação. Encontre a página de visualizar quanto você ganharia aplicando o valor de suas despesas não essencias. |
 
@@ -282,9 +282,10 @@ Cenário 1: Você é uma pessoa que quer gerenciar suas finanças. Encontre onde
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 45.07 segundos                  |
-| 2       | SIM             | 5                    | 35.00 segundos                  |
-| 3       | SIM             | 4                    | 50.10 segundos                  |
+| 1       |  SIM            | 4                   | 3min 35.06 segundos                  |
+| 2       |              | 5                    | 35.00 segundos                  |
+| 3       |              | 4                    | 50.10 segundos                  |
+| 4       |              | 4                    | 50.10 segundos                  |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 38.79 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 25.00 segundos |
@@ -295,11 +296,11 @@ Cenário 1: Você é uma pessoa que quer gerenciar suas finanças. Encontre onde
 
 
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário 2: Voce é uma pessoa que deseja visualizar suas despesas cadastradas. Encontre onde visualizá-las e filtre apenas as despesas essenciais.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
+| 1       | SIM             | 5                    | 02.31 segundos                          |
 | 2       | SIM             | 5                    | 31.42 segundos                          |
 | 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
@@ -311,6 +312,31 @@ Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,0
     redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
 
+Cenário 3: Você é uma pessoa que registrou suas despesas com campos incorretos. Encontre onde editar uma despesa e deletar outra despesa.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 24.83 segundos                          |
+| 2       | SIM             | 5                    | 31.42 segundos                          |
+| 3       | SIM             | 5                    | 36.21 segundos                          |
+|  |  |  |  |
+| **Média**     | 0%           | 0                | 0 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+
+Comentários dos usuários: O site está intuitivo de usar.
+
+Cenário 3: Você é uma pessoa que gostaria de visualizar quanto suas despesas não essenciais renderiam em uma aplicação. Encontre a página de visualizar quanto você ganharia aplicando o valor de suas despesas não essencias.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 4                    | 07.22 segundos                          |
+| 2       | SIM             | 5                    | 31.42 segundos                          |
+| 3       | SIM             | 5                    | 36.21 segundos                          |
+|  |  |  |  |
+| **Média**     | 0%           | 0                | 0 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+
+Comentários dos usuários: Poderia deixar explicito que os valores passados para a página de simulação de aplicação são apenas os não essenciais do filtro feito pelo usuário.
 
 ## Avaliação dos Testes de Usabilidade
 
