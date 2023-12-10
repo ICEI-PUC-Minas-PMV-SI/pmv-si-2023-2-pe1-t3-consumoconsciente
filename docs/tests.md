@@ -220,7 +220,7 @@
 |*Caso de Teste*                                 |*CT14 - Responsividade*                                         |
 |---|---|
 |Requisito Associado | RNF-001 - Todas as telas tem comportamento ajustado para telas mobile.|
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1SV_BX2JI2UHLYuwyS14MI4TWEkfjWQg_/view?usp=sharing | 
 |Link do vídeo do teste realizado: |  | 
 |Link do vídeo do teste realizado: |  | 
 |Link do vídeo do teste realizado: |  | 
