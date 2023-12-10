@@ -273,40 +273,43 @@ Cenário 1: Você é uma pessoa que quer gerenciar suas finanças. Encontre onde
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva |
 |---------|-----------------|----------------------|
-| 1       |  SIM            | 4                   |                  
-| 2       |    SIM          | 5                    |                  
-| 3       |              |                     |   
-| 4       |              |                     |  
+| 1       |  SIM            | 4                    |                  
+| 2       |  SIM            | 5                    |                  
+| 3       |  SIM            | 5                    |   
+| 4       |  SIM            | 5                    |  
 |  |  |  |  |
-| **Média**     | 100%           | 5                |                           
+| **Média**     | 100%      | 5                    |                           
 
 > Comentários dos usuários:
 > - Muito intuitivo. Achei o cadastro rápido e adicionei minhas despesas em pouco tempo.
 > - Achei fácil adicionar a despesa, mas não sabia se tinha funcionado.
+> - Ao adicionar a despesa ela some, fiquei na duvida se foi registrada ou se houve algum erro no site, depois vi que vai para uma outra página
+> - Não houve problemas quanto a adição de despesas
 
 Cenário 2: Voce é uma pessoa que deseja visualizar suas despesas cadastradas. Encontre onde visualizá-las e filtre apenas as despesas essenciais.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva |
 |---------|-----------------|----------------------|
 | 1       | SIM             | 5                    |
-| 2       |     SIM         |   3                 |    
-| 3       |              |                    |   
-| 4       |              |                     |  
+| 2       | SIM             | 3                    |    
+| 3       | SIM             |  5                   |   
+| 4       | SIM             |  5                   |  
 |  |  |  |  |
 | **Média**     | 0%           | 0                |
 | **Tempo para conclusão pelo especialista** | SIM | 5 |
 
 > Comentários dos usuários:
 > - O site é fácil de acessar, mas algumas páginas poderiam redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, tanto na hora da pesquisa, quanto depois dela, nos resultados.
+> - Não tive problemas para encontrar as despesas cadastradas.
 
 Cenário 3: Você é uma pessoa que registrou suas despesas com campos incorretos. Encontre onde editar uma despesa e deletar outra despesa.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva |
 |---------|-----------------|----------------------|
 | 1       | SIM             | 5                    |
-| 2       |    SIM          |     4                |                        
-| 3       |             |                     |     
-| 4       |              |                     |  
+| 2       | SIM             | 4                    |                        
+| 3       | SIM             | 5                    |     
+| 4       | SIM             | 5                    |  
 |  |  |  |  |
 | **Média**     | 0%           | 0                |
 | **Tempo para conclusão pelo especialista** | SIM | 5 |
@@ -314,15 +317,16 @@ Cenário 3: Você é uma pessoa que registrou suas despesas com campos incorreto
 > Comentários dos usuários:
 >  - O site está intuitivo de usar.
 >  - Não entendi se clicando 'Deletar', ele deletaria minhas mudanças da despesa ou deletaria a despesa.
+>  - Nao houve dificuldades em editar e deletar um campo
 
 Cenário 3: Você é uma pessoa que gostaria de visualizar quanto suas despesas não essenciais renderiam em uma aplicação. Encontre a página de visualizar quanto você ganharia aplicando o valor de suas despesas não essencias.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva |
 |---------|-----------------|----------------------|
 | 1       | SIM             | 4                    |
-| 2       |      SIM       |      4               |                          
-| 3       |             |                     | 
-| 4       |              |                     |  
+| 2       | SIM             | 4                    |                          
+| 3       | SIM             | 5                    | 
+| 4       | SIM             | 5                    |  
 |  |  |  |  |
 | **Média**     | 0%           | 0                |
 | **Tempo para conclusão pelo especialista** | SIM | 5 |
@@ -330,6 +334,7 @@ Cenário 3: Você é uma pessoa que gostaria de visualizar quanto suas despesas 
 > Comentários dos usuários:
 > - Poderia deixar explicito que os valores passados para a página de simulação de aplicação são apenas os não essenciais do filtro feito pelo usuário.
 > - Gostaria que a página de simulação ficasse no cabeçalho do site para que eu possa saber tudo que o site me oferece sem tem que entrar em todas as páginas.
+> - Não houve problemas ao acessar a Simulação
 
 ## Avaliação dos Testes de Usabilidade
 
