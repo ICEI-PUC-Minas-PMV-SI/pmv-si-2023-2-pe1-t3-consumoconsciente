@@ -240,32 +240,6 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 # Testes de Usabilidade
 
-O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação de forma geral.
-
-Para tanto, elaboramos quatro cenários, cada um baseado na definição apresentada sobre as histórias dos usuários, definido na etapa das especificações do projeto.
-
-Foram convidadas quatro pessoas que os perfis se encaixassem nas definições das histórias apresentadas na documentação, visando averiguar os seguintes indicadores:
-
-Taxa de sucesso: responde se o usuário conseguiu ou não executar a tarefa proposta;
-
-Satisfação subjetiva: responde como o usuário avalia o sistema com relação à execução da tarefa proposta, conforme a seguinte escala:
-
-1. Péssimo; 
-2. Ruim; 
-3. Regular; 
-4. Bom; 
-5. Ótimo.
-
-Tempo para conclusão da tarefa: em segundos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
-
-Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste não foram coletadas, tendo em vista a ausência de Termo de Consentimento Livre e Esclarecido.
-
-
-Apresente os cenários de testes utilizados na realização dos testes de usabilidade da sua aplicação. Escolha cenários de testes que demonstrem as principais histórias de usuário sendo realizadas. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
-
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
-
 ## Cenários de Teste de Usabilidade
 
 | Nº do Cenário | Descrição do cenário |
@@ -280,63 +254,59 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 Cenário 1: Você é uma pessoa que quer gerenciar suas finanças. Encontre onde fazer o cadastro na aplicação, faça o login e adicione pelo menos 5 despesas que variem entre essencial e não essencial
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       |  SIM            | 4                   | 3min 35.06 segundos                  |
-| 2       |              | 5                    | 35.00 segundos                  |
-| 3       |              | 4                    | 50.10 segundos                  |
-| 4       |              | 4                    | 50.10 segundos                  |
+| Usuário | Taxa de sucesso | Satisfação subjetiva |
+|---------|-----------------|----------------------|
+| 1       |  SIM            | 4                   |                  
+| 2       |              | 5                    |                  
+| 3       |              | 4                    |                   
+| 4       |              | 4                    |                  
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 38.79 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 25.00 segundos |
+| **Média**     | 100%           | 5                |                           
 
-
-    Comentários dos usuários: Muito intuitivo. Achei o cadastro rápido e adicionei minhas despesas em pouco tempo. 
-
-
-
+> Comentários dos usuários:
+> - Muito intuitivo. Achei o cadastro rápido e adicionei minhas despesas em pouco tempo. 
 
 Cenário 2: Voce é uma pessoa que deseja visualizar suas despesas cadastradas. Encontre onde visualizá-las e filtre apenas as despesas essenciais.
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 02.31 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| Usuário | Taxa de sucesso | Satisfação subjetiva |
+|---------|-----------------|----------------------|
+| 1       | SIM             | 5                    |
+| 2       |              | 5                    |    
+| 3       |              | 5                    |                   
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 0%           | 0                |
+| **Tempo para conclusão pelo especialista** | SIM | 5 |
 
-
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+> Comentários dos usuários:
+> - O site é fácil de acessar, mas algumas páginas poderiam redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, tanto na hora da pesquisa, quanto depois dela, nos resultados.
 
 Cenário 3: Você é uma pessoa que registrou suas despesas com campos incorretos. Encontre onde editar uma despesa e deletar outra despesa.
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 24.83 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| Usuário | Taxa de sucesso | Satisfação subjetiva |
+|---------|-----------------|----------------------|
+| 1       | SIM             | 5                    |
+| 2       |              | 5                    |                        
+| 3       |             | 5                    |                           
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 0%           | 0                |
+| **Tempo para conclusão pelo especialista** | SIM | 5 |
 
-Comentários dos usuários: O site está intuitivo de usar.
+> Comentários dos usuários:
+>  - O site está intuitivo de usar.
 
 Cenário 3: Você é uma pessoa que gostaria de visualizar quanto suas despesas não essenciais renderiam em uma aplicação. Encontre a página de visualizar quanto você ganharia aplicando o valor de suas despesas não essencias.
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 4                    | 07.22 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| Usuário | Taxa de sucesso | Satisfação subjetiva |
+|---------|-----------------|----------------------|
+| 1       | SIM             | 4                    |
+| 2       |             | 5                    |                          
+| 3       |             | 5                    |                          
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 0%           | 0                |
+| **Tempo para conclusão pelo especialista** | SIM | 5 |
 
-Comentários dos usuários: Poderia deixar explicito que os valores passados para a página de simulação de aplicação são apenas os não essenciais do filtro feito pelo usuário.
+> Comentários dos usuários:
+> - Poderia deixar explicito que os valores passados para a página de simulação de aplicação são apenas os não essenciais do filtro feito pelo usuário.
 
 ## Avaliação dos Testes de Usabilidade
 
