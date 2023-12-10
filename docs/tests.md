@@ -281,14 +281,15 @@ Cenário 1: Você é uma pessoa que quer gerenciar suas finanças. Encontre onde
 | **Média**     | 100%           | 5                |                           
 
 > Comentários dos usuários:
-> - Muito intuitivo. Achei o cadastro rápido e adicionei minhas despesas em pouco tempo. 
+> - Muito intuitivo. Achei o cadastro rápido e adicionei minhas despesas em pouco tempo.
+> - Achei fácil adicionar a despesa, mas não sabia se tinha funcionado.
 
 Cenário 2: Voce é uma pessoa que deseja visualizar suas despesas cadastradas. Encontre onde visualizá-las e filtre apenas as despesas essenciais.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva |
 |---------|-----------------|----------------------|
 | 1       | SIM             | 5                    |
-| 2       |              |                    |    
+| 2       |     SIM         |   3                 |    
 | 3       |              |                    |   
 | 4       |              |                     |  
 |  |  |  |  |
@@ -303,7 +304,7 @@ Cenário 3: Você é uma pessoa que registrou suas despesas com campos incorreto
 | Usuário | Taxa de sucesso | Satisfação subjetiva |
 |---------|-----------------|----------------------|
 | 1       | SIM             | 5                    |
-| 2       |              |                     |                        
+| 2       |    SIM          |     4                |                        
 | 3       |             |                     |     
 | 4       |              |                     |  
 |  |  |  |  |
@@ -312,13 +313,14 @@ Cenário 3: Você é uma pessoa que registrou suas despesas com campos incorreto
 
 > Comentários dos usuários:
 >  - O site está intuitivo de usar.
+>  - Não entendi se clicando 'Deletar', ele deletaria minhas mudanças da despesa ou deletaria a despesa.
 
 Cenário 3: Você é uma pessoa que gostaria de visualizar quanto suas despesas não essenciais renderiam em uma aplicação. Encontre a página de visualizar quanto você ganharia aplicando o valor de suas despesas não essencias.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva |
 |---------|-----------------|----------------------|
 | 1       | SIM             | 4                    |
-| 2       |             |                     |                          
+| 2       |      SIM       |      4               |                          
 | 3       |             |                     | 
 | 4       |              |                     |  
 |  |  |  |  |
@@ -327,6 +329,7 @@ Cenário 3: Você é uma pessoa que gostaria de visualizar quanto suas despesas 
 
 > Comentários dos usuários:
 > - Poderia deixar explicito que os valores passados para a página de simulação de aplicação são apenas os não essenciais do filtro feito pelo usuário.
+> - Gostaria que a página de simulação ficasse no cabeçalho do site para que eu possa saber tudo que o site me oferece sem tem que entrar em todas as páginas.
 
 ## Avaliação dos Testes de Usabilidade
 
