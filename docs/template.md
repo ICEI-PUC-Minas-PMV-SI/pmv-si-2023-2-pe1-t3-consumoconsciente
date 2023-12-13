@@ -31,8 +31,10 @@ Exemplo:
 | Ícone | Função |
 |-------|--------|
 |<img src="/docs/img/logout.svg" alt="logout" style="height: 30px; width:30px;"/>| Este ícone ficará no cabeçalho para usuários logados e terá a funcionalidade do log out |
+|<img src="/docs/img/login.svg" alt="login" style="height: 30px; width:30px;"/>| Este ícone ficará no cabeçalho para usuários não logados e terá a funcionalidade de fazer o login |
 |<img src="/docs/img/user.svg" alt="user" style="height: 30px; width:30px;"/>| Este ícone ficará no cabeçalho para usuários logados e redicionará o usuário à página de perfil |
 |<img src="/docs/img/plus.svg" alt="plus" style="height: 30px; width:30px;"/>| Este ícone será usado na página de adicionar novas despesas para salvar um novo item que será adicionado à lista de despesas |
 |<img src="/docs/img/pencil.svg" alt="pencil" style="height: 30px; width:30px;"/>| Este ícone será usado na página de visualizar as despesas registradas para editar os itens na lista de despesas |
 |<img src="/docs/img/eraser.svg" alt="eraser" style="height: 30px; width:30px;"/>| Este ícone será usado na página de visualizar as despesas registradas para limpar os filtros adicionados pelo usuário |
+|<img src="/docs/img/see-password.svg" alt="see-password" style="height: 30px; width:30px;"/>| Este ícone será usado na página de perfil do usuário para o usuário poder ver as senhas digitadas |
 |<img src="/src/images/seta.SVG" alt="eraser" style="height: 30px; width:30px;"/>| Este ícone será usado para fazer a página inicial voltar ao seu topo |
