@@ -278,7 +278,7 @@ Cenário 1: Você é uma pessoa que quer gerenciar suas finanças. Encontre onde
 | 3       |  SIM            | 5                    |   
 | 4       |  SIM            | 5                    |  
 |  |  |  |  |
-| **Média**     | 100%      | 5                    |                           
+| **Média**     | 100%      | 4.75                    |                           
 
 > Comentários dos usuários:
 > - Muito intuitivo. Achei o cadastro rápido e adicionei minhas despesas em pouco tempo.
@@ -295,7 +295,7 @@ Cenário 2: Voce é uma pessoa que deseja visualizar suas despesas cadastradas. 
 | 3       | SIM             |  5                   |   
 | 4       | SIM             |  5                   |  
 |  |  |  |  |
-| **Média**     | 0%           | 0                |
+| **Média**     | 100%           | 4.5                |
 | **Tempo para conclusão pelo especialista** | SIM | 5 |
 
 > Comentários dos usuários:
@@ -311,7 +311,7 @@ Cenário 3: Você é uma pessoa que registrou suas despesas com campos incorreto
 | 3       | SIM             | 5                    |     
 | 4       | SIM             | 5                    |  
 |  |  |  |  |
-| **Média**     | 0%           | 0                |
+| **Média**     | 100%           | 4.75                |
 | **Tempo para conclusão pelo especialista** | SIM | 5 |
 
 > Comentários dos usuários:
@@ -319,7 +319,7 @@ Cenário 3: Você é uma pessoa que registrou suas despesas com campos incorreto
 >  - Não entendi se clicando 'Deletar', ele deletaria minhas mudanças da despesa ou deletaria a despesa.
 >  - Nao houve dificuldades em editar e deletar um campo
 
-Cenário 3: Você é uma pessoa que gostaria de visualizar quanto suas despesas não essenciais renderiam em uma aplicação. Encontre a página de visualizar quanto você ganharia aplicando o valor de suas despesas não essencias.
+Cenário 4: Você é uma pessoa que gostaria de visualizar quanto suas despesas não essenciais renderiam em uma aplicação. Encontre a página de visualizar quanto você ganharia aplicando o valor de suas despesas não essencias.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva |
 |---------|-----------------|----------------------|
@@ -328,7 +328,7 @@ Cenário 3: Você é uma pessoa que gostaria de visualizar quanto suas despesas 
 | 3       | SIM             | 5                    | 
 | 4       | SIM             | 5                    |  
 |  |  |  |  |
-| **Média**     | 0%           | 0                |
+| **Média**     | 100%           | 4.5                |
 | **Tempo para conclusão pelo especialista** | SIM | 5 |
 
 > Comentários dos usuários:
