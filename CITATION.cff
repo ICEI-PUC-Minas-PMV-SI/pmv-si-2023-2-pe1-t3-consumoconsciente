@@ -2,21 +2,21 @@ cff-version: 1.0.1
 message: Please cite this software using these metadata.
 title:
 authors:
-  - family-names: Sesso
-    given-names: Sofia
-  - family-names: Almeida
-    given-names: Eduardo
-  - family-names: Linas
-    given-names: Vitor
-  - family-names: Reais
-    given-names: Lucas
+  - family-names: "Sesso"
+    given-names: "Sofia"
+  - family-names: "Almeida"
+    given-names: "Eduardo"
+  - family-names: "Linas"
+    given-names: "Vitor"
+  - family-names: "Reais"
+    given-names: "Lucas"
   - name-suffix: Professora Luciana Nardini
     affiliation: PUC Minas
-    family-names: Nardini
-    given-names: Luciana
+    family-names: "Nardini"
+    given-names: "Luciana"
 keywords:
-  - controle financeiro
-  - gestão de gastos
+  - "controle financeiro"
+  - "gestão de gastos"
 repository-code:
 license: CC-BY-4.0
 version: 1.0.0
