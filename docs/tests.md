@@ -236,7 +236,24 @@
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Pontos fortes:
+- As funcionalidades principais do site (adicionar despesas, visualizar despesas e fazer a simulação dos gastos não essencias) tiveram êxito em suas execuções;
+- Validação dos campos no login, cadastro, recuperação de senha, e perfil do usuário;
+- Utilização da API para envio de emails;
+
+Pontos fracos:
+- Alguns dos icones poderiam ser mais indicativos;
+- Falta de mensagem de sucesso ao adicionar uma despesa nova;
+- Validação dos campos ao adicionar e ao editar despesas;
+- Falta de clareza que os valores simulados são referentes ao filtro não essencial da página de visualização das despesas.
+- Falta de clareza nos campos da página de adicionar despesas;
+
+Sugestões de melhorias:
+- Utilizar ícones mais universais para redirecionar para a página de login;
+- Adicionar mensagem de sucesso ou falha ao adicionar uma nova despesa;
+- Adicionar labels para indicar o tipo de informação para preencher os campos da página de adicionar despesas;
+- Adicionar validações para os campos da página de adicionar e editar despesas;
+- Adicionar no texto da página de simulação "com referência ao filtro de despesas não essencias";
 
 # Testes de Usabilidade
 
@@ -256,68 +273,73 @@ Cenário 1: Você é uma pessoa que quer gerenciar suas finanças. Encontre onde
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva |
 |---------|-----------------|----------------------|
-| 1       |  SIM            | 4                   |                  
-| 2       |              | 5                    |                  
-| 3       |              | 4                    |                   
-| 4       |              | 4                    |                  
+| 1       |  SIM            | 4                    |                  
+| 2       |  SIM            | 5                    |                  
+| 3       |  SIM            | 5                    |   
+| 4       |  SIM            | 5                    |  
 |  |  |  |  |
-| **Média**     | 100%           | 5                |                           
+| **Média**     | 100%      | 5                    |                           
 
 > Comentários dos usuários:
-> - Muito intuitivo. Achei o cadastro rápido e adicionei minhas despesas em pouco tempo. 
+> - Muito intuitivo. Achei o cadastro rápido e adicionei minhas despesas em pouco tempo.
+> - Achei fácil adicionar a despesa, mas não sabia se tinha funcionado.
+> - Ao adicionar a despesa ela some, fiquei na duvida se foi registrada ou se houve algum erro no site, depois vi que vai para uma outra página
+> - Não houve problemas quanto a adição de despesas
 
 Cenário 2: Voce é uma pessoa que deseja visualizar suas despesas cadastradas. Encontre onde visualizá-las e filtre apenas as despesas essenciais.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva |
 |---------|-----------------|----------------------|
 | 1       | SIM             | 5                    |
-| 2       |              | 5                    |    
-| 3       |              | 5                    |                   
+| 2       | SIM             | 3                    |    
+| 3       | SIM             |  5                   |   
+| 4       | SIM             |  5                   |  
 |  |  |  |  |
 | **Média**     | 0%           | 0                |
 | **Tempo para conclusão pelo especialista** | SIM | 5 |
 
 > Comentários dos usuários:
 > - O site é fácil de acessar, mas algumas páginas poderiam redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, tanto na hora da pesquisa, quanto depois dela, nos resultados.
+> - Não tive problemas para encontrar as despesas cadastradas.
 
 Cenário 3: Você é uma pessoa que registrou suas despesas com campos incorretos. Encontre onde editar uma despesa e deletar outra despesa.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva |
 |---------|-----------------|----------------------|
 | 1       | SIM             | 5                    |
-| 2       |              | 5                    |                        
-| 3       |             | 5                    |                           
+| 2       | SIM             | 4                    |                        
+| 3       | SIM             | 5                    |     
+| 4       | SIM             | 5                    |  
 |  |  |  |  |
 | **Média**     | 0%           | 0                |
 | **Tempo para conclusão pelo especialista** | SIM | 5 |
 
 > Comentários dos usuários:
 >  - O site está intuitivo de usar.
+>  - Não entendi se clicando 'Deletar', ele deletaria minhas mudanças da despesa ou deletaria a despesa.
+>  - Nao houve dificuldades em editar e deletar um campo
 
 Cenário 3: Você é uma pessoa que gostaria de visualizar quanto suas despesas não essenciais renderiam em uma aplicação. Encontre a página de visualizar quanto você ganharia aplicando o valor de suas despesas não essencias.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva |
 |---------|-----------------|----------------------|
 | 1       | SIM             | 4                    |
-| 2       |             | 5                    |                          
-| 3       |             | 5                    |                          
+| 2       | SIM             | 4                    |                          
+| 3       | SIM             | 5                    | 
+| 4       | SIM             | 5                    |  
 |  |  |  |  |
 | **Média**     | 0%           | 0                |
 | **Tempo para conclusão pelo especialista** | SIM | 5 |
 
 > Comentários dos usuários:
 > - Poderia deixar explicito que os valores passados para a página de simulação de aplicação são apenas os não essenciais do filtro feito pelo usuário.
+> - Gostaria que a página de simulação ficasse no cabeçalho do site para que eu possa saber tudo que o site me oferece sem tem que entrar em todas as páginas.
+> - Não houve problemas ao acessar a Simulação
 
 ## Avaliação dos Testes de Usabilidade
 
+Após feedback do usuários, pudemos notar que poderíamos usar mais as heurísticas de Nielsen, pois, um dos principais comentários foi a dificuldade de navegação, não utilizando ícones universais e também a falta de clareza em alguns menus.
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+Por outro lado, a utilização da aplicação, como adicionar, remover, editar itens foram bem práticas e instantâneas sendo um dos pontos fortes, segundo os utilizadores externos.
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
-
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
-
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
-
-
-
+Mais sugestões de melhoria surgiram durante o teste de usabilidade, como adicionar mais textos explicativos em áreas do site que requerem alguma interação do usuário. Por exemplo, na filtragem das despesas listadas e no modal de edição de uma despesa selecionada. Outra melhoria sugerida por um de nossos usuários externos foi a mudança na sequência de como são apresentadas as páginas disponíveis na aplicação. Começando pela página de registrar despesas, depois a página de visualizar despesas e por último, a página de simular aplicação, dessa maneira o usuário consegue entender qual fluxo ele deve seguir ao utilizar a aplicação.

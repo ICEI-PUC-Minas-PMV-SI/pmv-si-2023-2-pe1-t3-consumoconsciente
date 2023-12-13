@@ -19,25 +19,35 @@ nav {
   display: flex;
   justify-content: space-between;
   margin: 0 5%;
+    
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 span:first-letter {
   font-size: 22px;
+  
 }
 
 #logo {
   display: flex;
+
 }
 
 .logo-text {
   align-self: center;
   margin-right: 5px;
   font-weight: 600;
+  color: #03341c;
 }
 
 #logo-img {
   width: 30px;
   height: 30px;
+  
 }
 
 
@@ -49,11 +59,25 @@ span:first-letter {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
+}
+
+.icon-button {
+  margin: 0 5px;
+  width: 30px;
+}
+
+button {
+  background: none;
+  border: none;
+  margin: 0 5px;
+  cursor: pointer;
 }
 
 #nav-links {
   display: flex;
   align-items: center;
+  
 
 }
 
@@ -64,6 +88,7 @@ a {
 #dropdown-content #nav-links a {
   text-decoration: none;
   color: #03341c;
+  
 }
 
 

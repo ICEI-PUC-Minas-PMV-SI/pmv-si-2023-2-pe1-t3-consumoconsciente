@@ -12,14 +12,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-002| O sistema deve permitir que o usuário cadastrado efetue login| Lucas | login.css, login.html |
 |RF-003| O sistema deve permitir que o usuário logado gerencie os dados de sua conta| Sofia | perfil.css, perfil.html |
 |RF-004| O sistema deve permitir que o usuário cadastrado recupere sua senha| Eduardo | RecoveryPassword.html, style-RecoveryPassword.css |
-|RF-005| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize a página inicial| Vitor | adicionar-despesas.css, adicionar-despesas.html
+|RF-005| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize a página inicial| Vitor | style.css, index.html
 |RF-006| O sistema deve permitir que o usuário logado registre uma lista dos seus gastos e que possam ser classificados como essencial ou não| Vitor | adicionar-despesas.css, adicionar-despesas.html 
 |RF-007| O sistema deve permitir que o usuário logado visualize seus itens registrados| Sofia | visualizarDespesas.css, visualizar-despesas.html |
 |RF-008| O sistema deve permitir que o usuário logado edite/delete os itens registrados| Sofia | visualizarDespesas.css, visualizar-despesas.html |
 |RF-009| O sistema deve permitir que o usuário logado filtre os itens registrados em sua lista por classificação do item (essencial ou não essencial) e data| Sofia | visualizarDespesas.css, visualizar-despesas.html |
 |RF-010| O sistema deve permitir que o usuário logado simule aplicação poupança/renda fixa em X meses o valor que gastou de forma supérflua| Eduardo | simulacao.html, style-simulacao.css |
 |RF-011| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize informações sobre a aplicação| Vitor | style.css, index.html
-|RF-012| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize dicas de sustentabilidade financeira| Vitor | style.css, index.html
+|RF-012| O sistema deve permitir que tanto um usuário sem conta ou não logado, quanto um usuário logado visualize dicas de sustentabilidade financeira| Eduardo | style-dicas.css, dicas.html
 
 ## Descrição das estruturas:
 
