@@ -1,5 +1,5 @@
 cff-version: 1.0.1
-message: Please cite this software using these metadata.
+message: "Please cite this software using these metadata."
 title:
 authors:
   - family-names: "Sesso"
@@ -10,8 +10,8 @@ authors:
     given-names: "Vitor"
   - family-names: "Reais"
     given-names: "Lucas"
-  - name-suffix: Professora Luciana Nardini
-    affiliation: PUC Minas
+  - name-suffix: "Professora Luciana Nardini"
+    affiliation: "PUC Minas"
     family-names: "Nardini"
     given-names: "Luciana"
 keywords:
