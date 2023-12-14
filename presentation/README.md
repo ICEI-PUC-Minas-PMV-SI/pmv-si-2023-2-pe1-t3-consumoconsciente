@@ -13,7 +13,7 @@ O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apr
 
 ## Consumo Consciente
 
-## Identidade Visual (Marca, Design)
+## Identidade Visual
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-consumoconsciente/assets/94647334/1cd1ba6b-466d-4d10-85b5-6d1d4f852552)
 
