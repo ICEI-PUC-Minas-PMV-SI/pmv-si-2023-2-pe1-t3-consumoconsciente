@@ -5,9 +5,9 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
 
 
-* [Pitch inicial](./sample-pitch.pdf) -- arquivo com os slides da apresentação inicial
-* [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
-* [Vídeo de demonstração](./video-presentation.mp4) -- arquivo com a demonstração do funcionamento do sistema
+* [Pitch inicial](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-consumoconsciente/commit/f6424f97bbf08581e03cf5d0a5abc733dd32d0e4) -- arquivo com os slides da apresentação inicial
+* [Apresentação final]([./sample-presentation.pdf](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-consumoconsciente/blob/main/presentation/CONSUMOCONSCIENTE.pdf)) -- arquivo com os slides da apresentação final
+* [Vídeo de demonstração]([./video-presentation.mp4](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t3-consumoconsciente/blob/main/presentation/video-presentation.mp4)) -- arquivo com a demonstração do funcionamento do sistema
 
 O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apresentação do projeto deve contemplar todos os itens trabalhados nos demais artefatos. Alguns aspectos que devem ser contemplados na apresentação são listados a seguir.
 
